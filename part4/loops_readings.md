@@ -87,13 +87,13 @@ We can use a while loop to iterate over all the numbers between 0 and n. We can 
 
 ```ruby
 def sum_odds(n)
-  i = 1
+  i = 0
   sum = 0
 
   while i <= n
-    next if n.even?
-    sum += n
     i += 1
+    next if i.even?
+    sum += i
   end
 
   sum
