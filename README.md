@@ -1,6 +1,6 @@
 # App Academy Prep - Track 1
 
-Welcome to App Academy's prep-work! We're excited to help you begin your journey as a web developer.
+Welcome to App Academy's prep-work! We're excited to help you begin your journey as a developer.
 
 <!-- JumpStart's curriculum is split into two tracks: *the beginner track* and *the intermediate track*. You **must complete both tracks** to be eligible for admission to App Academy. Each track will take about 24 hours of work to complete. You have 3 options for completing these tracks:
 
