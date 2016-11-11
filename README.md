@@ -1,4 +1,4 @@
-# JumpStart - Beginner Track
+# App Academy Prep - Track 1
 
 Welcome to JumpStart's Beginner Track! We're excited to help you begin your journey as a web developer.
 
