@@ -8,7 +8,7 @@ Ruby has several different types of objects for representing numbers. We're goin
 
 `Fixnums` represent integers: 1, 3, 10, 90332... `Floats` represent numbers with decimal points: 1.3, 10.0, 9.00000001...
 
-Checkout the [Fixnum][fixnum-docs] and [Float][float-docs] documentation. **Bookmark these pages!**
+Checkout the [Fixnum][fixnum-docs] and [Float][float-docs] documentation. **Bookmark these pages!** Look at the "Methods" column on the left-hand side.
 
 [fixnum-docs]: https://ruby-doc.org/core-2.2.0/Fixnum.html
 [float-docs]: https://ruby-doc.org/core-2.2.0/Float.html

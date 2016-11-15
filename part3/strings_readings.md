@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We've already seen strings several times! Let's cover them in more detail. Checkout the [String Documentation][string-docs]. **Bookmark this page!**
+We've already seen strings several times! Let's cover them in more detail. Checkout the [String Documentation][string-docs]. **Bookmark this page!** Look at the "Methods" column on the left-hand side.
 
 [string-docs]: https://ruby-doc.org/core-2.2.0/String.html
 
