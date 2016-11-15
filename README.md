@@ -40,16 +40,18 @@ If you're doing the beginner track during JumpStart, read our [course logistics]
 [rbenv-setup]: configuration/rbenv_setup.md
 [logistics]: logistics.md
 
-<!-- ---
+---
 # Suggested Timeline
 
-| Week / Day | Section                               |
-|------------|---------------------------------------|
-| W1D1       | Part 1 **and** Part 2                 |
-| W1D2       | Part 3 - Numbers & Strings            |
-| W1D3       | Part 4 - Flow Control                 |
-| W1D4       | Part 5 - Arrays                       |
-| W1D5 - 7   | Problem Set 1 **and** Problem Set 2   |
-| W2D1       | Problem Set 3                         |
-| W2D2 - 3   | Practice Assessments                  |
-| W2D4       | Final Assessments                     | -->
+You should be able to complete this course in 10 days, with 2-3 hours each day.
+
+| Week / Day | Section                                 |
+|------------|-----------------------------------------|
+| W1D1       | Part 1 **and** Part 2                   |
+| W1D2       | Part 3 - Numbers & Strings              |
+| W1D3       | Part 4 - Flow Control                   |
+| W1D4       | Part 5 - Arrays                         |
+| W1D5 - 7   | Finish curriculum **and** Problem Set 1 |
+| W2D1       | Problem Set 2                           |
+| W2D2       | Problem Set 3                           |
+| W2D3       | Practice Challenges                     |

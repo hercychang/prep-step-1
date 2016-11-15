@@ -1,9 +1,11 @@
 {
     "plugins": [
         "expandable-chapters",
-        "quiz"
+        "quiz",
+        "hide-element"
     ],
     "pluginsConfig": {
+
       "quiz": {
         "labels": {
             "check"             : "Check",
@@ -19,6 +21,10 @@
             "showCorrect"       : false,
             "showExplanation"   : true
         }
+      },
+
+    "hide-element": {
+          "elements": [".gitbook-link", "a:contains(setup)"]
       }
     }
 }

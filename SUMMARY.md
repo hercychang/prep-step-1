@@ -2,12 +2,10 @@
 
 * [Introduction](README.md)
 
-* Pre-Curriculum
-  * [Course Logistics](logistics.md)
-  * Configuration Docs
-    * [Cloud 9](configuration/c9_setup.md)
-    * [Rbenv](configuration/rbenv_setup.md)
-    * [Byebug](configuration/debugger_setup.md)
+* [Logistics (setup)](logistics.md)
+* [Cloud 9 (setup)](configuration/c9_setup.md)
+* [Rbenv (setup)](configuration/rbenv_setup.md)
+* [Debugger (setup)](configuration/debugger_setup.md)
 
 ### Curriculum
 
