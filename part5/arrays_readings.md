@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Complete the [CodeAcademy Arrays][Arrays] section if you haven't yet.
+Arrays are useful for maintaining *ordered* collections. They are one of the *most useful data structures* in ruby; learn to use them wisely!
 
-Arrays are useful for maintaining *ordered* collections. They are one of the most useful data structures in ruby; learn to use them wisely!
+Checkout the [Array Documentation][array-docs]. **Bookmark this page!**
 
-[Arrays]: https://www.codecademy.com/courses/ruby-beginner-en-F3loB/0/1?curriculum_id=5059f8619189a5000201fbcb
+[array-docs]: https://ruby-doc.org/core-2.2.0/Array.html
 
 ---
 ## Creating Arrays
@@ -180,9 +180,9 @@ Class    | Method      | Definition
 
 #### Examples
 ```ruby
-sentence = "Wow, I heart ruby!"
-sentence.split(" ")     # ==> ["Wow,", "I", "heart", "ruby!"]
-sentence.chars          # ==> ["W", "o", "w", " ", "I", " ", "h", "e", "a", "r", "t", " ", "r", "u", "b", "y", "!"]
+sentence = "Wow, I like ruby!"
+sentence.split(" ")     # ==> ["Wow,", "I", "like", "ruby!"]
+sentence.chars          # ==> ["W", "o", "w", " ", "I", " ", "l", "i", "k", "e", " ", "r", "u", "b", "y", "!"]
 ```
 
 **Test these in pry!**

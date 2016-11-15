@@ -2,7 +2,9 @@
 
 ## Introduction
 
-We've already seen strings several times! Let's cover them in more detail.
+We've already seen strings several times! Let's cover them in more detail. Checkout the [String Documentation][string-docs]. **Bookmark this page!**
+
+[string-docs]: https://ruby-doc.org/core-2.2.0/String.html
 
 ## What is a string?
 
@@ -108,5 +110,3 @@ Range      | `"string".slice(2..3)` | `"string"[2..3]` | `"ri"`
  `#gsub`       | Replaces all occurrences of one substring with another
  `#start_with?`| Returns true/false if the string starts with a particular sub-string
  `#reverse`    | Reverses a string
-
-#### [String Documentation](http://ruby-doc.org/core-2.2.0/String.html)
