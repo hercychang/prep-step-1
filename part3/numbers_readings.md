@@ -10,8 +10,8 @@ Ruby has several different types of objects for representing numbers. We're goin
 
 Checkout the [Fixnum][fixnum-docs] and [Float][float-docs] documentation. **Bookmark these pages!** Look at the "Methods" column on the left-hand side.
 
-[fixnum-docs]: https://ruby-doc.org/core-2.2.0/Fixnum.html
-[float-docs]: https://ruby-doc.org/core-2.2.0/Float.html
+[fixnum-docs]: https://ruby-doc.org/core-2.3.1/Fixnum.html
+[float-docs]: https://ruby-doc.org/core-2.3.1/Float.html
 
 ---
 

@@ -6,7 +6,7 @@ Arrays are useful for maintaining *ordered* collections. They are one of the *mo
 
 Checkout the [Array Documentation][array-docs]. **Bookmark this page!** Look at the "Methods" column on the left-hand side.
 
-[array-docs]: https://ruby-doc.org/core-2.2.0/Array.html
+[array-docs]: https://ruby-doc.org/core-2.3.1/Array.html
 
 ---
 ## Creating Arrays
