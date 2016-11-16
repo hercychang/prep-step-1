@@ -33,7 +33,7 @@ puts change_this == [12, 14, 16]
 
 # *********************************************
 
-# Write a function that takes in a number and sums all the numbers up to that number
+# Write a method that takes in a number and sums all the numbers up to that number
 
 def sum_to(number)
 end
@@ -103,7 +103,7 @@ puts magic_numbers(20) == [7, 16, 25, 34, 43, 52, 61, 70, 106, 115, 124, 133, 14
 
 # *********************************************
 
-# Write a function that returns a phrase with each word (separated by spaces)
+# Write a method that returns a phrase with each word (separated by spaces)
 # capitalized.
 
 def capitalize_each_word(phrase)

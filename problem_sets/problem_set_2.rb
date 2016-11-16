@@ -1,5 +1,5 @@
 
-# Write a boolean function palindrome? which takes in a word and returns true
+# Write a boolean method palindrome? which takes in a word and returns true
 # if it is palindrome.
 
 def palindrome?(string)
@@ -14,7 +14,7 @@ puts palindrome?("coder") == false
 
 # *********************************************
 
-# Write a function that will reverse the digits of a number.
+# Write a method that will reverse the digits of a number.
 
 def reverse_digits(number)
 end
@@ -26,7 +26,7 @@ puts reverse_digits(1738) == 8371
 
 # *********************************************
 
-# Write a function that returns the longest word in a sentence
+# Write a method that returns the longest word in a sentence
 
 def longest_word(phrase)
 end
@@ -38,7 +38,7 @@ puts longest_word("go steph go") == "steph"
 
 # *********************************************
 
-# Write a function that takes an array of integers and uses each to calcuate
+# Write a method that takes an array of integers and uses each to calcuate
 # their squares, returning them as an array.
 
 def compute_squares(array)
@@ -51,7 +51,7 @@ puts compute_squares([1, 2, 3, 4]) == [1, 4, 9, 16]
 
 # *********************************************
 
-# Write a function that takes in an amount of minutes and returns a time string
+# Write a method that takes in an amount of minutes and returns a time string
 # formatted HH:MM
 
 def time_conversion(minutes)
@@ -68,7 +68,7 @@ puts time_conversion(0) == "00:00"
 
 # *********************************************
 
-# Write a function that takes an array of pairs and returns the pair with the
+# Write a method that takes an array of pairs and returns the pair with the
 # greatest sum
 
 def largest_pair(pairs_array)
