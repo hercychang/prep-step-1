@@ -1,4 +1,4 @@
-# App Academy Prep - Track 1
+# App Academy Prep - Step 1
 
 Welcome to App Academy's prep-work! We're excited to help you begin your journey as a developer.
 
