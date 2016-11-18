@@ -48,9 +48,9 @@ You should be able to complete this course in 10 days, with 2-3 hours each day.
 | Week / Day | Section                                 |
 |------------|-----------------------------------------|
 | W1D1       | Part 1 **and** Part 2                   |
-| W1D2       | Part 3 - Numbers & Strings              |
-| W1D3       | Part 4 - Flow Control                   |
-| W1D4       | Part 5 - Arrays                         |
+| W1D2       | Part 3                                  |
+| W1D3       | Part 4                                  |
+| W1D4       | Part 5                                  |
 | W1D5 - 7   | Finish curriculum **and** Problem Set 1 |
 | W2D1       | Problem Set 2                           |
 | W2D2       | Problem Set 3                           |
