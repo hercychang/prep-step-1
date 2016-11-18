@@ -40,7 +40,7 @@ If you're doing the beginner track during JumpStart, read our [course logistics]
 [rbenv-setup]: configuration/rbenv_setup.md
 [logistics]: logistics.md
 
----
+<!-- ---
 # Suggested Timeline
 
 You should be able to complete this course in 10 days, with 2-3 hours each day.
@@ -54,4 +54,4 @@ You should be able to complete this course in 10 days, with 2-3 hours each day.
 | W1D5 - 7   | Finish curriculum **and** Problem Set 1 |
 | W2D1       | Problem Set 2                           |
 | W2D2       | Problem Set 3                           |
-| W2D3       | Practice Challenges                     |
+| W2D3       | Practice Challenges                     | -->

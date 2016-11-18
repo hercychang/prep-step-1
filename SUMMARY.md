@@ -77,6 +77,6 @@
 
 * [Problem Sets](problem_sets/README.md)
 
-### Practice Challenges
+<!-- ### Practice Challenges
 
-* [Practice Challenges](practice_challenges/README.md)
+* [Practice Challenges](practice_challenges/README.md) -->
