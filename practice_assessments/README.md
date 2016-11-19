@@ -15,3 +15,5 @@ Scratch paper is allowed - and encouraged! Please feel free to **define all the 
 #### Practice Assessment 2
   * <a href="/practice_assessments/practice_assessment_2.rb" download>Problems</a>
   * <a href="/practice_assessments/practice_assessment_2_solution.rb" download>Solutions</a>
+
+If you're having trouble downloading, try right-clicking the link and then select "Save Link As..."
