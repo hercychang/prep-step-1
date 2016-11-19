@@ -6,32 +6,26 @@
 * [Cloud 9 (setup)](configuration/c9_setup.md)
 * [Rbenv (setup)](configuration/rbenv_setup.md)
 * [Debugger (setup)](configuration/debugger_setup.md)
+* Terminal
+  * [Terminal Readings](part1/terminal_readings.md)
+  * [Terminal Exercises](part1/terminal_exercises.md)
+* REPL
+  * [REPL Readings](part1/repl_readings.md)
+  * [REPL Exercises](part1/repl_exercises.md)
 
 ### Curriculum
 
-* Part 1 - The Terminal
-  * Terminal
-    * [Terminal Readings](part1/terminal_readings.md)
-    * [Terminal Exercises](part1/terminal_exercises.md)
-  * REPL
-    * [REPL Readings](part1/repl_readings.md)
-    * [REPL Exercises](part1/repl_exercises.md)
+* A Brief Introduction to Everything
+  * [What is Ruby?](part1/what_is_ruby.md)
+  * [Primitive Data Types](part1/primitive_data_types.md)
+  * [Quiz](part1/quiz.md)
+  * [Glossary](part1/glossary.md)
 
-* Part 2 - Scripts, Methods, & Variables
-  * Scripts & Methods
-    * [Readings](part2/scripts_and_methods_readings.md)
-    * [Quiz](part2/scripts_and_methods_quiz.md)
-    * [Exercises](part2/scripts_and_methods_exercises.md)
-    * [Solutions](part2/scripts_and_methods_solutions.md)
-  * Return Values
-    * [Readings](part2/return_readings.md)
-    * [Quiz](part2/return_quiz.md)
-    * [Exercises](part2/return_exercises.md)
-    * [Solutions](part2/return_solutions.md)
-  * Variables & Scope
-    * [Readings](part2/variables_and_scope_readings.md)
-    * [Quiz](part2/variables_and_scope_quiz.md)
-    * [Exercises](part2/variables_and_scope_exercises.md)
+* Your First Program
+  * [Your First Program](part2/your_first_program.md)
+  * [Your First Bug](part2/your_first_bug.md)
+  * [Quiz](part2/quiz.md)
+  * [Glossary](part2/glossary.md)
 
 * Part 3 - Numbers & Strings
   * Numbers
