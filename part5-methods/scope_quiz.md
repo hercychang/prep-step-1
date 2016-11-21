@@ -8,7 +8,7 @@ end
 a_plus_10
 ```
 
-<quiz>
+1. <quiz>
   <question>
       <p>Does the above code snippet throw an error?</p>
       <answer correct>Yes</answer>
@@ -23,7 +23,7 @@ def a_plus_10
 end
 ```
 
-<quiz>
+2. <quiz>
   <question>
       <p>Does the above code snippet throw an error?</p>
       <answer>Yes</answer>
@@ -40,7 +40,7 @@ end
 puts a
 ```
 
-<quiz>
+3. <quiz>
   <question>
       <p>Does the above code snippet throw an error?</p>
       <answer>Yes</answer>
@@ -58,7 +58,7 @@ end
 puts b
 ```
 
-<quiz>
+4. <quiz>
   <question>
       <p>Does the above code snippet throw an error?</p>
       <answer correct>Yes</answer>
@@ -76,7 +76,7 @@ end
 a_plus_10
 ```
 
-<quiz>
+5. <quiz>
   <question>
       <p>Does the above code snippet throw an error?</p>
       <answer>Yes</answer>
@@ -101,7 +101,7 @@ end
 catdog
 ```
 
-<quiz>
+6. <quiz>
   <question>
       <p>Does the above code snippet throw an error?</p>
       <answer>Yes</answer>
@@ -117,7 +117,7 @@ def a_plus_10
 end
 ```
 
-<quiz>
+7. <quiz>
   <question>
       <p>Which of the following strategies would debug <code>a_plus_10</code>? You may select more than one.</p>
       <answer correct>Defining a new method, <code>a</code>, which returns <code>10</code>, before invoking <code>a_plus_10</code>.</answer>
@@ -125,3 +125,14 @@ end
       <answer correct>In <code>a_plus_10</code>, assigning a new variable, <code>a</code>, to <code>10</code> before returning.</answer>
   </question>
 </quiz>
+
+
+## Explanations
+
+1. `a` is defined in the top-level scope and is therefore not in the context of `a_plus_10`. The Ruby interpreter throws an error upon invocation when it tries to parse and execute the method body.
+2. Although the method is incorrectly defined, the Ruby interpreter encounters the error only when the method is invoked.
+3. `puts a` is in the scope where `a` was defined (the top-level scope). Therefore `a` can be referenced.
+4. `puts b` is in the top-level scope, but the variable `b` is defined in the scope of `a_plus_10` and is therefore undefined in `puts b`.
+5. Although `a` is initially defined in the top-level scope, it's also defined in the scope of `a_plus_10`. `a` is therefore defined when referenced in `a + 10`.
+6. `cat` and `dog` are valid helper methods of `catdog`.
+7. The first choice would make `a` in the method body refer to a helper method. The second choice would avoid using an undefined variable by substuting that variable's would-be value. The third choice would ensure that a variable `a` is defined in the same scope where it is referenced (the scope of `a_plus_10`).
