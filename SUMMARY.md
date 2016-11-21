@@ -7,19 +7,19 @@
 * [Rbenv (setup)](configuration/rbenv_setup.md)
 * [Debugger (setup)](configuration/debugger_setup.md)
 * Terminal
-  * [Terminal Readings](part1-introduction/terminal_readings.md)
-  * [Terminal Exercises](part1-introduction/terminal_exercises.md)
+  * [Terminal Readings](part1-data_types/terminal_readings.md)
+  * [Terminal Exercises](part1-data_types/terminal_exercises.md)
 * REPL
-  * [REPL Readings](part1-introduction/repl_readings.md)
-  * [REPL Exercises](part1-introduction/repl_exercises.md)
+  * [REPL Readings](part1-data_types/repl_readings.md)
+  * [REPL Exercises](part1-data_types/repl_exercises.md)
 
 ### Curriculum
 
 * A Brief Introduction to Everything
-  * [What is Ruby?](part1-introduction/what_is_ruby.md)
-  * [Primitive Data Types](part1-introduction/primitive_data_types.md)
-  * [Quiz](part1-introduction/quiz.md)
-  * [Glossary](part1-introduction/glossary.md)
+  * [What is Ruby?](part1-data_types/what_is_ruby.md)
+  * [Primitive Data Types](part1-data_types/primitive_data_types.md)
+  * [Quiz](part1-data_types/quiz.md)
+  * [Glossary](part1-data_types/glossary.md)
 
 * Your First Program
   * [Your First Program](part2-first_program/your_first_program.md)
