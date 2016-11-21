@@ -1,6 +1,6 @@
 # Method Quiz
 
-<quiz>
+1. <quiz>
   <question>
       <p><code>2.5.round</code> is an example of ____.</p>
       <answer>Variable assignment</answer>
@@ -17,7 +17,7 @@ def what_am_i
 end
 ```
 
-<quiz>
+2. <quiz>
   <question>
       <p>The above code snippet is an example of ____.</p>
       <answer>Variable assignment</answer>
@@ -27,7 +27,7 @@ end
   </question>
 </quiz>
 
-<quiz>
+3. <quiz>
   <question>
       <p>What is the receiver of <code>2.5.round</code>?</p>
       <answer><code>2</code></answer>
@@ -37,7 +37,7 @@ end
   </question>
 </quiz>   
 
-<quiz>
+4. <quiz>
   <question>
       <p>What is the argument of <code>2.gcd(4)</code>?</p>
       <answer><code>2</code></answer>
@@ -47,7 +47,7 @@ end
   </question>
 </quiz>   
 
-<quiz>
+5. <quiz>
   <question>
       <p>What is the return value of <code>2.even?</code>?</p>
       <answer correct><code>true</code></answer>
@@ -76,7 +76,7 @@ def pick_me #A
 ```
 
 
-<quiz>
+6. <quiz>
   <question>
       <p>Which of the above method definitions uses valid syntax?</p>
       <answer>A</answer>
@@ -95,7 +95,7 @@ end
 return_this("return me, please")
 ```
 
-<quiz>
+7. <quiz>
   <question>
       <p>What is the return value of the above method invocation?</p>
       <answer correct><code>"return me, please"</code></answer>
@@ -114,7 +114,7 @@ end
 pitter_putter("patter")
 ```
 
-<quiz>
+8. <quiz>
   <question>
       <p>What is the return value of the above method invocation?</p>
       <answer><code>"patter"</code></answer>
@@ -134,7 +134,7 @@ end
 nihilist("Nietzsche")
 ```
 
-<quiz>
+9. <quiz>
   <question>
       <p>What is the return value of the above method invocation?</p>
       <answer><code>"Nietzsche"</code></answer>
@@ -152,7 +152,7 @@ def nihilist(arg)
 end
 ```
 
-<quiz>
+10. <quiz>
   <question>
       <p>What code in the above method definition is unreachable?</p>
       <answer correct><code>arg</code></answer>
@@ -172,7 +172,7 @@ end
 nihilist("Nietzsche").to_s
 ```
 
-<quiz>
+11. <quiz>
   <question>
       <p>What does the above method chain return?</p>
       <answer><code>"Nietzsche"</code></answer>
@@ -181,3 +181,18 @@ nihilist("Nietzsche").to_s
       <answer correct><code>""</code></answer>
   </question>
 </quiz>  
+
+
+## Explanations
+
+1. `2.5.round` invokes the `round` method upon the receiver `2.5`.
+2. The snippet defines the `what_am_i` method but doesn't invoke it.
+3. `2.5` is the receiver, the object upon which the method is called. `3` is the return value of `2.5.round`. `round` is the method itself.
+4. `4` is the argument. `2` is the receiver. `gcd` is the method itself.
+5. `2` is the receiver, `even?` is the method, and invoking the `even?` method with the receiver `2` returns `true`.
+6. The second choice is correct. The first lacks an `end`. The third lacks a comma between arguments. The fourth uses a Ruby keyword (`def`) as a method name, which is invalid.
+7. The snippet invokes the `return_this` method with the argument `"return me, please"`. In the method body, `arg` is therefore assigned to `"return me, please"` upon invocation. The value of `arg` is then implicitly returned.
+8. The last line of the method (`puts arg`) is implicitly returned. Because the return value of puts is always `nil`, the return value of `pitter_putter("patter")` is itself `nil`.
+9. The method definition explicitly returns `nil`. The method's subsequent code (`arg`) is unreachable and is therefore never executed.
+10. See the prior explanation.
+11. The return value of `nihilist("Nietzsche")` is `nil`. `nil.to_s` is an empty string (`""`).

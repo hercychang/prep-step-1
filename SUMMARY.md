@@ -43,7 +43,7 @@
 * Methods
   * [Method Deconstruction](part5-methods/method_deconstruction.md)
   * [Method Definition](part5-methods/method_definition.md)
-  * [Method Returns](part5-methods/method_returns.md)
+  * [Returning from a Method](part5-methods/method_returns.md)
   * [Method Quiz](part5-methods/method_quiz.md)
   * [Scope](part5-methods/scope.md)
   * [Scope Quiz](part5-methods/scope_quiz.md)

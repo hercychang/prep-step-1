@@ -1,4 +1,4 @@
-# Returning from a Method
+# Method Returns
 
 The result of the last line of a method is implicitly returned. One can
 explicitly return the line's result with the `return` keyword:
