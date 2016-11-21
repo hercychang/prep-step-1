@@ -40,6 +40,16 @@
   * [Quiz](part4/quiz.md)
   * [Glossary](part4/glossary.md)
 
+* Methods
+  * [Method Deconstruction](part5/method_deconstruction.md)
+  * [Method Definition](part5/method_definition.md)
+  * [Method Returns](part5/method_returns.md)
+  * [Method Quiz](part5/method_quiz.md)
+  * [Scope](part5/scope.md)
+  * [Scope Quiz](part5/scope_quiz.md)
+  * [Glossary](part5/glossary.md)
+  * [Exercises](part5/exercises.md)
+
 
 * Part 4 - Flow Control
   * Boolean Logic
