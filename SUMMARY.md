@@ -7,48 +7,48 @@
 * [Rbenv (setup)](configuration/rbenv_setup.md)
 * [Debugger (setup)](configuration/debugger_setup.md)
 * Terminal
-  * [Terminal Readings](part1/terminal_readings.md)
-  * [Terminal Exercises](part1/terminal_exercises.md)
+  * [Terminal Readings](part1-introduction/terminal_readings.md)
+  * [Terminal Exercises](part1-introduction/terminal_exercises.md)
 * REPL
-  * [REPL Readings](part1/repl_readings.md)
-  * [REPL Exercises](part1/repl_exercises.md)
+  * [REPL Readings](part1-introduction/repl_readings.md)
+  * [REPL Exercises](part1-introduction/repl_exercises.md)
 
 ### Curriculum
 
 * A Brief Introduction to Everything
-  * [What is Ruby?](part1/what_is_ruby.md)
-  * [Primitive Data Types](part1/primitive_data_types.md)
-  * [Quiz](part1/quiz.md)
-  * [Glossary](part1/glossary.md)
+  * [What is Ruby?](part1-introduction/what_is_ruby.md)
+  * [Primitive Data Types](part1-introduction/primitive_data_types.md)
+  * [Quiz](part1-introduction/quiz.md)
+  * [Glossary](part1-introduction/glossary.md)
 
 * Your First Program
-  * [Your First Program](part2/your_first_program.md)
-  * [Your First Bug](part2/your_first_bug.md)
-  * [Quiz](part2/quiz.md)
-  * [Glossary](part2/glossary.md)
+  * [Your First Program](part2-first_program/your_first_program.md)
+  * [Your First Bug](part2-first_program/your_first_bug.md)
+  * [Quiz](part2-first_program/quiz.md)
+  * [Glossary](part2-first_program/glossary.md)
 
 * Variables
-  * [What is a Variable?](part3/what_is_a_variable.md)
-  * [Variable Naming](part3/variable_naming.md)
-  * [A Comment on Comments](part3/comments.md)
-  * [Quiz](part3/quiz.md)
-  * [Glossary](part3/glossary.md)
+  * [What is a Variable?](part3-variables/what_is_a_variable.md)
+  * [Variable Naming](part3-variables/variable_naming.md)
+  * [A Comment on Comments](part3-variables/comments.md)
+  * [Quiz](part3-variables/quiz.md)
+  * [Glossary](part3-variables/glossary.md)
 
 * Numbers
-  * [Arithmetic Operators](part4/arithmetic_operators.md)
-  * [Numerical Methods](part4/numerical_methods.md)
-  * [Quiz](part4/quiz.md)
-  * [Glossary](part4/glossary.md)
+  * [Arithmetic Operators](part4-numbers/arithmetic_operators.md)
+  * [Numerical Methods](part4-numbers/numerical_methods.md)
+  * [Quiz](part4-numbers/quiz.md)
+  * [Glossary](part4-numbers/glossary.md)
 
 * Methods
-  * [Method Deconstruction](part5/method_deconstruction.md)
-  * [Method Definition](part5/method_definition.md)
-  * [Method Returns](part5/method_returns.md)
-  * [Method Quiz](part5/method_quiz.md)
-  * [Scope](part5/scope.md)
-  * [Scope Quiz](part5/scope_quiz.md)
-  * [Glossary](part5/glossary.md)
-  * [Exercises](part5/exercises.md)
+  * [Method Deconstruction](part5-methods/method_deconstruction.md)
+  * [Method Definition](part5-methods/method_definition.md)
+  * [Method Returns](part5-methods/method_returns.md)
+  * [Method Quiz](part5-methods/method_quiz.md)
+  * [Scope](part5-methods/scope.md)
+  * [Scope Quiz](part5-methods/scope_quiz.md)
+  * [Glossary](part5-methods/glossary.md)
+  * [Exercises](part5-methods/exercises.md)
 
 
 * Part 4 - Flow Control
