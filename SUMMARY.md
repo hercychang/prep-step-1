@@ -27,22 +27,19 @@
   * [Quiz](part2/quiz.md)
   * [Glossary](part2/glossary.md)
 
-* Part 3 - Numbers & Strings
-  * Numbers
-    * [Readings](part3/numbers_readings.md)
-    * [Quiz](part3/numbers_quiz.md)
-    * [Exercises](part3/numbers_exercises.md)
-    * [Solutions](part3/numbers_solutions.md)
-  * Strings
-    * [Readings](part3/strings_readings.md)
-    * [Quiz](part3/strings_quiz.md)
-    * [Exercises](part3/strings_exercises.md)
-    * [Solutions](part3/strings_solutions.md)
-  * Type Conversion
-    * [Readings](part3/type_conversion_readings.md)
-    * [Quiz](part3/type_conversion_quiz.md)
-    * [Exercises](part3/type_conversion_exercises.md)
-    * [Solutions](part3/type_conversion_solutions.md)
+* Variables
+  * [What is a Variable?](part3/what_is_a_variable.md)
+  * [Variable Naming](part3/variable_naming.md)
+  * [A Comment on Comments](part3/comments.md)
+  * [Quiz](part3/quiz.md)
+  * [Glossary](part3/glossary.md)
+
+* Numbers
+  * [Arithmetic Operators](part4/arithmetic_operators.md)
+  * [Numerical Methods](part4/numerical_methods.md)
+  * [Quiz](part4/quiz.md)
+  * [Glossary](part4/glossary.md)
+
 
 * Part 4 - Flow Control
   * Boolean Logic
