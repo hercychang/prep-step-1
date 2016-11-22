@@ -1,6 +1,6 @@
 # App Academy Prep - Step 1
 
-Welcome to App Academy's prep-work! We're excited to help you begin your journey as a developer. In this course, you'll learn the basics of the ruby programming language and use the skills you acquire to solve some fun and challenging problems.
+Welcome to App Academy Prep! We're excited to help you begin your journey as a developer. In this course, you'll learn the basics of the ruby programming language and use the skills you acquire to solve some fun and challenging problems.
 
 ---
 # Pre-Curriculum

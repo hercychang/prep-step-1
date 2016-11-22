@@ -80,6 +80,7 @@
 <!-- Config -->
 * [Cloud 9 (config)](configuration/c9_setup.md)
 * [Rbenv (config)](configuration/rbenv_setup.md)
+* [Remove RVM (config)](configuration/remove_rvm.md)
 * [Debugger (config)](configuration/debugger_setup.md)
 
 <!-- JumpStart -->
