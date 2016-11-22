@@ -7,7 +7,7 @@ At JumpStart, we'll provide you with bonus supplementary material to help you so
   * Pair programming exercises
   * Nightly homework
 
-Check out our [Logistics Document][[logistics]]. Read this thoroughly!
+Check out our [Logistics Document][logistics]. Read this thoroughly!
 
 JumpStart's curriculum is split into two steps. You **must complete both steps** to be eligible for admission to App Academy. Each step will take about 24 hours of work to complete. You have 2 options for completing these steps:
 
