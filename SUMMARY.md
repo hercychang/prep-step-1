@@ -49,6 +49,7 @@
   * [Scope Quiz](part5-methods/scope_quiz.md)
   * [Glossary](part5-methods/glossary.md)
   * [Exercises](part5-methods/exercises.md)
+  * [Exercise Walkthrough](part5-method/walkthrough.md)
 
 
 * Part 4 - Flow Control

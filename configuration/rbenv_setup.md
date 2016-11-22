@@ -1,6 +1,6 @@
 ##Installing rbenv on Mac
 
-### rbenv:
+### rbenv
 
 If you have previously installed rvm, you must [remove it!][remove-rvm]
 
@@ -17,12 +17,16 @@ If you have previously installed rvm, you must [remove it!][remove-rvm]
   - `rbenv install 2.1.2`
   - `rbenv global 2.1.2`
 
-Try running a ruby program to test!
+Now that you have Ruby installed locally, familiarize yourself with the
+[terminal](terminal) and the [interactive Ruby shell](irb).
 
 
-### Atom:
+### Atom
 
 In addition to ruby, you'll want a native text editor. We recommend using [atom][atom].
 
 [remove-rvm]: ./remove_rvm.md
+[terminal]: ./terminal.md
+[irb]: ./irb.md
+
 [atom]: https://atom.io/
