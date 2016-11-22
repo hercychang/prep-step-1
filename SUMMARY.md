@@ -68,6 +68,22 @@
     * [Case Manipulation](part6-data_structures/case.md)
     * [Other Useful Methods](part6-data_structures/strings_methods.md)
     * [String Quiz](part6-data_structures/string_quiz.md)
+  * [Glossary](part6-data_structures/glossary.md)
+
+* Logic and Control Flow
+  * Logic
+    * [Comparison Operators](part7-control_flow/comparison_operators.md)
+    * [Logical Operators](part7-control_flow/logical_operators.md)
+    * [Truthy and Falsey](part7-control_flow/truthy_falsey.md)
+    * [Logic Quiz](part7-control_flow/logic_quiz.md)
+  * Control Flow
+    * [Introduction](part7-control_flow/control_introduction.md)
+    * [Conditional Statements](part7-control_flow/conditional_statements.md)
+    * [Loops](part7-control_flow/loops.md)
+    * [Control Flow Quiz](part7-control_flow/control_quiz.md)
+  * [Glossary](part7-control_flow/glossary.md)
+
+
 
 
 * Part 4 - Flow Control
