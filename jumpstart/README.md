@@ -1,11 +1,13 @@
 # App Academy JumpStart
 
-Welcome to App Academy JumpStart! We're excited to work with you in the upcoming weeks. At JumpStart, you'll have the opportunity to work through our step 1 or step 2 curriculum with App Academy staff present to guide your learning. You'll also meet and work with other students at the same level as you!
+Welcome to App Academy JumpStart! We're excited to work with you in the upcoming weeks. At JumpStart, you'll have the opportunity to work through our [step 1][step-1] or [step 2][step-2] curriculum with App Academy staff present to guide your learning. You'll also meet and work with other students at the same level as you!
 
 At JumpStart, we'll provide you with bonus supplementary material to help you solidify what you're learning:
   * Live coding demos
   * Pair programming exercises
   * Nightly homework
+
+Check out our [Logistics Document][[logistics]]. Read this thoroughly!
 
 JumpStart's curriculum is split into two steps. You **must complete both steps** to be eligible for admission to App Academy. Each step will take about 24 hours of work to complete. You have 2 options for completing these steps:
 
@@ -31,3 +33,4 @@ We highly recommend trying to complete the first step at home before choosing op
 
 [step-1]: https://app-academy.gitbooks.io/prep-step-1/content/
 [step-2]: https://app-academy.gitbooks.io/prep-step-2/content/
+[logistics]: https://app-academy.gitbooks.io/prep-step-2/content/jumpstart/logistics.html
