@@ -8,7 +8,7 @@
 * [Debugger (config)](configuration/debugger_setup.md)
 
 <!-- JumpStart -->
-* [Introduction (JumpStart)](jumpstart/README.md)
+* [Introduction (JumpStart)](jumpstart/welcome.md)
 * [Logistics (JumpStart)](jumpstart/logistics.md)
 
 
