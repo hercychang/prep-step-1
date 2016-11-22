@@ -2,10 +2,15 @@
 
 * [Introduction](README.md)
 
-* [Logistics (setup)](logistics.md)
-* [Cloud 9 (setup)](configuration/c9_setup.md)
-* [Rbenv (setup)](configuration/rbenv_setup.md)
-* [Debugger (setup)](configuration/debugger_setup.md)
+<!-- Config -->
+* [Cloud 9 (config)](configuration/c9_setup.md)
+* [Rbenv (config)](configuration/rbenv_setup.md)
+* [Debugger (config)](configuration/debugger_setup.md)
+
+<!-- JumpStart -->
+* [Introduction (JumpStart)](jumpstart/README.md)
+* [Logistics (JumpStart)](jumpstart/logistics.md)
+
 
 ### Curriculum
 

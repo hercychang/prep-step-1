@@ -1,8 +1,5 @@
-# Logistics
+# JumpStart Logistics
 
-This document only applies if you are doing this track during JumpStart.
-
----
 ## Course Structure
 
 Here's what the average day will look like:
@@ -35,12 +32,28 @@ When        | What
 ---
 ## Assessments
 
-We will have an assessment on the second Monday and Thursday during JumpStart (W2D1 and W2D4). If you receive a passing score on *either*, you have effectively passed the beginner track. If you pass the first assessment, you may move on to the intermediate track for the rest of the week.
+You will have 3 opportunities to take an assessment. All of the assessments are *opt-in*, meaning if you're not ready, you don't have to take it! Assessments on W1D4, W2D1, and W2D4.
 
-After passing the beginner track, you may complete the intermediate track at home and then participate in a Skype interview. Alternatively, you may return for a second JumpStart and do the intermediate track with us! 
+We have **two types of assessments:** the step 1 assessment, and the step 2 assessment. You **must pass both** in order to be admitted to App Academy. If you've passed our at-home coding challenge, then you may be exempt from taking the step 1 assessment.
+
+Assessments are 1 hour in length, and strictly closed-notes.
 
 ---
+## Possible Outcomes
 
+#### If you pass both assessments
+
+Your application will be forwarded to our admissions team for a final evaluation. You may be asked to participate in a non-technical phone screening.
+
+#### If you only pass assessment 1
+
+You will not be immediately admitted to App Academy, but you should continue to work on the step 2 curriculum at home and then schedule a Skype technical interview with us.
+
+#### If you do not pass assessment 1
+
+Not passing an assessment *will not hurt* your chances of getting into App Academy. You should continue to work on step 1 curriculum and take our at-home coding challenge.
+
+---
 ## How to approach JumpStart
 
 Everyone who clears our bar passes. There is no limit to the number of accepted students. This means you should be helping your fellow JumpStarters. **You are not competing with each other.**
