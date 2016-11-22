@@ -1,3 +1,19 @@
+# Instructions
+# ------------------------------------------------------------------------------
+# This file is in the same format as your assessments.
+#
+# You have 1 hour for this assessment. Give yourself about 15 minutes per problem.
+# Move on if you get stuck
+#
+# Everything should print 'true' when you run the file. When time is up, make
+# sure you don't have any unexpected `end`s or infinite loops that would keep your
+# code from running.
+#
+# This assessment is strictly closed notes. No paper notes and no internet!
+#
+# Look at the test cases below the problem before you approach it.
+# ------------------------------------------------------------------------------
+
 # In Order
 
 # Define a boolean method, #in_order?(array), that accepts an array of integers

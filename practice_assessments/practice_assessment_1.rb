@@ -1,3 +1,18 @@
+# Instructions
+# ------------------------------------------------------------------------------
+# This file is in the same format as your assessments.
+#
+# Make sure everything puts out as 'true' when you run the file.
+#
+# Give yourself about 15 minutes per problem; move on if you get stuck. When time
+# is up, make sure you don't have any unexpected `end`s or infinite loops that would
+# keep your code from running.
+#
+# This assessment is strictly closed notes. No paper notes and no internet!
+#
+# Look at the test cases below the problem before you approach it.
+# ------------------------------------------------------------------------------
+
 # Factorial
 
 # Define a method, #factorial(num), that accepts an integer as an argument. The method
