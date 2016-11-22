@@ -51,6 +51,22 @@
   * [Exercises](part5-methods/exercises.md)
   * [Exercise Walkthrough](part5-method/walkthrough.md)
 
+* Data Structures
+  * Arrays
+    * [Introduction](part6-data_structures/arrays_intro.md)
+    * [Access](part6-data_structures/arrays_access.md)
+    * [Assignment](part6-data_structures/arrays_assignment.md)
+    * [Push, Pop, Shift, Unshift](part6-data_structures/ppsu.md)
+    * [Concatenation](part6-data_structures/arrays_concatenation.md)
+    * [Join](part6-data_structures/join.md)
+    * [Other Useful Methods](part6-data_structures/arrays_methods.md)
+  * Strings
+    * [Access, Assignment, Concatenation](part6-data_structures/strings_intro.md)
+    * [Interpolation](part6-data_structures/interpolation.md)
+    * [Split](part6-data_structures/split.md)
+    * [Case Manipulation](part6-data_structures/case.md)
+    * [Other Useful Methods](part6-data_structures/strings_methods.md)
+
 
 * Part 4 - Flow Control
   * Boolean Logic
