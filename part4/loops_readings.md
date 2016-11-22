@@ -2,8 +2,6 @@
 
 ## Introduction
 
-Complete the [CodeAcademy Loops][Loops] section if you haven't yet.
-
 A common idea in computer science is that humans are good at performing tasks that are hard to describe but easy to accomplish, such as: "make a sandwich".
 
 Computers, on the other hand, are good at performing tasks that are easy to describe, but hard to accomplish, such as: "write 'oo-la-la' 1000 times". That task might take you a while.. but introduce 5 lines of code:
