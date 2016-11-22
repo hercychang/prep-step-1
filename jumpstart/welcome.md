@@ -33,4 +33,4 @@ We highly recommend trying to complete the first step at home before choosing op
 
 [step-1]: https://app-academy.gitbooks.io/prep-step-1/content/
 [step-2]: https://app-academy.gitbooks.io/prep-step-2/content/
-[logistics]: https://app-academy.gitbooks.io/prep-step-2/content/jumpstart/logistics.html
+[logistics]: ./logistics.html
