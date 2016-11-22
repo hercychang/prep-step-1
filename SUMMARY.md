@@ -2,16 +2,6 @@
 
 * [Introduction](README.md)
 
-<!-- Config -->
-* [Cloud 9 (config)](configuration/c9_setup.md)
-* [Rbenv (config)](configuration/rbenv_setup.md)
-* [Debugger (config)](configuration/debugger_setup.md)
-
-<!-- JumpStart -->
-* [Introduction (JumpStart)](jumpstart/welcome.md)
-* [Logistics (JumpStart)](jumpstart/logistics.md)
-
-
 ### Curriculum
 
 * Part 1 - The Terminal
@@ -85,3 +75,13 @@
 ### Practice Assessments
 
 * [Practice Assessments](practice_assessments/README.md)
+
+
+<!-- Config -->
+* [Cloud 9 (config)](configuration/c9_setup.md)
+* [Rbenv (config)](configuration/rbenv_setup.md)
+* [Debugger (config)](configuration/debugger_setup.md)
+
+<!-- JumpStart -->
+* [Introduction (JumpStart)](jumpstart/welcome.md)
+* [Logistics (JumpStart)](jumpstart/logistics.md)
