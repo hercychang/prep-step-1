@@ -10,7 +10,7 @@
 * `delete_at(idx)` - Deletes the element at the index specified by the method's argument and returns that element; modifies the original array.
 * `drop(int)` - Returns the remainder of the array after n elements have been taken, where n is the method's argument; does not modify the original array.
 * `first` - Returns the first element of the array.
-* `flatten` - Returns an array of one-dimension; does not modify the original array.
+* `flatten` - Returns a one-dimensional array; does not modify the original array.
 * `join(separator)` - Combines every element of an array into a string and returns the result; splices the elements together with an optional argument (the separator); does not modify the original array.
 * `last` - Returns the last element of the array.
 * `max` - Returns the largest element of an array.
@@ -41,7 +41,7 @@
 * `delete(arg)` - Deletes the argument from the array or string and returns the deleted value; returns `nil` if the argument is not in the array or string; modifies array but not string receivers.
 * `empty?` - Returns a boolean value indicating whether the array or string is of length zero.
 * `include?(arg)` - Returns a boolean value indicating whether the argument is included in the array or string.
-* `index(arg)` - Returns the first index of the array at which the method's argument occurs; returns nil if the argument is not in the array.
+* `index(arg)` - Returns the first index of the array at which the method's argument occurs; returns `nil` if the argument is not in the array.
 * `length` - Returns the length of an array or string.
 * `+` - Concatenates two strings or two arrays and returns the resulting concatenation; does not modify the left argument.
 * `<<` - The shovel operator; equivalent to `push` for arrays, equivalent to `concat` for strings; modifies the receiver.
