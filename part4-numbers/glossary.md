@@ -1,9 +1,12 @@
+# Glossary
+
 * Expression - A combination of objects, methods, variables, and/or operators that evaluates to another value; a self-contained chunk of valid code.
 * Modulo Operator - An operator (`%`) that returns the remainder of division.
 * Operator - A type of method that uses a special, more intuitive syntax.
 * Operand - The quantities with which an operation is performed.
 
-### Numerical Methods
+
+## Numerical Methods
 
 * `ceil` - Rounds a float up.
 * `even?` - Returns a boolean indicating whether an integer is even.

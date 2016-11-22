@@ -1,3 +1,5 @@
+# Glossary
+
 * Argument - The input of a method. An argument is passed to a method within parentheses. Commas separate multiple arguments.
 * Context - The set of variables and methods available to a given part of a program.
 * Helper Method - A method that helps another method perform its task by managing a subtask.

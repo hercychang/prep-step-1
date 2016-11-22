@@ -1,3 +1,5 @@
+# Glossary
+
 * Assignment Operator - An operator (`=`) used to assign variable names to values.
 * Comment - An annotation ignored by the interpreter.
 * Snake Case - The practice of writing compound words or phrases in lowercase and connected by underscores rather than spaces.
