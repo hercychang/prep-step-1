@@ -60,12 +60,14 @@
     * [Concatenation](part6-data_structures/arrays_concatenation.md)
     * [Join](part6-data_structures/join.md)
     * [Other Useful Methods](part6-data_structures/arrays_methods.md)
+    * [Array Quiz](part6-data_structures/array_quiz.md)
   * Strings
     * [Access, Assignment, Concatenation](part6-data_structures/strings_intro.md)
     * [Interpolation](part6-data_structures/interpolation.md)
     * [Split](part6-data_structures/split.md)
     * [Case Manipulation](part6-data_structures/case.md)
     * [Other Useful Methods](part6-data_structures/strings_methods.md)
+    * [String Quiz](part6-data_structures/string_quiz.md)
 
 
 * Part 4 - Flow Control
