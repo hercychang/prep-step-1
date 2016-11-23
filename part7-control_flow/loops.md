@@ -47,7 +47,7 @@ start of each loop. After the counter is incremented to `11`, the condition
 becomes falsey, so the loop terminates.
 
 The `until` keyword is the opposite of `while`. It directs the interpreter to
-loop until a _true_ condition is met:
+loop until a _truthy_ condition is met:
 
 ```ruby
 counter = 0

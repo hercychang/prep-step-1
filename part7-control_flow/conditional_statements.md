@@ -112,7 +112,7 @@ end
 ```
 
 The `unless` keyword is the opposite of `if`. It directs the interpreter to
-execute the subordinate block if the test condition is _false_:
+execute the subordinate block if the test condition is _falsey_:
 
 ```ruby
 unless 2 > 3
