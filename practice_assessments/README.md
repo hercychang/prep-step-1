@@ -6,7 +6,7 @@ You should take these practice assessments in a timed setting! They are 1 hour i
   * no Google
   * no ruby-docs
 
-Scratch paper is allowed - and encouraged! Please feel free to **define all the helper methods you need!** You should know your score at the end of the coding challenge; it is based on the number of print statements that print "true".
+Scratch paper is allowed - and encouraged! Please feel free to **define all the helper methods you need!** You should know your score at the end of the assessment; it is based on the number of print statements that print "true".
 
 #### Practice Assessment 1
   * <a href="/practice_assessments/practice_assessment_1.rb" download>Problems</a>
