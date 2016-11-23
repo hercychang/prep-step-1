@@ -119,8 +119,13 @@
 4. `:cat` is alphabetically less than `:dog`; therefore, the operation returns `false`. Both operands are symbols, so the comparison is valid.
 5. `"cat"` does not equal an empty array; therefore, the operation returns `true`. One can check for equality across data types, so the comparison is valid.
 6. Arrays can only be compared for equality; therefore, the operation causes the Ruby interpreter to throw an error.
-7. Because `2 < 3` is truthy (in this case the expression evaluates to `true`), the operation does not short-circuit and `[]` is the last operand evaluated. `[]` is therefore the operation's return value.
-8. This operation is an inversion of the previous. It also does not short-circuit, and the `2 < 3` (which evaluates to `true`) is the last operand evaluated.
+7. Because `2 < 3` is truthy (in this case the expression evaluates to `true`), the
+operation does not short-circuit and `[]` is the last operand evaluated. `[]` is
+therefore the operation's return value.
+8. This operation is an inversion of the previous. It also does not short-circuit,
+and the `2 < 3` (which evaluates to `true`) is the last operand evaluated.
 9. Because `nil` is falsey, this operation does not short-circuit, and `0` is the last operand evaluated. `0` is therefore the operation's return value.
 10. Because `0` is truthy, this operation does short-circuit, and `0` is the last operand evaluated. `0` is therefore the operation's return value.
-11. `!nil` evaluates to `true` (the opposite of the falseyness of `nil`); therefore, `!!nil` returns `false` (the opposite of `true`). Prepending `!!` always returns the operand's boolean value.
+11. `!nil` evaluates to `true` (the opposite of the falseyness of `nil`); therefore,
+`!!nil` returns `false` (the opposite of `true`). Prepending `!!` always returns
+the operand's boolean value.
