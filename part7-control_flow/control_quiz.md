@@ -59,8 +59,11 @@ end
 
 
 ```ruby
-for i in 0..1000
-  "#{i} am one i older."
+circumstances_and_chances = 0
+
+while true
+  circumstances_and_chances +=1
+  break if circumstances_and_chances > 5
 end
 ```
 
@@ -74,9 +77,11 @@ end
 
 
 ```ruby
-arr = [0, 1, 2]
-for i in arr
-  arr << i
+circumstances_and_chances = 0
+
+while true
+  circumstances_and_chances +=1
+  next if circumstances_and_chances > 5
 end
 ```
 
@@ -90,52 +95,49 @@ end
 
 
 ```ruby
-arr = [0, 1]
-for i in arr
-  arr << i
-  break if arr.length > 3
-end
+(0..1000).each {|el| puts "How long will this last...?" }
 ```
 
 6. <quiz>
   <question>
-      <p>Is the above code snippet an infinite loop?</p>
-      <answer>Yes</answer>
-      <answer correct>No</answer>
+      <p>How many iterations does the Ruby interpreter perform in the above code snippet?</p>
+      <answer>1</answer>
+      <answer>Infinite</answer>
+      <answer>1000</answer>
+      <answer correct>1001</answer>
   </question>
 </quiz>
 
 
 ```ruby
-arr = [0, 1]
-for i in arr
-  arr << i
-  next if arr.length > 3
-end
+["a", "b", "c"].each_index {|i| puts "i am one #{i} older." }
 ```
 
 7. <quiz>
   <question>
-      <p>Is the above code snippet an infinite loop?</p>
-      <answer correct>Yes</answer>
-      <answer>No</answer>
+      <p>What's the last statement printed (excluding the return value) in the above code snippet?</p>
+      <answer><code>"i am one i older"</code></answer>
+      <answer><code>"i am one c older"</code></answer>
+      <answer correct><code>"i am one 2 older"</code></answer>
+      <answer><code>"i am one 3 older"</code></answer>
   </question>
 </quiz>
 
 
 ```ruby
-arr = [0, 1]
-for i in arr
-  next if arr.length > 3
-  arr << i
-end
+  "To strive, to seek, to find, and not to yield.".each_char do |ch|
+    puts "Who's talking about yield?"
+    puts "That topic's for a later date!"
+  end
 ```
 
 8. <quiz>
   <question>
-      <p>Is the above code snippet an infinite loop?</p>
-      <answer>Yes</answer>
-      <answer correct>No</answer>
+      <p>What does the above code snippet return?</p>
+      <answer><code>"."</code></answer>
+      <answer correct><code>"To strive, to seek, to find, and not to yield."</code></answer>
+      <answer correct><code>nil</code></answer>
+      <answer><code>"That topic's for a later date!"</code></answer>
   </question>
 </quiz>
 
@@ -153,20 +155,15 @@ an existential crisis."` is never executed.
 3. The `until` keyword directs the interpreter to loop until a _truthy_ condition
 is met. `until false` is equivalent to `while true`. Because a truthy condition
 is never met, the loop is infinite.
-4. The for loop executes once for every element in `0..1000`. It therefore loops
-one thousand and one times. It is not infinite.
-5. Although `arr` is initially of fixed length, its length increases with each
-iteration of the for loop. The for loop never reaches the end of `arr` and is
-therefore infinite.
-6. Unlike the previous question, this for loop employs a break statement. Although
-the length of the array increases with each iteration, the loop terminates when
-the length exceeds `3`, ensuring the loop is not infinite.
-7. This for loop employs a next statement rather than a break statement. It skips
-to the next iteration when the length of the array exceeds `3`, but first it
-adds to the length of `arr` by shoveling in a new element. The for loop never
-reaches the end of `arr` and is therefore infinite.
-8. This for loop inverts the order of the next statement and shoveling into `arr`.
-`arr << i` becomes unreachable once the length of `arr` exceeds `3` because the
-Ruby interpreter skips to the next iteration before the shoveling can be
-executed. The length of `arr` no longer increases, ensuring the for loop reaches
-its end in fewer than infinite iterations.
+4. The variable `circumstances_and_chances` is incremented with each iteration, and
+the `break` keyword terminates the loop when the value of
+`circumstances_and_chances` exceeds `5`; therefore, the loop is not infinite.
+5. This question is identical to the previous except it replaces `break` with
+`next`. The `next` keyword skips the loop ahead to its next iteration rather
+than terminating it; therefore, the loop is infinite.
+6. The Ruby interpreter performs an iteration once for each element in the
+receiver. There are 1001 elements in the range, so it performs 1001 iterations.
+7. The value of `i` in the last iteration is the last index (`2`) in the receiver.
+The last statement printed is `"i am one 2 older"`.
+8. The return value of `each`, `each_char`, and `each_index` is the receiver, hence
+`"To strive, to seek, to find, and not to yield."` is the return value.

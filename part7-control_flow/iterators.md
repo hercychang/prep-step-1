@@ -54,7 +54,7 @@ each index as an argument (rather than the element itself).
 
 ```ruby
 traversed_thrice_is_all_right = [1, 2, 3]
-traversed_thrice_is_all_right.each do |idx|
+traversed_thrice_is_all_right.each_index do |idx|
   puts "my argument is #{idx}"
   puts traversed_thrice_is_all_right[idx]
 end #=> [1, 2, 3]
