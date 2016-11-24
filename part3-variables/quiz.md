@@ -7,6 +7,7 @@
     <answer><code>is</code></answer>
     <answer correct><code>=</code></answer>
     <answer><code>-></code></answer>
+    <explanation><code>=</code> is the assignment operator. <code>==</code> is the equality operator (it checks for equality--more on that later!). <code>is</code> is an English word, and <code>-></code> is a crude arrow, you goof.</explanation>
   </question>
 </quiz>
 
@@ -17,6 +18,7 @@
     <answer correct><code>a_case_that_like_a_wounded_snake_drags_its_slow_length_along</code></answer>
     <answer><code>A_case_that_like_a_wounded_snake_drags_its_slow_length_along</code></answer>
     <answer><code>aCaseThatLikeAWoundedSnakeDragsItsSlowLengthAlong</code></answer>
+    <explanation>The second choice is correct. The third choice is capitalized, the fourth is in camel case (don't worry about what that means!), and the first employs typical English capitalization.</explanation>
   </question>
 </quiz>
 
@@ -35,6 +37,7 @@ a = b
     <answer><code>7</code></answer>
     <answer><code>b</code></answer>
     <answer><code>"dog"</code></answer>
+    <explanation><code>b</code> is last assigned to <code>a</code> when the value of <code>a</code> is <code>true</code>. Therefore the final value of <code>b</code> is <code>true</code>.</explanation>
   </question>
 </quiz>
 
@@ -53,6 +56,7 @@ a = b
     <answer><code>7</code></answer>
     <answer><code>b</code></answer>
     <answer><code>"dog"</code></answer>
+    <explanation><code>a</code> is last assigned to <code>b</code> when the value of <code>b</code> is <code>true</code>. Therefore the final value of <code>a</code> is <code>true</code>.</explanation>
   </question>
 </quiz>
 
@@ -70,14 +74,6 @@ a = c
     <answer><code>a</code> cannot be reassigned.</answer>
     <answer><code>c</code> is an invalid variable name.</answer>
     <answer><code>c</code> is undefined.</answer>
+    <explanation>The fourth choice is correct. <code>c</code> is a valid variable name because it's in snake case and is not a Ruby keyword. <code>a</code> can be reassigned because any variable can be reassigned at any time. The value of <code>c</code> is not <code>nil</code> because <code>c</code> is undefined. A defined variable with a value of <code>nil</code> is different from a variable that is undefined, i.e., that is never assigned a value.</explanation>
   </question>
 </quiz>
-
-
-## Explanations
-
-1. `=` is the assignment operator. `==` is the equality operator (it checks for equality--more on that later!). `is` is an English word, and `->` is an arrow, you goof.
-2. The second choice is correct. The third choice is capitalized, the fourth is in camel case (don't worry about that for now!), and the first employs typical English capitalization.
-3. `b` is last assigned to `a` when the value of `a` is `true`. Therefore the final value of `b` is `true`.
-4. `a` is last assigned to `b` when the value of `b` is `true`. Therefore the final value of `a` is `true`.
-5. The fourth choice is correct. `c` is a valid variable name because it's in snake case and is not a Ruby keyword. `a` can be reassigned because any variable can be reassigned at any time. The value of `c` is not `nil` because `c` is undefined. A defined variable with a value of `nil` is different from a variable that is undefined, i.e., that is never assigned a value.
