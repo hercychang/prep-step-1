@@ -7,6 +7,7 @@
       <answer correct><code>52</code></answer>
       <answer><code>400</code></answer>
       <answer><code>100</code></answer>
+      <explanation>As per the order of operations, exponentiation is evaluated first, then multiplication, then addition.</explanation>
   </question>
 </quiz>
 
@@ -17,6 +18,7 @@
       <answer><code>52</code></answer>
       <answer><code>400</code></answer>
       <answer correct><code>100</code></answer>
+      <explanation>As per the order of operations, parentheticals are evaluated first, then exponentiation, then multiplication.</explanation>
   </question>
 </quiz>
 
@@ -27,6 +29,7 @@
       <answer><code>2</code></answer>
       <answer><code>10.2</code></answer>
       <answer><code>2.0</code></answer>
+      <explanation>The division of two integers returns an integer.</explanation>
   </question>
 </quiz>
 
@@ -37,6 +40,7 @@
       <answer><code>2</code></answer>
       <answer correct><code>10.2</code></answer>
       <answer><code>2.0</code></answer>
+      <explanation>The division of one or more floats returns a float.</explanation>
   </question>
 </quiz>
 
@@ -47,6 +51,7 @@
       <answer correct><code>2</code></answer>
       <answer><code>10.2</code></answer>
       <answer><code>2.0</code></answer>
+      <explanation>The modulo operator returns the remainder of integer division.</explanation>
   </question>
 </quiz>
 
@@ -57,6 +62,7 @@
       <answer correct><code>5</code></answer>
       <answer><code>4.0</code></answer>
       <answer><code>5.0</code></answer>
+      <explanation>The <code>ceil</code> method rounds up to the nearest integer.</explanation>
   </question>
 </quiz>
 
@@ -67,6 +73,7 @@
       <answer><code>5</code></answer>
       <answer><code>4.0</code></answer>
       <answer><code>5.0</code></answer>
+      <explanation>The <code>floor</code> method rounds down to the nearest integer.</explanation>
   </question>
 </quiz>
 
@@ -77,6 +84,7 @@
       <answer correct><code>5</code></answer>
       <answer><code>4.0</code></answer>
       <answer><code>5.0</code></answer>
+      <explanation>The <code>round</code> method rounds to the nearest integer and rounds up if the fractional part of the float is <code>.5</code>.</explanation>
   </question>
 </quiz>
 
@@ -87,6 +95,7 @@
       <answer><code>5</code></answer>
       <answer><code>4.0</code></answer>
       <answer><code>5.0</code></answer>
+      <explanation>The <code>to_i</code> method rounds down to the nearest integer.</explanation>
   </question>
 </quiz>
 
@@ -97,6 +106,7 @@
       <answer><code>5</code></answer>
       <answer correct><code>4.0</code></answer>
       <answer><code>5.0</code></answer>
+      <explanation>The <code>to_f</code> method type converts an integer to a float.</explanation>
   </question>
 </quiz>
 
@@ -107,6 +117,7 @@
       <answer><code>5.0</code></answer>
       <answer><code>:5</code></answer>
       <answer correct><code>"5"</code></answer>
+      <explanation>The <code>to_s</code> method type converts an object to a string.</explanation>
   </question>
 </quiz>
 
@@ -117,21 +128,6 @@
       <answer><code>true</code></answer>
       <answer correct><code>"false"</code></answer>
       <answer><code>false</code></answer>
+      <explanation>The <code>to_s</code> method type converts an object to a string, regardless of that object's data type.</explanation>
   </question>
 </quiz>
-
-
-## Explanations
-
-1. As per the order of operations, exponentiation is evaluated first, then multiplication, then addition.
-2. As per the order of operations, parentheticals are evaluated first, then exponentiation, then multiplication.
-3. The division of two integers returns an integer.
-4. The division of one or more floats returns a float.
-5. The modulo operator returns the remainder of integer division.
-6. The `ceil` method rounds up to the nearest integer.
-7. The `floor` method rounds down to the nearest integer.
-8. The `round` method rounds to the nearest integer and rounds up if the fractional part of the float is `.5`.
-9. The `to_i` method rounds down to the nearest integer.
-10. The `to_f` method type converts an integer to a float.
-11. The `to_s` method type converts an object to a string.
-12. The `to_s` method type converts an object to a string, regardless of that object's data type.
