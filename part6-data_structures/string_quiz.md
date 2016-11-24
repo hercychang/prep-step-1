@@ -7,7 +7,7 @@ k = "kangaroo community"
 ```
 
 <quiz>
-  <question>
+  <question multiple>
       <p>Given the above variables, how might one build the string <code>"1 unity in the kangaroo community"</code>? You may select more than one option.</p>
       <answer correct><code>1.to_s + u + i + k</code></answer>
       <answer correct><code>"#{1} unity " << i << k</code></answer>
