@@ -1,6 +1,6 @@
 # Quiz
 
-1. <quiz>
+<quiz>
   <question>
     <p><code>puts</code> belongs to the ____ data type.</p>
     <answer>String</answer>
@@ -11,7 +11,7 @@
   </question>
 </quiz>
 
-2. <quiz>
+<quiz>
   <question>
     <p><code>puts</code> is a ____.</p>
     <answer>String</answer>
@@ -22,7 +22,7 @@
   </question>
 </quiz>
 
-3. <quiz>
+<quiz>
   <question>
     <p>Which of the following will not cause an error?</p>
     <answer correct><code>puts "dog"</code></answer>
@@ -33,7 +33,7 @@
   </question>
 </quiz>
 
-4. <quiz>
+<quiz>
   <question>
     <p>What is the Ruby interpreter?</p>
     <answer>Me right now</answer>
@@ -48,7 +48,7 @@
 undefined local variable or method 'dog' for main:Object
 (repl):5:in '<main>'
 ```
-5. <quiz>
+<quiz>
   <question>
     <p>Which section of the above error message corresponds to the stack trace?</p>
     <answer correct><code>(repl):5:in '&#60;main&#62;'</code></answer>
@@ -59,7 +59,7 @@ undefined local variable or method 'dog' for main:Object
   </question>
 </quiz>
 
-6. <quiz>
+<quiz>
   <question multiple>
     <p>Why would <code>puts dog</code> cause an error? You may select more than one answer.</p>
     <answer correct><code>dog</code> doesn't belong to a data type.</answer>

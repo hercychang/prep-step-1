@@ -1,6 +1,6 @@
 # Quiz
 
-1. <quiz>
+<quiz>
   <question>
     <p>What is the assignment operator?</p>
     <answer><code>==</code></answer>
@@ -11,7 +11,7 @@
   </question>
 </quiz>
 
-2. <quiz>
+<quiz>
   <question>
     <p>Which of the following is in snake case?</p>
     <answer><code>a case that, like a wounded snake, drags its slow length along</code></answer>
@@ -30,7 +30,7 @@ b = a
 a = b
 ```
 
-3. <quiz>
+<quiz>
   <question>
     <p>What is the value of <code>b</code> at the end of the above code snippet?</p>
     <answer correct><code>true</code></answer>
@@ -49,7 +49,7 @@ b = a
 a = b
 ```
 
-4. <quiz>
+<quiz>
   <question>
     <p>What is the value of <code>a</code> at the end of the above code snippet?</p>
     <answer correct><code>true</code></answer>
@@ -67,7 +67,7 @@ b = "dog"
 a = c
 ```
 
-5. <quiz>
+<quiz>
   <question>
     <p>Why might the last line of the above code snippet cause an error?</p>
     <answer><code>c</code> is <code>nil</code>.</answer>

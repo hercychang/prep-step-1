@@ -1,6 +1,6 @@
 # Quiz
 
-1. <quiz>
+<quiz>
   <question>
     <p><code>2</code> belongs to the ____ data type.</p>
     <answer>String</answer>
@@ -11,7 +11,7 @@
   </question>
 </quiz>
 
-2. <quiz>
+<quiz>
   <question>
     <p><code>2.0</code> belongs to the ____ data type.</p>
     <answer>String</answer>
@@ -22,7 +22,7 @@
   </question>
 </quiz>
 
-3. <quiz>
+<quiz>
   <question>
     <p><code>"The Cat in the Hat"</code> belongs to the ____ data type.</p>
     <answer correct>String</answer>
@@ -33,7 +33,7 @@
   </question>
 </quiz>
 
-4. <quiz>
+<quiz>
   <question>
     <p><code>""</code> belongs to the ____ data type.</p>
     <answer correct>String</answer>
@@ -44,7 +44,7 @@
   </question>
 </quiz>
 
-5. <quiz>
+<quiz>
   <question>
     <p><code>"1"</code> belongs to the ____ data type.</p>
     <answer correct>String</answer>
@@ -55,7 +55,7 @@
   </question>
 </quiz>
 
-6. <quiz>
+<quiz>
   <question>
     <p><code>:doggie</code> belongs to the ____ data type.</p>
     <answer>String</answer>
@@ -66,7 +66,7 @@
   </question>
 </quiz>
 
-7. <quiz>
+<quiz>
   <question>
     <p><code>:nil</code> belongs to the ____ data type.</p>
     <answer>String</answer>
@@ -77,7 +77,7 @@
   </question>
 </quiz>
 
-8. <quiz>
+<quiz>
   <question>
     <p><code>"nil"</code> belongs to the ____ data type.</p>
     <answer correct>String</answer>
@@ -88,7 +88,7 @@
   </question>
 </quiz>
 
-9. <quiz>
+<quiz>
   <question>
     <p><code>nil</code> belongs to the ____ data type.</p>
     <answer>String</answer>
@@ -99,7 +99,7 @@
   </question>
 </quiz>
 
-10. <quiz>
+<quiz>
   <question>
     <p><code>true</code> and <code>false</code> are ____.</p>
     <answer>Strings</answer>
@@ -110,7 +110,7 @@
   </question>
 </quiz>
 
-11. <quiz>
+<quiz>
   <question>
     <p><code>"true"</code> and <code>"false"</code> are ____.</p>
     <answer correct>Strings</answer>
@@ -121,7 +121,7 @@
   </question>
 </quiz>
 
-12. <quiz>
+<quiz>
   <question>
     <p><code>:true</code> and <code>:false</code> are ____.</p>
     <answer correct>Strings</answer>

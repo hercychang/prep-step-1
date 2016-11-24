@@ -1,6 +1,6 @@
 # Quiz
 
-1. <quiz>
+<quiz>
   <question>
       <p>What is the result of <code>2 + 2 * 5 ** 2</code>?</p>
       <answer><code>102</code></answer>
@@ -11,9 +11,9 @@
   </question>
 </quiz>
 
-2. <quiz>
+<quiz>
   <question>
-      <p>What is the result of <code>(2 + 2) * 5 ** 2</code>?</p>
+      <p>What is the result of <code>(2 + * 5 ** 2</code>?</p>
       <answer><code>102</code></answer>
       <answer><code>52</code></answer>
       <answer><code>400</code></answer>
@@ -22,9 +22,9 @@
   </question>
 </quiz>
 
-3. <quiz>
+<quiz>
   <question>
-      <p>What is the result of <code>102 / 10</code>?</p>
+      <p>What is the result of <code>/ 10</code>?</p>
       <answer correct><code>10</code></answer>
       <answer><code>2</code></answer>
       <answer><code>10.2</code></answer>
@@ -33,9 +33,9 @@
   </question>
 </quiz>
 
-4. <quiz>
+<quiz>
   <question>
-      <p>What is the result of <code>102 / 10.0</code>?</p>
+      <p>What is the result of <code>/ 10.0</code>?</p>
       <answer><code>10</code></answer>
       <answer><code>2</code></answer>
       <answer correct><code>10.2</code></answer>
@@ -44,9 +44,9 @@
   </question>
 </quiz>
 
-5. <quiz>
+<quiz>
   <question>
-      <p>What is the result of <code>102 % 10</code>?</p>
+      <p>What is the result of <code>% 10</code>?</p>
       <answer><code>10</code></answer>
       <answer correct><code>2</code></answer>
       <answer><code>10.2</code></answer>
@@ -55,7 +55,7 @@
   </question>
 </quiz>
 
-6. <quiz>
+<quiz>
   <question>
       <p>What is the result of <code>4.5.ceil</code>?</p>
       <answer><code>4</code></answer>
@@ -66,7 +66,7 @@
   </question>
 </quiz>
 
-7. <quiz>
+<quiz>
   <question>
       <p>What is the result of <code>4.5.floor</code>?</p>
       <answer correct><code>4</code></answer>
@@ -77,7 +77,7 @@
   </question>
 </quiz>
 
-8. <quiz>
+<quiz>
   <question>
       <p>What is the result of <code>4.5.round</code>?</p>
       <answer><code>4</code></answer>
@@ -88,7 +88,7 @@
   </question>
 </quiz>
 
-9. <quiz>
+<quiz>
   <question>
       <p>What is the result of <code>4.5.to_i</code>?</p>
       <answer correct><code>4</code></answer>
@@ -99,7 +99,7 @@
   </question>
 </quiz>
 
-10. <quiz>
+<quiz>
   <question>
       <p>What is the result of <code>4.to_f</code>?</p>
       <answer><code>4</code></answer>
@@ -110,7 +110,7 @@
   </question>
 </quiz>
 
-11. <quiz>
+<quiz>
   <question>
       <p>What is the result of <code>5.to_s</code>?</p>
       <answer><code>5</code></answer>
@@ -121,7 +121,7 @@
   </question>
 </quiz>
 
-12. <quiz>
+<quiz>
   <question>
       <p>What is the result of <code>false.to_s</code>?</p>
       <answer><code>:false</code></answer>

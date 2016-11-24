@@ -1,6 +1,6 @@
 # Method Quiz
 
-1. <quiz>
+<quiz>
   <question>
       <p><code>2.5.round</code> is an example of ____.</p>
       <answer>Variable assignment</answer>
@@ -18,7 +18,7 @@ def what_am_i
 end
 ```
 
-2. <quiz>
+<quiz>
   <question>
       <p>The above code snippet is an example of ____.</p>
       <answer>Variable assignment</answer>
@@ -29,7 +29,7 @@ end
   </question>
 </quiz>
 
-3. <quiz>
+<quiz>
   <question>
       <p>What is the receiver of <code>2.5.round</code>?</p>
       <answer><code>2</code></answer>
@@ -40,7 +40,7 @@ end
   </question>
 </quiz>   
 
-4. <quiz>
+<quiz>
   <question>
       <p>What is the argument of <code>2.gcd(4)</code>?</p>
       <answer><code>2</code></answer>
@@ -51,7 +51,7 @@ end
   </question>
 </quiz>   
 
-5. <quiz>
+<quiz>
   <question>
       <p>What is the return value of <code>2.even?</code>?</p>
       <answer correct><code>true</code></answer>
@@ -81,7 +81,7 @@ def pick_me #A
 ```
 
 
-6. <quiz>
+<quiz>
   <question>
       <p>Which of the above method definitions uses valid syntax?</p>
       <answer>A</answer>
@@ -101,7 +101,7 @@ end
 return_this("return me, please")
 ```
 
-7. <quiz>
+<quiz>
   <question>
       <p>What is the return value of the above method invocation?</p>
       <answer correct><code>"return me, please"</code></answer>
@@ -121,7 +121,7 @@ end
 pitter_putter("patter")
 ```
 
-8. <quiz>
+<quiz>
   <question>
       <p>What is the return value of the above method invocation?</p>
       <answer><code>"patter"</code></answer>
@@ -142,7 +142,7 @@ end
 nihilist("Nietzsche")
 ```
 
-9. <quiz>
+<quiz>
   <question>
       <p>What is the return value of the above method invocation?</p>
       <answer><code>"Nietzsche"</code></answer>
@@ -161,7 +161,7 @@ def nihilist(arg)
 end
 ```
 
-10. <quiz>
+<quiz>
   <question>
       <p>What code in the above method definition is unreachable?</p>
       <answer correct><code>arg</code></answer>
@@ -182,7 +182,7 @@ end
 nihilist("Nietzsche").to_s
 ```
 
-11. <quiz>
+<quiz>
   <question>
       <p>What does the above method chain return?</p>
       <answer><code>"Nietzsche"</code></answer>
