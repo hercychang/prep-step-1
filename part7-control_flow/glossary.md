@@ -6,6 +6,7 @@
 * Control Structure - A block of code that alters the control flow based on analysis of given parameters.
 * Falseyness - An object's quality of being false, even if the object is not `false`; `false` and `nil` are falsey.
 * Infinite Loop - A sequence of instructions that loops endlessly.
+* Iteration - The act of repeating a procedure and each repetition itself.
 * Iterator - A method that repeats a set of instructions once for each element in its receiver.
 * Loop - A control structure that instructs the Ruby interpreter to execute a section of code while a condition holds.
 * Short-Circuit Evaluation - When the second operand of a logical operator is evaluated only if the first operand does not suffice to determine the value of the expression.

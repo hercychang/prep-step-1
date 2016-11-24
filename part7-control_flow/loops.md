@@ -46,6 +46,9 @@ The interpreter evaluates the expression following `while` for truthiness at the
 start of each loop. After the counter is incremented to `11`, the condition
 becomes falsey, so the loop terminates.
 
+_A note on terminology_: An **iteration** is the act of repeating a procedure, hence looping is an
+iterative technique. Each repetition itself is also called an "iteration."  
+
 One can nest loops just as one would conditional statements:
 
 ```ruby
