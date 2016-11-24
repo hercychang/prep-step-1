@@ -136,7 +136,7 @@ end
       <p>What does the above code snippet return?</p>
       <answer><code>"."</code></answer>
       <answer correct><code>"To strive, to seek, to find, and not to yield."</code></answer>
-      <answer correct><code>nil</code></answer>
+      <answer><code>nil</code></answer>
       <answer><code>"That topic's for a later date!"</code></answer>
   </question>
 </quiz>

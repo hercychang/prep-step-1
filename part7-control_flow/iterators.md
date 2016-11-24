@@ -68,7 +68,7 @@ string, passing that character as an argument.
 # like puts, print prints its argument, but it doesn't insert a newline after printing
 "alright alright alright".each_char {|ch| print ch.upcase} #=> "alright alright alright"
 
-# note the difference
+# note the difference when executed
 "alright alright alright".each_char {|ch| puts ch.upcase} #=> "alright alright alright"
 ```
 

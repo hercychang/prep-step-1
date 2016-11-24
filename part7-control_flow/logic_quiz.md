@@ -2,7 +2,7 @@
 
 1. <quiz>
   <question>
-      <p>What does <code>2 <=> 3</code> return?</p>
+      <p>What does <code>2 &#60;&#61;&#62; 3</code> return?</p>
       <answer correct><code>-1</code></answer>
       <answer><code>0</code></answer>
       <answer><code>1</code></answer>

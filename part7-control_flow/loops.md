@@ -125,9 +125,9 @@ The `next` keyword skips the loop ahead to its next iteration:
 
 ```ruby
 counter = 0
-while counter < 10
+while counter < 11
   counter += 1
   next if counter.odd?
-  puts "I only print even numbers from 1 to 10, including #{counter.to_s}"
+  puts "I only print even numbers from 1 to 10, including #{counter.to_s}."
 end
 ```

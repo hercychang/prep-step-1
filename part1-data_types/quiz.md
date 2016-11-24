@@ -7,6 +7,7 @@
     <answer>Float</answer>
     <answer correct>Integer</answer>
     <answer>Boolean</answer>
+    <explanation><code>2</code> is a number without a decimal point, i.e., an integer.</explanation>
   </question>
 </quiz>
 
@@ -17,6 +18,7 @@
     <answer correct>Float</answer>
     <answer>Integer</answer>
     <answer>Boolean</answer>
+    <explanation><code>2.0</code> is a number with a decimal point, i.e., a float.</explanation>
   </question>
 </quiz>
 
@@ -27,6 +29,7 @@
     <answer>Symbol</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
+    <explanation>The enclosing quotation marks denote a string.</explanation>
   </question>
 </quiz>
 
@@ -37,6 +40,7 @@
     <answer>Symbol</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
+    <explanation><code>""</code> is an <em>empty string</em>.</explanation>
   </question>
 </quiz>
 
@@ -47,6 +51,7 @@
     <answer>Symbol</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
+    <explanation>Although <code>1</code> is an integer, <code>"1"</code> is a string due to the enclosing quotation marks.</explanation>
   </question>
 </quiz>
 
@@ -57,6 +62,7 @@
     <answer correct>Symbol</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
+    <explanation>Although <code>"dog"</code> is a string, <code>:doggie</code> is a symbol due to the prepended colon.</explanation>
   </question>
 </quiz>
 
@@ -67,6 +73,7 @@
     <answer correct>Symbol</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
+    <explanation>Although <code>nil</code> belongs to the Nil data type, <code>:nil</code> is a symbol due to the prepended colon.</explanation>
   </question>
 </quiz>
 
@@ -77,6 +84,7 @@
     <answer>Symbol</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
+    <explanation>Although <code>nil</code> belongs to the Nil data type, <code>"nil"</code> is a string due to the enclosing quotation marks.</explanation>
   </question>
 </quiz>
 
@@ -87,6 +95,7 @@
     <answer>Symbol</answer>
     <answer>Integer</answer>
     <answer correct>Nil</answer>
+    <explanation><code>nil</code> is the sole instance of the Nil data type.</explanation>
   </question>
 </quiz>
 
@@ -97,6 +106,7 @@
     <answer>Nils</answer>
     <answer correct>Booleans</answer>
     <answer>Symbols</answer>
+    <explanation><code>true</code> and <code>false</code> are the only booleans.</explanation>
   </question>
 </quiz>
 
@@ -107,6 +117,7 @@
     <answer>Nils</answer>
     <answer>Booleans</answer>
     <answer>Symbols</answer>
+    <explanation><code>true</code> and <code>false</code> are booleans, but <code>"true"</code> and <code>"false"</code> are strings due to the enclosing quotation marks.</explanation>
   </question>
 </quiz>
 
@@ -117,21 +128,6 @@
     <answer>Nils</answer>
     <answer>Booleans</answer>
     <answer>Symbols</answer>
+    <explanation><code>true</code> and <code>false</code> are booleans, but <code>:true</code> and <code>:false</code> are symbols due to the prepended colons.</explanation>
   </question>
 </quiz>
-
-
-## Explanations
-
-1. `2` is a number without a decimal point, i.e., an integer.
-2. `2.0` is a number with a decimal point, i.e., a float.
-3. The enclosing quotation marks denote a string.
-4. `""` is an _empty string_.
-5. Although `1` is an integer, `"1"` is a string due to the enclosing quotation marks.
-6. Although `"dog"` is a string, `:dog` is a symbol due to the prepended colon.
-7. Although `nil` belongs to the Nil data type, `:nil` is a symbol due to the prepended colon.
-8. Although `nil` belongs to the Nil data type, `"nil"` is a string due to the enclosing quotation marks.
-9. Although
-10. `true` and `false` are the only booleans.
-11. `true` and `false` are booleans, but `"true"` and `"false"` are strings due to the enclosing quotation marks.
-12. `true` and `false` are booleans, but `:true` and `:false` are symbols due to the prepended colons.
