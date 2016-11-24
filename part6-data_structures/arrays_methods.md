@@ -78,6 +78,14 @@ symbols or strings.
 [1, 2, 3].min #=> 1
 ```
 
+`count` returns the number of elements equal to its argument. If no argument is
+given, it's synonymous with `length`.
+
+```ruby
+[1, 2, 3, 2].count(2) #=> 2
+[1, 2, 3, 3].count #=> 4
+```
+
 `empty?` returns a boolean value indicating whether the array is of length
 zero.
 

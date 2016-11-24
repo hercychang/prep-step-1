@@ -49,7 +49,7 @@
   * [Scope Quiz](part5-methods/scope_quiz.md)
   * [Glossary](part5-methods/glossary.md)
   * [Exercises](part5-methods/exercises.md)
-  * [Exercise Walkthrough](part5-method/walkthrough.md)
+  * [Exercises Walkthrough](part5-method/walkthrough.md)
 
 * Data Structures
   * Arrays
@@ -80,6 +80,7 @@
     * [Introduction](part7-control_flow/control_introduction.md)
     * [Conditional Statements](part7-control_flow/conditional_statements.md)
     * [Loops](part7-control_flow/loops.md)
+    * [Iterators](part7-control_flow/iterators.md)
     * [Control Flow Quiz](part7-control_flow/control_quiz.md)
   * [Glossary](part7-control_flow/glossary.md)
 

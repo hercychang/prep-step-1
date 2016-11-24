@@ -7,6 +7,7 @@
 
 ## Array-Exclusive Methods
 * `compact` - Removes `nil` elements from the array; does not modify the original array.
+* `count` - `count` returns the number of elements equal to its argument; if no argument is given, it's synonymous with `length`.
 * `delete_at(idx)` - Deletes the element at the index specified by the method's argument and returns that element; modifies the original array.
 * `drop(int)` - Returns the remainder of the array after n elements have been taken, where n is the method's argument; does not modify the original array.
 * `first` - Returns the first element of the array.

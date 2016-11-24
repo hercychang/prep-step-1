@@ -1,0 +1,76 @@
+# Iterators
+
+While it's possible to traverse a collection (such as an array or range) using
+loops, the Ruby community greatly prefers iterators. An **iterator** is a method
+that repeats a set of instructions once for each element in its receiver. One
+can think of iterators as implicitly looping methods. The most important
+iterator is `each`. These two traversals are functionally equivalent, but `each`
+is far more elegant:
+
+```ruby
+traverse_me = [1, 2, 3]
+
+# using a while loop
+idx = 0
+while idx < traverse_me.length
+  puts traverse_me[idx]
+  idx += 1
+end
+
+# using the each iterator
+traverse_me.each {|el| puts el}
+```
+
+That's a lot of new syntax! Let's deconstruct. `{|el| put el}` is a **block**, a
+way of grouping instructions that's denoted by enclosing curly braces (`{}`) or
+`do` and `end` keywords. Blocks are like anonymous methods. They receive
+arguments at the start of the block and execute a series of statements using
+those arguments. The arguments are comma-separated and enclosed in pipes (`||`).
+Convention recommends using curly braces to denote single-line blocks and `do`
+and `end` to denote multiline ones:
+
+```ruby
+["a", "b", "c"].each do |char|
+  puts "I'm such a funny character!"
+  puts "Look at me: #{char}!"
+end
+```
+
+So what's this block doing next to `each`? The block acts as a pseudo argument.
+`each` accepts a block that it invokes once for each element in the receiver
+collection, passing that element as an argument. When `each` finishes iterating
+(when it reaches the end of the collection), _it returns its receiver_:
+
+```ruby
+traverse_me_again_please = [1, 2, 3]
+traverse_me_again_please.each {|el| puts el} #=> [1, 2, 3]
+```
+
+
+## Other Essential Iterators
+
+The `each_index` method uses the same syntax as `each`, but it passes the block
+each index as an argument (rather than the element itself).
+
+```ruby
+traversed_thrice_is_all_right = [1, 2, 3]
+traversed_thrice_is_all_right.each do |idx|
+  puts "my argument is #{idx}"
+  puts traversed_thrice_is_all_right[idx]
+end #=> [1, 2, 3]
+```
+
+The `each_char` method is essentially the `each` of strings. As its name
+suggests, it invokes its given block once for each character in the receiver
+string, passing that character as an argument.
+
+```ruby
+# like puts, print prints its argument, but it doesn't insert a newline after printing
+"alright alright alright".each_char {|ch| print ch.upcase} #=> "alright alright alright"
+
+# note the difference
+"alright alright alright".each_char {|ch| puts ch.upcase} #=> "alright alright alright"
+```
+
+Most iterators belong to a set of methods known as enumerables, which are the
+subject of the next chapter.

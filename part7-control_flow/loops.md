@@ -46,6 +46,23 @@ The interpreter evaluates the expression following `while` for truthiness at the
 start of each loop. After the counter is incremented to `11`, the condition
 becomes falsey, so the loop terminates.
 
+One can nest loops just as one would conditional statements:
+
+```ruby
+i = 1
+j = 1
+while i < 6
+  count = 0
+  while j < 101
+    count += 1 if j % i == 0
+    j += 1
+  end
+  j = 1 # reset j so j < 101 is truthy for the next iteration
+  puts "There are #{count.to_s} numbers divisible by #{i.to_s} from 1 to 100."
+  i += 1
+end
+```
+
 The `until` keyword is the opposite of `while`. It directs the interpreter to
 loop until a _truthy_ condition is met:
 
@@ -75,7 +92,7 @@ def first_num_greater_than_ten(arr)
     end
     index += 1
   end
-  #if no number meeting the criteria is found, the method implicitly returns nil
+  # if no number meeting the criteria is found, the method implicitly returns nil
 end
 ```
 
@@ -101,7 +118,7 @@ while true
 end
 ```
 
-The `next` keyword skips a loop ahead to its next iteration:
+The `next` keyword skips the loop ahead to its next iteration:
 
 ```ruby
 counter = 0
@@ -111,44 +128,3 @@ while counter < 10
   puts "I only print even numbers from 1 to 10, including #{counter.to_s}"
 end
 ```
-
-
-## For Loops
-
-The _for loop_ is another common Ruby loop.
-
-```ruby
-for i in 0..10
-  puts "This is iteration number #{i.to_s}!"
-end
-```
-
-Unlike in conditional statements, the Ruby interpreter does not evaluate the
-expression following the keyword `for` for truthiness. Instead it assigns the
-variable `i` to the first element in the range (`0`) and executes the
-subordinate block. Upon the next iteration, the interpreter increments the value
-of the variable to the next element in the range. The final iteration occurs
-after the variable has been assigned to the final element in the range (when `i`
-is `10`).
-
-Upon completion, the value of the for loop is its range. You can also use arrays
-instead of ranges in for loops, in which case the value of the loop would be the
-array. The keywords `return`, `break`, and `next` function in for loops exactly
-as they do in while loops.
-
-You can nest loops just as you can nest conditional statements:
-
-```ruby
-for i in [1,2,3,4,5]
-  count = 0
-  for j in 1..100
-    next if i % j != 0
-    count += 1
-  end
-  puts "There are #{count.to_s} numbers divisible by #{i.to_s} from 1 to 100."
-end
-```
-
-You can use either arrays or ranges in for loops because both have access to a
-set of methods known as enumerables, which will be the subject of the next
-chapter.

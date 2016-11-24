@@ -113,7 +113,7 @@ by managing a subtask. Say we want to write a method, `num_prime_factors(num)`,
 that determines the number of prime factors of its argument. This method might
 delegate to two helper methods:
 
-  1. `factors(`num`), which determines the factors of a number.
+  1. `factors(num)`, which determines the factors of a number.
   2. `prime?(num)`, which determines whether a number is prime.
 
 Though you're not yet capable of writing these methods, you will be after the
