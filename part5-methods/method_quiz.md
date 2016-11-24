@@ -7,6 +7,7 @@
       <answer>Variable definition</answer>
       <answer>Method definition</answer>
       <answer correct>Method invocation</answer>
+      <explanation><code>2.5.round</code> invokes the <code>round</code> method upon the receiver <code>2.5</code>.</explanation>
   </question>
 </quiz>
 
@@ -24,6 +25,7 @@ end
       <answer>Variable definition</answer>
       <answer correct>Method definition</answer>
       <answer>Method invocation</answer>
+      <explanation>The snippet defines the <code>what_am_i</code> method but doesn't invoke it.</explanation>
   </question>
 </quiz>
 
@@ -34,6 +36,7 @@ end
       <answer><code>round</code></answer>
       <answer correct><code>2.5</code></answer>
       <answer>There is no receiver.</answer>
+      <explanation><code>2.5</code> is the receiver, the object upon which the method is called. <code>3</code> is the return value of <code>2.5.round</code>. <code>round</code> is the method itself.</explanation>
   </question>
 </quiz>   
 
@@ -44,6 +47,7 @@ end
       <answer><code>gcd</code></answer>
       <answer correct><code>4</code></answer>
       <answer><code>2</code> and <code>4</code> are both arguments.</answer>
+      <explanation><code>4</code> is the argument. <code>2</code> is the receiver. <code>gcd</code> is the method itself.</explanation>
   </question>
 </quiz>   
 
@@ -54,6 +58,7 @@ end
       <answer><code>false</code></answer>
       <answer><code>2</code></answer>
       <answer><code>even?</code></answer>
+      <explanation><code>2</code> is the receiver, <code>even?</code> is the method, and invoking the <code>even?</code> method with the receiver <code>2</code> returns <code>true</code>.</explanation>
   </question>
 </quiz>   
 
@@ -83,6 +88,7 @@ def pick_me #A
       <answer correct>B</answer>
       <answer>C</answer>
       <answer>D</answer>
+      <explanation>The second choice is correct. The first lacks an <code>end</code>. The third lacks a comma between arguments. The fourth uses a Ruby keyword (<code>def</code>) as a method name, which is invalid.</explanation>
   </question>
 </quiz>   
 
@@ -102,6 +108,7 @@ return_this("return me, please")
       <answer>There is no return value.</answer>
       <answer><code>nil</code></answer>
       <answer><code>"arg"</code></answer>
+      <explanation>The snippet invokes the <code>return_this</code> method with the argument <code>"return me, please"</code>. In the method body, <code>arg</code> is therefore assigned to <code>"return me, please"</code> upon invocation. The value of <code>arg</code> is then implicitly returned.</explanation>
   </question>
 </quiz>   
 
@@ -121,6 +128,7 @@ pitter_putter("patter")
       <answer>There is no return value.</answer>
       <answer correct><code>nil</code></answer>
       <answer><code>"arg"</code></answer>
+      <explanation>The last line of the method (<code>puts arg</code>) is implicitly returned. Because the return value of puts is always <code>nil</code>, the return value of <code>pitter_putter("patter")</code> is itself <code>nil</code>.</explanation>
   </question>
 </quiz>  
 
@@ -141,6 +149,7 @@ nihilist("Nietzsche")
       <answer>There is no return value.</answer>
       <answer correct><code>nil</code></answer>
       <answer><code>"arg"</code></answer>
+      <explanation>The method definition explicitly returns <code>nil</code>. The method's subsequent code (<code>arg</code>) is unreachable and is therefore never executed.</explanation>
   </question>
 </quiz>  
 
@@ -159,6 +168,7 @@ end
       <answer><code>end</code></answer>
       <answer><code>nil</code></answer>
       <answer><code>return nil</code></answer>
+      <explanation>See the prior explanation.</explanation>
   </question>
 </quiz>
 
@@ -179,20 +189,6 @@ nihilist("Nietzsche").to_s
       <answer>The interpreter throws an error</answer>
       <answer><code>nil</code></answer>
       <answer correct><code>""</code></answer>
+      <explanation>The return value of <code>nihilist("Nietzsche")</code> is <code>nil</code>. <code>nil.to_s</code> is an empty string (<code>""</code>).</explanation>
   </question>
 </quiz>  
-
-
-## Explanations
-
-1. `2.5.round` invokes the `round` method upon the receiver `2.5`.
-2. The snippet defines the `what_am_i` method but doesn't invoke it.
-3. `2.5` is the receiver, the object upon which the method is called. `3` is the return value of `2.5.round`. `round` is the method itself.
-4. `4` is the argument. `2` is the receiver. `gcd` is the method itself.
-5. `2` is the receiver, `even?` is the method, and invoking the `even?` method with the receiver `2` returns `true`.
-6. The second choice is correct. The first lacks an `end`. The third lacks a comma between arguments. The fourth uses a Ruby keyword (`def`) as a method name, which is invalid.
-7. The snippet invokes the `return_this` method with the argument `"return me, please"`. In the method body, `arg` is therefore assigned to `"return me, please"` upon invocation. The value of `arg` is then implicitly returned.
-8. The last line of the method (`puts arg`) is implicitly returned. Because the return value of puts is always `nil`, the return value of `pitter_putter("patter")` is itself `nil`.
-9. The method definition explicitly returns `nil`. The method's subsequent code (`arg`) is unreachable and is therefore never executed.
-10. See the prior explanation.
-11. The return value of `nihilist("Nietzsche")` is `nil`. `nil.to_s` is an empty string (`""`).
