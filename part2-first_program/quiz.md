@@ -7,6 +7,7 @@
     <answer>Symbol</answer>
     <answer>Boolean</answer>
     <answer correct><code>puts</code> doesn't belong to a data type.</answer>
+    <explanation><code>puts</code> is a method, not an object; therefore, <code>puts</code> doesn't belong to a data type.</explanation>
   </question>
 </quiz>
 
@@ -17,6 +18,7 @@
     <answer>Data Type</answer>
     <answer correct>Method</answer>
     <answer>Program</answer>
+    <explanation><code>puts "hello"</code> is a very small program; <code>puts</code> itself is a method.</explanation>
   </question>
 </quiz>
 
@@ -27,6 +29,7 @@
     <answer><code>puts dog</code></answer>
     <answer><code>puts ____</code></answer>
     <answer><code>puts error</code></answer>
+    <explanation>The Ruby interpreter is able to parse <code>"dog"</code> because it is a string. Every other choice uses <code>puts</code> with an undefined variable or method.</explanation>
   </question>
 </quiz>
 
@@ -37,6 +40,7 @@
     <answer correct>A program that parses and executes Ruby code</answer>
     <answer>The stack trace</answer>
     <answer>A data type</answer>
+    <explanation>The Ruby interpreter is by definition a program that parses and executes Ruby code.</explanation>
   </question>
 </quiz>
 
@@ -47,27 +51,20 @@ undefined local variable or method 'dog' for main:Object
 5. <quiz>
   <question>
     <p>Which section of the above error message corresponds to the stack trace?</p>
-    <answer correct><code>(repl):5:in '<main>'</code></answer>
+    <answer correct><code>(repl):5:in '&#60;main&#62;'</code></answer>
     <answer><code>undefined local variable or method 'dog' for main:Object</code></answer>
     <answer><code>main:Object</code></answer>
     <answer><code>dog</code></answer>
+    <explanation><code>(repl):5:in '&#60;main&#62;'</code> is the stack trace: a list of code location whence an error originates.</explanation>
   </question>
 </quiz>
 
 6. <quiz>
-  <question>
+  <question multiple>
     <p>Why would <code>puts dog</code> cause an error? You may select more than one answer.</p>
     <answer correct><code>dog</code> doesn't belong to a data type.</answer>
     <answer correct><code>dog</code> is not a defined variable.</answer>
     <answer correct><code>dog</code> is not a defined method.</answer>
+    <explanation>Because dog is not an object (it does not belong to a data type), a defined variable, a defined method, or any other meaningful entity, the Ruby interpreter cannot parse it.</explanation>
   </question>
 </quiz>
-
-
-## Explanations
-1. `puts` is a method, not an object; therefore `puts` doesn't belong to a data type.
-2. `puts "hello"` is a program; `puts` itself is a method.
-3. Every other choice uses `puts` with an undefined variable or method. The Ruby interpreter is able to parse `"dog"` because it is a string.
-4. The Ruby interpreter is by definition a program that parses and executes Ruby code.
-5. `(repl):5:in '<main>'` is the stack trace: a list of code locations whence an error originates.
-6. Because dog is not an object (i.e., it does not belong to a data type), a defined variable, a defined method, or any other meaningful entity, the Ruby interpreter cannot parse it. 
