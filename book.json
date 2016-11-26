@@ -2,7 +2,8 @@
     "plugins": [
         "expandable-chapters",
         "quiz",
-        "hide-element"
+        "hide-element",
+        "ga"
     ],
     "pluginsConfig": {
 
@@ -20,7 +21,10 @@
         "buttons": {
             "showCorrect"       : false,
             "showExplanation"   : true
-        }
+        },
+        "ga": {
+           "token": "UA-XXXX-Y"
+       }
       },
 
     "hide-element": {
