@@ -69,6 +69,8 @@
     * [Other Useful Methods](part6-data_structures/strings_methods.md)
     * [String Quiz](part6-data_structures/string_quiz.md)
   * [Glossary](part6-data_structures/glossary.md)
+  * [Exercises](part6-data-structures/exercises.md)
+  * [Walkthrough](part6-data-structures/walkthrough.md)
 
 * Logic and Control Flow
   * Logic
