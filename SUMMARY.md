@@ -85,36 +85,20 @@
     * [Iterators](part7-control_flow/iterators.md)
     * [Control Flow Quiz](part7-control_flow/control_quiz.md)
   * [Glossary](part7-control_flow/glossary.md)
+  * [Exercises](part7-control_flow/exercises.md)
+  * [Walkthrough](part7-control_flow/walkthrough.md)
+
+* What's Next?
+  * [Time for the Coding Challenge](part8-whats_next/the_time_has_come.md)
+  * [Practice Challenges](part8-whats_next/challenges.md)
+    * [Challenge 1 Walkthrough](part8-whats_next/walkthrough_one.md)
+    * [Challenge 2 Walkthrough](part8-whats_next/walkthrough_two.md)
+    * [Challenge 3 Walkthrough](part8-whats_next/walkthrough_three.md)
+    * [Challenge 4 Walkthrough](part8-whats_next/walkthrough_four.md)
+    * [Challenge 5 Walkthrough](part8-whats_next/walkthrough_five.md)
+    * [Challenge 6 Walkthrough](part8-whats_next/walkthrough_six.md)
 
 
-
-
-* Part 4 - Flow Control
-  * Boolean Logic
-    * [Readings](part4/boolean_logic_readings.md)
-    * [Quiz](part4/boolean_logic_quiz.md)
-    * [Exercises](part4/boolean_logic_exercises.md)
-    * [Solutions](part4/boolean_logic_solutions.md)
-  * Conditionals
-    * [Readings](part4/conditionals_readings.md)
-    * [Quiz](part4/conditionals_quiz.md)
-    * [Exercises](part4/conditionals_exercises.md)
-    * [Solutions](part4/conditionals_solutions.md)
-  * Loops
-    * [Readings](part4/loops_readings.md)
-    * [Quiz](part4/loops_quiz.md)
-    * [Exercises](part4/loops_exercises.md)
-    * [Solutions](part4/loops_solutions.md)
-
-* Part 5 - Arrays
-  * [Readings](part5/arrays_readings.md)
-  * [Quiz](part5/arrays_quiz.md)
-  * [Exercises](part5/arrays_exercises.md)
-  * [Solutions](part5/arrays_solutions.md)   
-
-### Problem Sets
-
-* [Problem Sets](problem_sets/README.md)
 
 <!-- ### Practice Challenges
 

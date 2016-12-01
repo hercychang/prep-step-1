@@ -3,7 +3,9 @@
 * Array - An ordered, zero-indexed collection of objects.
 * Array Destructuring - A technique for assigning multiple variables to multiple array elements.
 * Data Structure - A format for organizing and storing data.
+* Nested Array - An array that includes another array; synonymous with two-dimensional array.
 * String Interpolation - The insertion of a placeholder expression to be evaluated and string-converted when the interpreter creates the string.
+* Two-Dimensional Array - An array that includes another array; synonymous with nested array. 
 
 ## Array-Exclusive Methods
 * `compact` - Removes `nil` elements from the array; does not modify the original array.

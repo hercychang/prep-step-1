@@ -60,17 +60,17 @@ end
 # ------------------------------------------------------------------------------
 
 def boolean_to_binary(array)
-  boolean = ""
+  binary = ""
 
   array.each do |boolean|
     if array[idx]
-      boolean += "1"
+      binary += "1"
     else
-      boolean += "0"
+      binary += "0"
     end
   end
 
-  boolean
+  binary
 end
 
 # ------------------------------------------------------------------------------

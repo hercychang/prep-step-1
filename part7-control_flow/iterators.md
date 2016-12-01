@@ -59,6 +59,25 @@ def devowel(str)
 end
 ```
 
+The `next` and `break` keywords have the same effect in iterators as in loops.
+Here's a non-dangerous (i.e., non-mutating) version of the previous method that
+uses the `next` keyword.
+
+```ruby
+def devowel(str)
+  vowels = ["a", "e", "i", "o", "u"]
+  new_str = ""
+
+  str.each do |ch|
+    next unless vowels.include?(ch.downcase)
+    # the code below is only reachable when ch is a consonant
+    new_str += ch
+  end
+
+  new_str
+end
+```
+
 <iframe src="https://player.vimeo.com/video/182464455" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
 
 

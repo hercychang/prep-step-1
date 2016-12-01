@@ -23,4 +23,5 @@ nested_array = [[]]
 
 Although Ruby permits heterogeneous arrays, it's generally preferable to
 maintain a single data type throughout the array, ensuring predictability when
-accessing or manipulating the array.
+accessing or manipulating the array. An array that includes another array is
+called a **nested** or **two-dimensional** array.
