@@ -46,6 +46,8 @@ traverse_me_again_please = [1, 2, 3]
 traverse_me_again_please.each {|el| puts el} #=> [1, 2, 3]
 ```
 
+<iframe src="https://player.vimeo.com/video/182464455" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
+
 Here's how one might more elegantly define the previous chapter's `devowel` method
 using `each`:
 
@@ -77,8 +79,6 @@ def devowel(str)
   new_str
 end
 ```
-
-<iframe src="https://player.vimeo.com/video/182464455" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
 
 
 ## Other Essential Iterators

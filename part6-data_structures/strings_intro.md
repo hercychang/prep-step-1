@@ -9,6 +9,8 @@ It's useful to think of strings as arrays of one-character strings, though
 
 ## Access, Assignment, and Concatenation
 
+<iframe src="https://player.vimeo.com/video/181974255?rel=0" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
+
 Like arrays, strings use the bracket method for access. Each character
 corresponds to an index. Strings are zero-indexed. The only difference between
 array access and string access is that the `first` and `last` methods are
