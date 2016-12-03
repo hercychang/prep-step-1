@@ -1,31 +1,54 @@
 # Introduction
 
-Welcome to the App Academy Prep Program.
+<iframe src="https://player.vimeo.com/video/194104144?rel=0&autoplay=1" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
 
-This course will teach you to use the Ruby programming language to solve
-problems. By the end of the course, you'll have an intermediate understanding of
-Ruby, you'll be able to solve complex problems, and you'll be exceptionally
-prepared to apply to App Academy.
+Hello and thank you for applying to App Academy! We're excited to help you begin
+your journey as web developer.
 
-As you proceed through the course, please code alongside our examples. In the
-section below, we'll introduce you to [Repl.it](https://repl.it/languages/ruby),
-which we encourage you to use to start coding right away. Only reading code is
-not enough to become a great programmer. Typing the code will increase your
-comprehension, and mistakes will reveal weaknesses in your understanding and
-improve your debugging. Bugs are software's best teachers, so please don't copy
-and paste. There's no better way to learn to code than to code!
+Before we get started coding, let's take a moment to talk about the application
+process. This course is designed to teach you everything you need to know to get
+into App Academy. Our course is divided into two steps, and an assessment
+concludes both. You must complete both steps and pass both assessments to be
+considered for admission to App Academy.
 
-The problem sets are modeled on the questions you'll receive when you apply to
-App Academy. Don't be discouraged if they're difficult. Problem solving in a
-programming language is different than understanding a programming language.
-Luckily you'll get plenty of practice!
+When you first filled out the application on our website, we emailed you a
+number of different links. One of those links is to this curriculum. Another is
+an invitation to our Slack channel, which is a chatroom you can visit if you
+have questions or need help from App Academy TA's. The third link is to the
+online assessment, so whenever you're feeling prepared, you can follow that
+third link and take the step one assessment online.
 
-All problem sets feature solutions and video walkthroughs. Redo any questions
-where you made a mistake. Ensure you understand the underlying concepts and note
-how we style and format our code. Proper style makes code more readable and
-prevents bugs. Your final solutions should look like ours.
+Our curriculum is filled with readings, videos, quizzes, and exercises. I highly
+recommend taking notes during the readings and videos. Write code that's
+unfamiliar, new methods, and a summary of each of those readings and videos.
+These notes will help tremendously when you start coding.
 
-See you in class!
+Also be sure to type out the code for any examples in the Rep.it shell
+(introduced below!). Only reading code is not enough to become a great
+programmer. Typing the code will increase your comprehension, and mistakes will
+reveal weaknesses in your understanding and improve your debugging. Bugs are
+software's best teachers, so please don't copy and paste. There's no better way
+to learn to code than to code!
+
+When you take the quizzes, keep in mind that they're in no way attached to your
+application. They're not graded. Don't fear not knowing the answer to a question
+on a quiz, and if you don't know the answer to a quiz, click the explanation
+button.
+
+The most important part of this curriculum by far is the exercises. Do all the
+exercises and view our solutions after you finish. When you're done coding a
+solution, look at how we would solve it. By reading our solutions, you'll pick
+up a number of tricks and shortcuts as well as best Ruby practices.
+
+When you've finished our curriculum, you should take the practice assessment
+several times so you feel prepared and know what to expect for the real
+assessment. We've given you six, so take as many as you need.
+
+If you get stuck or need help, please visit our Slack channel, and reach out to
+your peers as well as App Academy TA's. We'd love to help you!
+
+Good luck, future devs. Looking forward to working with you at App Academy!
+
 
 <!-- JumpStart's curriculum is split into two tracks: *the beginner track* and *the intermediate track*. You **must complete both tracks** to be eligible for admission to App Academy. Each track will take about 24 hours of work to complete. You have 3 options for completing these tracks:
 
@@ -53,7 +76,6 @@ We highly recommend trying to complete the beginner track at home before choosin
 # How to Use Repl.it
 
 <iframe src="https://player.vimeo.com/video/188359119?rel=0" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
-
 
 
 Navigate to [https://repl.it/languages/ruby](https://repl.it/languages/ruby) in

@@ -18,12 +18,9 @@ end
 
 
 def array_times_two!(arr)
-  return arr if arr.empty?
   arr.each_index do |index|
     arr[index] = arr[index] * 2
   end
-
-  arr
 end
 
 def redact_five_letter_words(str)

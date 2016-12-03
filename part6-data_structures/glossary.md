@@ -5,11 +5,10 @@
 * Data Structure - A format for organizing and storing data.
 * Nested Array - An array that includes another array; synonymous with two-dimensional array.
 * String Interpolation - The insertion of a placeholder expression to be evaluated and string-converted when the interpreter creates the string.
-* Two-Dimensional Array - An array that includes another array; synonymous with nested array. 
+* Two-Dimensional Array - An array that includes another array; synonymous with nested array.
 
 ## Array-Exclusive Methods
 * `compact` - Removes `nil` elements from the array; does not modify the original array.
-* `count` - `count` returns the number of elements equal to its argument; if no argument is given, it's synonymous with `length`.
 * `delete_at(idx)` - Deletes the element at the index specified by the method's argument and returns that element; modifies the original array.
 * `drop(int)` - Returns the remainder of the array after n elements have been taken, where n is the method's argument; does not modify the original array.
 * `first` - Returns the first element of the array.
@@ -20,7 +19,6 @@
 * `min` - Returns the smallest element of an array.
 * `pop` - Removes an element from the end of the array and returns the removed element; modifies the original array.
 * `push(arg)` - Adds an element to the end of the array and returns the array; modifies the original array.
-* `reverse` - Reverses the order of the array and returns the result; does not modify the original array.
 * `rotate(offset)` - Rotates the array such that the element at the index its argument specifies becomes the first element of the array; a negative argument rotates in the opposite direction; the default argument is `1`; does not modify the original array.
 * `shift` - Removes an element from the front of the array and returns the removed element; modifies the original array.
 * `sort` - Sorts the array alphabetically or numerically and returns the result; does not modify the original array.
@@ -41,11 +39,13 @@
 
 ## Array and String Methods
 * `concat(arg)` - Concatenates two arrays or two strings and returns the resulting concatenation; modifies the receiver.
+* `count(arg)` - `count` returns the number of elements equal to its argument; it's also synonymous with `length` when the receiver is an array.
 * `delete(arg)` - Deletes the argument from the array or string and returns the deleted value; returns `nil` if the argument is not in the array or string; modifies array but not string receivers.
 * `empty?` - Returns a boolean value indicating whether the array or string is of length zero.
 * `include?(arg)` - Returns a boolean value indicating whether the argument is included in the array or string.
 * `index(arg)` - Returns the first index of the array at which the method's argument occurs; returns `nil` if the argument is not in the array.
 * `length` - Returns the length of an array or string.
+* `reverse` - Reverses the order of the arry or string and returns the result; does not modify its receiver.
 * `+` - Concatenates two strings or two arrays and returns the resulting concatenation; does not modify the left argument.
 * `<<` - The shovel operator; equivalent to `push` for arrays, equivalent to `concat` for strings; modifies the receiver.
 * `[](arg)` - Accesses and returns one or more elements in an array or string.

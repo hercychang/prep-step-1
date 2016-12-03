@@ -5,11 +5,10 @@
 
 ## How to Attack a Problem
 
-<iframe src="https://player.vimeo.com/video/178269358rel=0" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
+<iframe src="https://player.vimeo.com/video/178269358?rel=0" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
 
 
 ## Solutions
-
 ```ruby
 
 # EASY

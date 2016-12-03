@@ -21,14 +21,14 @@
         "buttons": {
             "showCorrect"       : false,
             "showExplanation"   : true
-        },
-        "ga": {
-           "token": "UA-XXXX-Y"
-       }
+        }
       },
 
     "hide-element": {
           "elements": [".gitbook-link", "a:contains(setup)", ".custom-link"]
-      }
+      },
+      "ga": {
+         "token": "UA-XXXX-Y"
+     }
     }
 }

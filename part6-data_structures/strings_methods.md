@@ -18,9 +18,11 @@ Strings share several other methods with arrays, including `length`, `reverse`
 "full".index("ll") #=> 2
 ```
 
-The `delete` method behaves slightly differently for strings: it does not modify
-the original. Hence `delete` has a dangerous version just for strings:
-`delete!`. `delete` deletes any characters that appear in its argument.
+The `delete` and `count` methods behave slightly differently for strings.
+`delete` does not modify its receiver, and `count` must receive an argument (it
+only counts occurrences of the substring and is *not* synonymous with `length`).
+`delete` has a dangerous version just for strings: `delete!`. `delete` deletes
+any characters that appear in its argument.
 
 ```ruby
 sad_string = "full of emptiness"
@@ -33,4 +35,7 @@ sad_string #=> "full of emptiness"
 sad_string.delete!("of emptiness") #=> "ull"
 sad_string #=> "ull"
 "f" + sad_string #=> "full" :)
+
+sad_string = "full of emptiness"
+sad_string.count("e") #=> 2
 ```
