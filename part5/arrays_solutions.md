@@ -5,7 +5,6 @@
   ```ruby
     def my_max(array)
       best = array[0]
-      idx = 1
 
       array[1..-1].each do |el|
         best = el if el > best
@@ -29,7 +28,7 @@
       numbers.each do |number|
         return true if number % 3 == 0
       end
-      
+
       false
     end
   ```
