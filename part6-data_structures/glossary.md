@@ -39,7 +39,7 @@
 
 ## Array and String Methods
 * `concat(arg)` - Concatenates two arrays or two strings and returns the resulting concatenation; modifies the receiver.
-* `count(arg)` - `count` returns the number of elements equal to its argument; it's also synonymous with `length` when the receiver is an array.
+* `count(arg)` - `count` returns the number of elements equal to its argument; it's also synonymous with `length` and does not take an argument when the receiver is an array.
 * `delete(arg)` - Deletes the argument from the array or string and returns the deleted value; returns `nil` if the argument is not in the array or string; modifies array but not string receivers.
 * `empty?` - Returns a boolean value indicating whether the array or string is of length zero.
 * `include?(arg)` - Returns a boolean value indicating whether the argument is included in the array or string.

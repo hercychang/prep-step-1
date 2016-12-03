@@ -34,3 +34,10 @@ Start pry with the `pry` command. Exit pry with the `exit`.
 Oh, the colors! :)
 
 ![Pry Colors](./assets/repl/pry3.png)
+
+
+## More Practice
+
+Try these [exercises][repl_exercises] for more practice.
+
+[repl_exercises]: ./repl_exercises.md

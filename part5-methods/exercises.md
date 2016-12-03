@@ -11,10 +11,14 @@ You'll be prompted to log in or sign up to enroll in the App Academy Admission
 Prep Classroom. Upon logging in or signing up, click App Academy Admission Prep
 in your Classrooms.
 
-Click the appropriate assignment ("Methods" in this case). Instructions for the
+Click the appropriate assignment (**Methods** in this case). Instructions for the
 problem set are on the right side of the pane.
 
 Keep in mind that some of the problems are as difficult as real App Academy
 admission problems, so don't be discouraged! You'll get a lot of practice!
 
+When you're done, check out the [solutions and video walkthrough][walkthrough].
+
 Happy solving!
+
+[walkthrough]: walkthrough.md

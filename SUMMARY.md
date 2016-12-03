@@ -1,17 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
+  * [How to Use Repl.it](how_to_repl.md)
 
 * [Logistics (setup)](logistics.md)
 * [Cloud 9 (setup)](configuration/c9_setup.md)
 * [Rbenv (setup)](configuration/rbenv_setup.md)
 * [Debugger (setup)](configuration/debugger_setup.md)
-* Terminal
-  * [Terminal Readings](part1-data_types/terminal_readings.md)
-  * [Terminal Exercises](part1-data_types/terminal_exercises.md)
-* REPL
-  * [REPL Readings](part1-data_types/repl_readings.md)
-  * [REPL Exercises](part1-data_types/repl_exercises.md)
 
 ### Curriculum
 
@@ -49,7 +44,7 @@
   * [Scope Quiz](part5-methods/scope_quiz.md)
   * [Glossary](part5-methods/glossary.md)
   * [Exercises](part5-methods/exercises.md)
-  * [Exercises Walkthrough](part5-method/walkthrough.md)
+  * [Walkthrough](part5-methods/walkthrough.md)
 
 * Data Structures
   * Arrays
@@ -69,8 +64,8 @@
     * [Other Useful Methods](part6-data_structures/strings_methods.md)
     * [String Quiz](part6-data_structures/string_quiz.md)
   * [Glossary](part6-data_structures/glossary.md)
-  * [Exercises](part6-data-structures/exercises.md)
-  * [Walkthrough](part6-data-structures/walkthrough.md)
+  * [Exercises](part6-data_structures/exercises.md)
+  * [Walkthrough](part6-data_structures/walkthrough.md)
 
 * Logic and Control Flow
   * Logic
@@ -89,7 +84,7 @@
   * [Walkthrough](part7-control_flow/walkthrough.md)
 
 * What's Next?
-  * [Time for the Coding Challenge](part8-whats_next/the_time_has_come.md)
+  * [Time for the Assessment](part8-whats_next/the_time_has_come.md)
   * [Practice Assessments](part8-whats_next/assessments.md)
     * [Assessment 1 Walkthrough](part8-whats_next/walkthrough_one.md)
     * [Assessment 2 Walkthrough](part8-whats_next/walkthrough_two.md)

@@ -132,7 +132,11 @@ all possible matches.
 The terminal's command history feature also improves efficiency. While in the
 terminal, press the 'up' and 'down' keys to cycle through prior commands.
 
+### More Practice
 
-Looks like you've graduated to the [IRB readings](irb). Time to start writing and executing Ruby directly in the terminal!
+Try these [exercises][terminal_exercises] for more practice! Then move onto the [IRB readings][irb]. Time to start writing and executing Ruby directly in the terminal!
+
+
 
 [irb]: ./irb.md
+[terminal_exercises]: ./terminal_exercises.md
