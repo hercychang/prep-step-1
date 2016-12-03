@@ -90,13 +90,13 @@
 
 * What's Next?
   * [Time for the Coding Challenge](part8-whats_next/the_time_has_come.md)
-  * [Practice Challenges](part8-whats_next/challenges.md)
-    * [Challenge 1 Walkthrough](part8-whats_next/walkthrough_one.md)
-    * [Challenge 2 Walkthrough](part8-whats_next/walkthrough_two.md)
-    * [Challenge 3 Walkthrough](part8-whats_next/walkthrough_three.md)
-    * [Challenge 4 Walkthrough](part8-whats_next/walkthrough_four.md)
-    * [Challenge 5 Walkthrough](part8-whats_next/walkthrough_five.md)
-    * [Challenge 6 Walkthrough](part8-whats_next/walkthrough_six.md)
+  * [Practice Assessments](part8-whats_next/assessments.md)
+    * [Assessment 1 Walkthrough](part8-whats_next/walkthrough_one.md)
+    * [Assessment 2 Walkthrough](part8-whats_next/walkthrough_two.md)
+    * [Assessment 3 Walkthrough](part8-whats_next/walkthrough_three.md)
+    * [Assessment 4 Walkthrough](part8-whats_next/walkthrough_four.md)
+    * [Assessment 5 Walkthrough](part8-whats_next/walkthrough_five.md)
+    * [Assessment 6 Walkthrough](part8-whats_next/walkthrough_six.md)
 
 
 
