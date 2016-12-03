@@ -4,9 +4,6 @@
   * [How to Use Repl.it](how_to_repl.md)
 
 * [Logistics (setup)](logistics.md)
-* [Cloud 9 (setup)](configuration/c9_setup.md)
-* [Rbenv (setup)](configuration/rbenv_setup.md)
-* [Debugger (setup)](configuration/debugger_setup.md)
 
 ### Curriculum
 
