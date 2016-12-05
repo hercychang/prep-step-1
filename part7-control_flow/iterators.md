@@ -56,8 +56,8 @@ traverse_me_again_please.each {|el| puts el} #=> [1, 2, 3]
 
 One of the principal differences between methods and blocks is that blocks are
 **closures**, structures that capture variables in the context in which those
-structures are defined. Closures are like one-way scope gates: they have access
-to or "close over" variables in their enclosing scope, but their enclosing scope
+structures are defined. Closures are like one-way scope gates: a closure has access
+to or "closes over" variables in its enclosing scope, but its enclosing scope
 does not have access to variables defined within the closure. This block can
 reference and manipulate the `str` variable because it's defined in the same
 scope where the block itself is defined (that of `devowel!`):
