@@ -1,6 +1,7 @@
 # Glossary
 
 * Block - A way of grouping instructions that's denoted by enclosing curly braces or `do` and `end` keywords; an anonymous method.
+* Closure - Structures that capture variables in the context in which those structures are defined; like one-way scope gates.
 * Conditional Statement - A control structure that instructs the interpreter to execute different branches of code depending on whether a condition is truthy or falsey.
 * Control Flow - The order in which instructions are executed within a program.
 * Control Structure - A block of code that alters the control flow based on analysis of given parameters.

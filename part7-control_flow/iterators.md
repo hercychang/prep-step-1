@@ -21,6 +21,9 @@ end
 traverse_me.each {|el| puts el}
 ```
 
+
+## Blocks
+
 That's a lot of new syntax! Let's deconstruct. `{|el| put el}` is a **block**, a
 way of grouping instructions that's denoted by enclosing curly braces (`{}`) or
 `do` and `end` keywords. Blocks are like anonymous methods. They receive
@@ -48,19 +51,52 @@ traverse_me_again_please.each {|el| puts el} #=> [1, 2, 3]
 
 <iframe src="https://player.vimeo.com/video/182464455" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
 
-Here's how one might more elegantly define the previous chapter's `devowel` method
-using `each`:
+
+## Closures
+
+One of the principal differences between methods and blocks is that blocks are
+**closures**, structures that capture variables in the context in which those
+structures are defined. Closures are like one-way scope gates: they have access
+to or "close over" variables in their enclosing scope, but their enclosing scope
+does not have access to variables defined within the closure. This block can
+reference and manipulate the `str` variable because it's defined in the same
+scope where the block itself is defined (that of `devowel!`):
 
 ```ruby
-def devowel(str)
+def devowel!(str)
   ["a", "e", "i", "o", "u"].each do |vowel|
     str.delete!(vowel)
     str.delete!(vowel.upcase)
   end
   str
 end
+
+the_funkiest = "funky monkey"
+devowel!(the_funkiest) #=> "fnky mnky"
+the_funkiest #=> "fnky mnky" (this method modifies its argument)
 ```
 
+Conversely, attempting to access a variable defined within the block from
+outside of it results in an error, namely `undefined local variable or method
+'last_vowel'`:
+
+```ruby
+def erroneous_devowel!(str)
+  ["a", "e", "i", "o", "u"].each do |vowel|
+    last_vowel = vowel # This variable will be reassigned in each iteration. It's final value will be "u".
+    str.delete!(vowel)
+    str.delete!(vowel.upcase)
+  end
+  puts "The last vowel I tried to devowel was #{last_vowel}!"
+  str
+end
+
+the_flunkiest = "flunky monkey"
+erroneous_devowel!(the_flunkiest) # Invoking the method causes the error.
+```
+
+
+## `next` and `break`
 The `next` and `break` keywords have the same effect in iterators as in loops.
 Here's a non-dangerous (i.e., non-mutating) version of the previous method that
 uses the `next` keyword.
@@ -70,14 +106,20 @@ def devowel(str)
   vowels = ["a", "e", "i", "o", "u"]
   new_str = ""
 
-  str.each do |ch|
-    next unless vowels.include?(ch.downcase)
+  # We turn the string into an array of characters using chars.
+  # Strings have their own version of each: each_char (covered below!).
+  str.chars.each do |ch|
+    next if vowels.include?(ch.downcase)
     # the code below is only reachable when ch is a consonant
     new_str += ch
   end
 
   new_str
 end
+
+forever_the_funkiest = "funky monkey"
+devowel(forever_the_funkiest) #=> "fnky mnky"
+forever_the_funkiest #=> "funky monkey" (this method does not modify its argument)
 ```
 
 
