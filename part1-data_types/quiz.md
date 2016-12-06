@@ -124,10 +124,10 @@
 <quiz>
   <question>
     <p><code>:true</code> and <code>:false</code> are ____.</p>
-    <answer correct>Strings</answer>
+    <answer>Strings</answer>
     <answer>Nils</answer>
     <answer>Booleans</answer>
-    <answer>Symbols</answer>
+    <answer correct>Symbols</answer>
     <explanation><code>true</code> and <code>false</code> are booleans, but <code>:true</code> and <code>:false</code> are symbols due to the prepended colons.</explanation>
   </question>
 </quiz>
