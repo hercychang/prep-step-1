@@ -13,7 +13,7 @@
 
 <quiz>
   <question>
-      <p>What is the result of <code>(2 + * 5 ** 2</code>?</p>
+      <p>What is the result of <code>(2 + 2) * 5 ** 2</code>?</p>
       <answer><code>102</code></answer>
       <answer><code>52</code></answer>
       <answer><code>400</code></answer>
@@ -24,7 +24,7 @@
 
 <quiz>
   <question>
-      <p>What is the result of <code>/ 10</code>?</p>
+      <p>What is the result of <code>102 / 10</code>?</p>
       <answer correct><code>10</code></answer>
       <answer><code>2</code></answer>
       <answer><code>10.2</code></answer>
@@ -35,7 +35,7 @@
 
 <quiz>
   <question>
-      <p>What is the result of <code>/ 10.0</code>?</p>
+      <p>What is the result of <code>102 / 10.0</code>?</p>
       <answer><code>10</code></answer>
       <answer><code>2</code></answer>
       <answer correct><code>10.2</code></answer>
@@ -46,7 +46,7 @@
 
 <quiz>
   <question>
-      <p>What is the result of <code>% 10</code>?</p>
+      <p>What is the result of <code>102 % 10</code>?</p>
       <answer><code>10</code></answer>
       <answer correct><code>2</code></answer>
       <answer><code>10.2</code></answer>
