@@ -292,9 +292,9 @@
 <quiz>
   <question>
       <p>What does the above code snippet return?</p>
-      <answer><code>[1, 2, nil, 3]</code></answer>
+      <answer correct><code>[1, 2, nil, 3]</code></answer>
       <answer><code>[1, 2, 3]</code></answer>
-      <answer correct><code>[nil, [3]]</code></answer>
+      <answer><code>[nil, [3]]</code></answer>
       <answer><code>[2, nil, [3], 1]</code></answer>
       <explanation><code>flatten</code> by definition returns a one-dimensional array. It therefore replaces
       <code>[3]</code> with <code>3</code>.</explanation>
@@ -310,7 +310,7 @@
   <question>
       <p>What does the above code snippet return?</p>
       <answer><code>[1, 2, nil, 3]</code></answer>
-      <answer correct><code>[1, 2, 3]</code></answer>
+      <answer correct><code>[1, 2, [3]]</code></answer>
       <answer><code>[nil, [3]]</code></answer>
       <answer><code>[2, nil, [3], 1]</code></answer>
       <explanation><code>compact</code> by definition removes <code>nil</code> elements from an array.</explanation>
@@ -326,7 +326,7 @@
   <question>
       <p>What does the above code snippet return?</p>
       <answer><code>[1, 2, nil, 3]</code></answer>
-      <answer><code>[1, 2, 3]</code></answer>
+      <answer><code>[1, 2, [3]]</code></answer>
       <answer correct><code>[[3]]</code></answer>
       <answer><code>[2, nil, [3], 1]</code></answer>
       <explanation>Here <code>drop</code> removes the first three elements of the array and returns the result.</explanation>
@@ -342,7 +342,7 @@
   <question>
       <p>What does the above code snippet return?</p>
       <answer><code>[1, 2, nil, 3]</code></answer>
-      <answer><code>[1, 2, 3]</code></answer>
+      <answer><code>[1, 2, [3]]</code></answer>
       <answer><code>[[3]]</code></answer>
       <answer correct><code>[2, nil, [3], 1]</code></answer>
       <explanation><code>[1, 2, nil, [3]]</code> is rotated one position because no argument is provided.</explanation>
