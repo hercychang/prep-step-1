@@ -33,6 +33,7 @@
   * [Glossary](part4-numbers/glossary.md)
 
 * Methods
+  * [Method Introduction](part5-methods/method_introduction.md)
   * [Method Deconstruction](part5-methods/method_deconstruction.md)
   * [Method Definition](part5-methods/method_definition.md)
   * [Returning from a Method](part5-methods/method_returns.md)
