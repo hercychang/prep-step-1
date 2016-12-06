@@ -28,7 +28,7 @@
           "elements": [".gitbook-link", "a:contains(setup)", ".custom-link"]
       },
       "ga": {
-         "token": "UA-XXXX-Y"
+         "token": "UA-34702721-1"
      }
     }
 }
