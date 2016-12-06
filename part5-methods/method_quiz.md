@@ -67,17 +67,17 @@ end
 def pick_me #A
   "pretty please"
 
-  def the_perfect_definition(arg_one, arg_two) #B
-    "look no further than my name"
-  end
+def the_perfect_definition(arg_one, arg_two) #B
+  "look no further than my name"
+end
 
-  def seriously_valid(arg_one arg_two) #C
-    "I'm seriously"
-  end
+def seriously_valid(arg_one arg_two) #C
+  "I'm seriously"
+end
 
-  def def(arg_one, arg_two) #D
-    "I'm DEFinitely valid"
-  end
+def def(arg_one, arg_two) #D
+  "I'm DEFinitely valid"
+end
 ```
 
 

@@ -85,7 +85,7 @@ a_plus_10
       <p>Does the above code snippet throw an error?</p>
       <answer>Yes</answer>
       <answer correct>No</answer>
-      <explanation>Although <code>a</code> is initially defined in the top-level scope, it's also defined in the scope of <code>a_plus_10</code>. <code>a</code> is therefore defined when referenced in <code>a + 10</code>.</explanation>
+      <explanation>Although <code>a</code> is initially defined in the top-level scope, a new, unrelated variable `a` also defined in the scope of <code>a_plus_10</code>. <code>a</code> is therefore defined when referenced in <code>a + 10</code>.</explanation>
   </question>
 </quiz>
 
@@ -124,7 +124,7 @@ end
 ```
 
 <quiz>
-  <question>
+  <question multiple>
       <p>Which of the following strategies would debug <code>a_plus_10</code>? You may select more than one.</p>
       <answer correct>Defining a new method, <code>a</code>, which returns <code>10</code>, before invoking <code>a_plus_10</code>.</answer>
       <answer correct>In <code>a_plus_10</code>, using <code>10</code> instead of <code>a</code>.</answer>
