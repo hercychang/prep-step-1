@@ -1,7 +1,7 @@
 # Glossary
 
 * Block - A way of grouping instructions that's denoted by enclosing curly braces or `do` and `end` keywords; an anonymous method.
-* Closure - Structures that capture variables in the context in which those structures are defined; like one-way scope gates.
+* Closure - Structures that capture or "close over" variables in the context in which those structures are defined; like one-way scope gates.
 * Conditional Statement - A control structure that instructs the interpreter to execute different branches of code depending on whether a condition is truthy or falsey.
 * Control Flow - The order in which instructions are executed within a program.
 * Control Structure - A block of code that alters the control flow based on analysis of given parameters.
@@ -9,7 +9,7 @@
 * Infinite Loop - A sequence of instructions that loops endlessly.
 * Iteration - The act of repeating a procedure and each repetition itself.
 * Iterator - A method that repeats a set of instructions once for each element in its receiver.
-* Loop - A control structure that instructs the Ruby interpreter to execute a section of code while a condition holds.
+* Loop - A control structure that instructs the Ruby interpreter to repeatedly execute a section of code while a condition holds.
 * Short-Circuit Evaluation - When the second operand of a logical operator is evaluated only if the first operand does not suffice to determine the value of the expression.
 * Truthiness - An object's quality of being true, even if the object is not `true`; all objects except for `false` and `nil` are truthy.
 

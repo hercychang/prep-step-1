@@ -1,9 +1,9 @@
 # Loops
 
 Loops are the second fundamental control structure in Ruby. **Loops** instruct
-the interpreter to execute a section of code while a condition holds. Loops are
-tremendously powerful: they allow one to execute a potentially infinite number
-of operations with a few lines of code.
+the interpreter to repeatedly execute a section of code while a condition holds.
+Loops are tremendously powerful: they allow one to execute a potentially
+infinite number of operations with a few lines of code.
 
 
 ## While Loops
@@ -18,12 +18,11 @@ end
 ```
 
 Like if statements, while loops begin with a keyword (`while`) followed by a
-conditional expression. Also like if statements, while loops end with `end`. If
-the conditional expression evaluates to a truthy value, then the interpreter
-executes the subordinate block. The interpreter then rechecks the condition and
-executes the block again if it's still truthy. A while loop instructs the Ruby
-interpreter to execute its subordinate block as long as its conditional
-expression is truthy.
+conditional expression. They also end end with `end`. If the conditional
+expression evaluates to a truthy value, then the interpreter executes the
+subordinate block. The interpreter then rechecks the condition and executes the
+block again if it's still truthy. A while loop instructs the Ruby interpreter to
+execute its subordinate block as long as its conditional expression is truthy.
 
 The above code is an example of an **infinite loop**, a sequence of instructions
 that loops endlessly. An infinite loop is almost always a mistake.
@@ -57,12 +56,13 @@ j = 1
 while i < 6
   count = 0
   while j < 101
+    # increment count of evenly divisible numbers from 1-100 for value of i
     count += 1 if j % i == 0
-    j += 1
+    j += 1 # increment j to check next number up to 100
   end
   j = 1 # reset j so j < 101 is truthy for the next iteration
-  puts "There are #{count.to_s} numbers divisible by #{i.to_s} from 1 to 100."
-  i += 1
+  puts "There are #{count.to_s} numbers evenly divisible by #{i.to_s} from 1 to 100."
+  i += 1 # increment i to check next number up to 5
 end
 ```
 
@@ -88,20 +88,20 @@ method) using the `return` keyword:
 def first_num_greater_than_ten(arr)
   index = 0
   while index < arr.length #thereby iterating through the array
-    # is_a? checks whether an object belongs to a data type. String, Symbol,
-    # Array, NilClass, TrueClass, and FalseClass are valid arguments of is_a?
+    # is_a? checks whether an object belongs to a data type. String, Symbol, Array,
+    # NilClass, TrueClass, and FalseClass are among the valid arguments of is_a?
     if arr[index].is_a?(Numeric) && arr[index] > 10
       return arr[index]
     end
-    index += 1
+    index += 1 # check next index in array
   end
   # if no number meeting the criteria is found, the method implicitly returns nil
 end
 ```
 
 One can terminate the loop without returning from a method using the `break`
-keyword. `break` occasionally takes an optional argument that assigns the loop's
-value upon its termination.
+keyword. `break` occasionally takes an optional argument that designates the
+loop's value upon termination.
 
 ```ruby
 def to_uninfinity_and_beyond

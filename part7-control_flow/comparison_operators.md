@@ -12,10 +12,10 @@ Ruby provides several operators that compare one object to another. Some are
 familiar from elementary mathematics. `>`, `<`, `>=`, `<=`, `==`, and `!=` mean
 what you'd expect: "greater than," "less than," "greater than or equal to,"
 "less than or equal to", "equal to", and "not equal to." Note that `==`, not `=`
-checks for equality. `=` is the assignment operator. Comparison operators allow
-one to build expressions that the Ruby interpreter can evaluate as logical
-propositions. The expression generally evaluates to `true` if the proposition is
-valid and to `false` if it is invalid.
+checks for equality. Recall that `=` is the assignment operator. Comparison
+operators allow one to build expressions that the Ruby interpreter can evaluate
+as logical propositions. The expression generally evaluates to `true` if the
+proposition is valid and to `false` if it is invalid.
 
 ```ruby
 3 > 2 #=> true
@@ -26,7 +26,7 @@ valid and to `false` if it is invalid.
 3 !=2 #=> true
 ```
 
-Ruby permits string and symbol comparison. `"cat" < "dog"` returns `true`
+Ruby also permits string and symbol comparison. `"cat" < "dog"` returns `true`
 because "cat" precedes "dog" alphabetically (`:cat < :dog` is equivalent). One
 can compare different data types only when checking for equality. `"cat" < 4`
 throws an error. `"cat" != false` returns `true`. One can compare arrays only
@@ -43,4 +43,10 @@ Every comparison operator returns a boolean value except for `<=>`, the
 **spaceship operator**. The spaceship operator functions somewhat how it looks.
 No, it won't take you to Mars, but it does do something almost as cool. The
 spaceship operator is a hybrid between "less than," "equal to," and "greater
-than." `a <=> b` returns `-1` if `a < b`, `0` if `a == b`, and `1` if `a > b`.
+than." `a <=> b` returns `-1` if `a < b`, `0` if `a == b`, and `1` if `a > b`:
+
+```ruby
+2 <=> 3 #=> -1
+2 <=> 2 #=> 0
+3 <=> 2 #=> 1
+```

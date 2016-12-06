@@ -29,8 +29,8 @@ way of grouping instructions that's denoted by enclosing curly braces (`{}`) or
 `do` and `end` keywords. Blocks are like anonymous methods. They receive
 arguments at the start of the block and execute a series of statements using
 those arguments. The arguments are comma-separated and enclosed in pipes (`||`).
-Convention recommends using curly braces to denote single-line blocks and `do`
-and `end` to denote multiline ones:
+Convention is to use curly braces to denote single-line blocks and `do` and
+`end` to denote multiline ones:
 
 ```ruby
 ["a", "b", "c"].each do |char|
@@ -41,8 +41,9 @@ end
 
 So what's this block doing next to `each`? The block acts as a pseudo argument.
 `each` accepts a block that it invokes once for each element in the receiver
-collection, passing that element as an argument. When `each` finishes iterating
-(when it reaches the end of the collection), _it returns its receiver_:
+collection, passing that element to the block as an argument. When `each`
+finishes iterating (when it reaches the end of the collection), _it returns its
+receiver_:
 
 ```ruby
 traverse_me_again_please = [1, 2, 3]
@@ -55,9 +56,9 @@ traverse_me_again_please.each {|el| puts el} #=> [1, 2, 3]
 ## Closures
 
 One of the principal differences between methods and blocks is that blocks are
-**closures**, structures that capture variables in the context in which those
-structures are defined. Closures are like one-way scope gates: a closure has access
-to or "closes over" variables in its enclosing scope, but its enclosing scope
+**closures**, structures that capture or "close over" variables in the context
+in which those structures are defined. Closures are like one-way scope gates:
+a closure can access variables from its enclosing scope, but its enclosing scope
 does not have access to variables defined within the closure. This block can
 reference and manipulate the `str` variable because it's defined in the same
 scope where the block itself is defined (that of `devowel!`):
@@ -83,7 +84,9 @@ outside of it results in an error, namely `undefined local variable or method
 ```ruby
 def erroneous_devowel!(str)
   ["a", "e", "i", "o", "u"].each do |vowel|
-    last_vowel = vowel # This variable will be reassigned in each iteration. It's final value will be "u".
+    # The last_vowel variable will be reassigned in each iteration.
+    # It's final value will be "u".
+    last_vowel = vowel
     str.delete!(vowel)
     str.delete!(vowel.upcase)
   end
@@ -127,7 +130,8 @@ forever_the_funkiest #=> "funky monkey" (this method does not modify its argumen
 ## Other Essential Iterators
 
 The `each_index` method uses the same syntax as `each`, but it passes the block
-each index as an argument (rather than the element itself).
+each index as an argument (rather than the element itself). Like `each`, it
+returns its receiver.
 
 ```ruby
 traversed_thrice_is_all_right = [1, 2, 3]
@@ -137,9 +141,22 @@ traversed_thrice_is_all_right.each_index do |idx|
 end #=> [1, 2, 3]
 ```
 
+You'll need to use `each_index` rather than `each` in order to access and
+reassign elements in the receiver array:
+
+```ruby
+double_me_darling = [1, 2, 3]
+double_me_darling.each_index do |idx|
+  # this is syntactic sugar for double_me_darling[idx] = double_me_darling[idx] * 2
+  double_me_darling[idx] *= 2
+end
+
+double_me_darling #=> [2, 4, 6]
+```
+
 The `each_char` method is essentially the `each` of strings. As its name
 suggests, it invokes its given block once for each character in the receiver
-string, passing that character as an argument.
+string, passing that character as an argument. It returns its receiver.
 
 ```ruby
 # like puts, print prints its argument, but it doesn't insert a newline after printing

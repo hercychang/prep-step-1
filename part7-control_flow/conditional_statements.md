@@ -27,7 +27,7 @@ The Ruby interpreter executes the block subordinate to `else` (`puts "Two is
 even. All is well!"`) if `2.odd?` is falsey. If the test expression following
 `if` were truthy, then the block subordinate to `else` would not be executed.
 
-Unlike English, Ruby has an if-elsif-else construction. Like `if`, `elsif`
+Unlike English, Ruby also has an if-elsif-else construction. Like `if`, `elsif`
 precedes a test expression. One can stack an arbitrary number of `elsif`
 statements, but there can be only one `if` and one `else`, though `else` is
 optional. `if` introduces the control structure, and `else` acts as a kind of
@@ -63,7 +63,7 @@ in poor style.
 # Variable assignment within each subordinate statement is clearer.
 conditional_value =
 if 2 == "dog"
-  1 # conditional_value = 1 is superior style.
+  1 # conditional_value = 1, = 2, etc. is superior style.
 elsif 2 == "cat"
   2
 elsif "cat" == "dog"
@@ -90,7 +90,8 @@ elsif 2.even?
     "2 is a medium even number"
   else
     puts "2 is a small even number"
-    puts "Then 2 + 30 is less than 60 and is even must be true! I'll prove it!"
+    puts "Then it must be true that the result of 2 + 30 is less than 60 and is even!"
+    puts "I'll prove it!"
     "2 + 30 < 60 && (2 + 30).even? is #{(2 + 30 < 60 && (2 + 30).even?)}"
     # The conditional statement evaluates to "2 + 30 < 60 && (2 + 30).even? is true"
   end
@@ -99,13 +100,13 @@ else
 end
 ```
 
-For simple if statements, one can invert the condition and the subordinate block
-with the following syntax:
+For simple if statements, one can invert the conditional expression and the
+subordinate block with the following syntax:
 
 ```ruby
 puts "You may find this syntax more idiomatic" if true
 
-# the following is equivalent:
+# this is equivalent:
 if true
   puts "You may find this syntax more idiomatic"
 end
