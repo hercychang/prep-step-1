@@ -87,7 +87,7 @@
       <answer correct><code>true</code></answer>
       <answer><code>false</code></answer>
       <explanation>This operation is an inversion of the previous. It also does not short-circuit,
-      and the <code>2 < 3</code> (which evaluates to <code>true</code>) is the last operand evaluated.</explanation>
+      and the expression <code>2 < 3</code> (which evaluates to <code>true</code>) is the last operand evaluated.</explanation>
   </question>
 </quiz>
 
