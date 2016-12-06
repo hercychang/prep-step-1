@@ -39,11 +39,11 @@ an operation highest precedence, wrap it in parentheses.
 ## Division and Modulo Operators
 
 The division operator probably behaves differently than you expect. The result
-of `5 / 2` is `2` rather than `2.5`. By convention, the output of dividing two
-integer operands must also be an integer. The Ruby interpreter simply rounds
-down. What do you think is the result of dividing two floats? How about the
-result of dividing a float by an integer or vice versa? Test the following in
-the shell. (The comments indicate the return value.)
+of `5 / 2` is `2` rather than `2.5`. The output of dividing two integer operands
+must also be an integer. The Ruby interpreter simply rounds down the quotient.
+What do you think is the result of dividing two floats? How about the result of
+dividing a float by an integer or vice versa? Test the following in the shell.
+(The comments indicate the return value.)
 
 ```ruby
 5.0 / 2.0 #=> 2.5

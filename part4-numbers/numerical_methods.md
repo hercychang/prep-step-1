@@ -4,8 +4,8 @@ Ruby provides many numerical methods besides the arithmetic operators. Let's
 examine the most common. Although methods are the subject of the next chapter,
 you'll learn how to ride a bike before you study its chain.
 
-One typically calls a built-in Ruby method by appending a period and the method
-name to the object. The `puts` method and the arithmetic operators have a
+One typically calls a built-in Ruby method by appending to the object a period
+and the method name. The `puts` method and the arithmetic operators have a
 special, more intuitive syntax. The `abs` method returns a number's absolute
 value:
 
@@ -17,7 +17,7 @@ value:
 ```
 
 The `even?` and `odd?` methods check whether an integer is even or odd. Methods
-that return booleans commonly end in a `?`.
+that return booleans conventionally end in a `?`.
 
 ```ruby
 2.even? #=> true

@@ -1,6 +1,6 @@
 # Interpolation
 
-Unlike arrays, strings support **string interpolation**, the insertion of an placeholder
+Ruby supports **string interpolation**, the insertion of an placeholder
 expression to be evaluated and string-converted when the interpreter creates the
 string. Within a double-quoted string, precede the expression with `#` and wrap
 it in curly braces. Only double-quoted (not single-quoted) strings support

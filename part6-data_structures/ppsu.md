@@ -11,8 +11,9 @@ returns the element removed. Both methods modify the original array.
 ```ruby
 potpourri = [false, "Snuffles", nil, :rick, 3]
 potpourri.push([]) #=> [false, "Snuffles", nil, :rick, 3, []]
+potpourri #=> [false, "Snuffles", nil, :rick, 3, []] (push modified potpourri)
 tail = potpourri.pop #=> []
-potpourri #=> [false, "Snuffles", nil, :rick, 3]
+potpourri #=> [false, "Snuffles", nil, :rick, 3] (pop modified potpourri)
 tail #=> []
 ```
 
@@ -30,6 +31,7 @@ are `unshift` and `shift`. Both modify the original array.
 ```ruby
 potpourri = [false, "Snuffles", nil, :rick, 3]
 potpourri.unshift([]) #=> [[], false, "Snuffles", nil, :rick, 3]
+potpourri #=> [[], false, "Snuffles", nil, :rick, 3] (unshift modifies potpourri)
 potpourri.shift #=> []
-potpourri #=> [false, "Snuffles", nil, :rick, 3]
+potpourri #=> [false, "Snuffles", nil, :rick, 3] (shift modified potpourri)
 ```

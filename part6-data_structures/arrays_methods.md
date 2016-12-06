@@ -26,7 +26,7 @@ in_the_danger_zone #=> [1, 2, 3]
 ```
 
 `reverse` reverses the order of an array. `reverse` has a dangerous version:
-`reverse!`:
+`reverse!`.
 
 ```ruby
 [nil, false, "ranger danger"].reverse #=> ["ranger danger", false, nil]
@@ -39,7 +39,7 @@ the_dangerest_rangerest #=> ["ranger danger", false, nil]
 specifies becomes the first element of the array. If a negative argument is
 supplied, then the array rotates in the opposite direction. If no argument is
 supplied, the array rotates one position (i.e., the default argument is `1`).
-`rotate` has a dangerous version: `rotate!`
+`rotate` has a dangerous version: `rotate!`.
 
 ```ruby
 ["the", "rotation", "station"].rotate(2) #=> ["station", "the", "rotation"]
@@ -63,7 +63,7 @@ supplied, the array rotates one position (i.e., the default argument is `1`).
 ```
 
 `compact` removes `nil` elements from the array. `compact` has a dangerous
-version: `compact!`
+version: `compact!`.
 
 ```ruby
 ["deliver us from", nil, "pues", nil].compact #=> ["deliver us from", "pues"]

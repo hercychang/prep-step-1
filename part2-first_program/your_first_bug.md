@@ -11,7 +11,7 @@ Try running the following in the shell:
 puts hello
 ```
 
-The shell should have printed something like:
+The shell should print something like:
 
 ```ruby
 undefined local variable or method 'hello' for main:Object
@@ -31,10 +31,10 @@ Error messages supply clues for debugging. When confronting an error, always
 start with its message. The above error message has two parts. The first line is
 the message itself: `undefined local variable or method 'hello' for
 main:Object`. The second is the **stack trace**: `(repl):1:in '<main>'`. The
-stack trace essentially lists locations in our code from which the error
-originates. The stack trace is especially useful for debugging long, complicated
-code spread across multiple files. For now only note that the stack trace
-displays the line number (`1` in this case).
+stack trace essentially lists locations in from which the error originates. The
+stack trace is especially useful for debugging long, complicated code spread
+across multiple files. For now only note that the stack trace displays the line
+number (`1` in this case).
 
 Consider what the error message tells us about the source of the error. The Ruby
 interpreter had trouble parsing `hello`. We can imagine the interpreter as

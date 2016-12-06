@@ -9,5 +9,5 @@
 * Nil - A one-of-a-kind object that represents a lack of data: `nil`.
 * Object - Ruby's representation of data; objects are the "nouns" of the language.
 * Programming Language - A formal computer language designed to communicate instructions to a machine.
-* String - A sequence of characters; Ruby's representation of text.
+* String - A sequence of characters enclosed in quotation marks; Ruby's representation of text.
 * Symbol - An immutable data type unique in memory that's similar to a string.

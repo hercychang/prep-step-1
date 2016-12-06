@@ -2,7 +2,7 @@
 
 Rubyists follow a set of variable-naming conventions and rules:
 
-* Variable names should be written in **snake case**, i.e. with all lowercase
+* Variable names should be written in **snake case**, i.e., with all lowercase
 letters and with underscores replacing spaces (e.g., `my_snake_case_variable`).
 * Variable names cannot have special characters (e.g., `*`, `"`, `[`, `!`, `?`, `,`).
 * Variable names cannot be one of the following Ruby keywords, which are reserved
@@ -22,5 +22,5 @@ comprehensible as possible.
 
 **Note:** The variables discussed in this reading are all local variables. Ruby also
 features global variables, instance variables, class variables, and constants.
-You'll learn more about types of variables when studying Object-Oriented
-Programming.
+You'll learn more about the other types of variables when studying
+Object-Oriented Programming.

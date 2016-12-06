@@ -19,10 +19,10 @@ Strings share several other methods with arrays, including `length`, `reverse`
 ```
 
 The `delete` and `count` methods behave slightly differently for strings.
-`delete` does not modify its receiver, and `count` must receive an argument (it
-only counts occurrences of the substring and is *not* synonymous with `length`).
-`delete` has a dangerous version just for strings: `delete!`. `delete` deletes
-any characters that appear in its argument.
+`delete` does not modify string receivers, and `count` must receive an argument
+when used with strings (`count` only counts occurrences of the substring and is
+*not* synonymous with `length`). `delete` has a dangerous version just for
+strings: `delete!`. `delete` deletes any characters that appear in its argument.
 
 ```ruby
 sad_string = "full of emptiness"
