@@ -33,9 +33,9 @@
   * [Glossary](part4-numbers/glossary.md)
 
 * Methods
-  * [Method Introduction](part5-methods/method_introduction.md)
-  * [Method Deconstruction](part5-methods/method_deconstruction.md)
-  * [Method Definition](part5-methods/method_definition.md)
+  * [Introduction](part5-methods/method_introduction.md)
+  * [Deconstruction](part5-methods/method_deconstruction.md)
+  * [Definition](part5-methods/method_definition.md)
   * [Returning from a Method](part5-methods/method_returns.md)
   * [Method Quiz](part5-methods/method_quiz.md)
   * [Scope](part5-methods/scope.md)
