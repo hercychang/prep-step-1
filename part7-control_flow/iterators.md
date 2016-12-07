@@ -33,7 +33,7 @@ Convention is to use curly braces to denote single-line blocks and `do` and
 `end` to denote multiline ones:
 
 ```ruby
-["a", "b", "c"].each do |char|
+("a".."z").each do |char| # you can use iterators with arrays or ranges
   puts "I'm such a funny character!"
   puts "Look at me: #{char}!"
 end
