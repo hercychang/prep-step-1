@@ -23,5 +23,8 @@ string; it's equivalent to `split("")`. `chars` does not take an argument, nor
 does it modify the original string.
 
 ```ruby
-"The world divides into facts.".chars #=> ["T", "h", "e", " ", "w", "o", "r", "l", "d", " ", "d", "i", "v", "i", "d", "e", "s", " ", "i", "n", "t", "o", " ", "f", "a", "c", "t", "s", "."]
+"The world divides into facts.".chars #=> ["T", "h", "e", " ", "w", "o", "r", "l",
+                                      #    "d", " ", "d", "i", "v", "i", "d", "e",
+                                      #    "s", " ", "i", "n", "t", "o", " ", "f",
+                                      #    "a", "c", "t", "s", "."]
 ```

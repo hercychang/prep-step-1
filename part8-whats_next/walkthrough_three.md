@@ -7,7 +7,8 @@
 
 ```ruby
 def reverse_digits(int)
-  # Deconstruct this method chain. Think about each method's return value and test your understanding in the shell.
+  # Deconstruct this method chain. Think about each method's return value and
+  # test your understanding in the shell.
   int.to_s.chars.reverse.join.to_i
 end
 
