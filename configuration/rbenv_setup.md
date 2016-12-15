@@ -14,8 +14,8 @@ If you have previously installed rvm, you must [remove it!][remove-rvm]
   - `echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile`
 0. Close the terminal, and re-open
 0. Copy, paste, and run:
-  - `rbenv install 2.1.2`
-  - `rbenv global 2.1.2`
+  - `rbenv install 2.3.1`
+  - `rbenv global 2.3.1`
 
 Now that you have Ruby installed locally, familiarize yourself with the
 [terminal](terminal) and the [interactive Ruby shell](irb).
