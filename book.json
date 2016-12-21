@@ -1,30 +1,34 @@
 {
-    "plugins": [
-        "expandable-chapters",
-        "quiz",
-        "hide-element"
-    ],
-    "pluginsConfig": {
+  "plugins": [
+      "expandable-chapters",
+      "quiz",
+      "hide-element",
+      "ga"
+  ],
+  "pluginsConfig": {
 
-      "quiz": {
-        "labels": {
-            "check"             : "Check",
-            "showExplanation"   : "Explain",
-            "showCorrect"       : "Show Answer",
-            "explanationHeader" : "Explanation"
-        },
-        "text": {
-            "noChosen"    : "Choose at least one answer",
-            "incomplete"  : "Some correct answers are missing"
-        },
-        "buttons": {
-            "showCorrect"       : false,
-            "showExplanation"   : true
-        }
+    "quiz": {
+      "labels": {
+          "check"             : "Check",
+          "showExplanation"   : "Explain",
+          "showCorrect"       : "Show Answer",
+          "explanationHeader" : "Explanation"
       },
+      "text": {
+          "noChosen"    : "Choose at least one answer",
+          "incomplete"  : "Some correct answers are missing"
+      },
+      "buttons": {
+          "showCorrect"       : false,
+          "showExplanation"   : true
+      }
+    },
 
     "hide-element": {
-          "elements": [".gitbook-link", "a:contains(config)", "a:contains(JumpStart)", ".custom-link"]
-      }
-    }
+          "elements": [".gitbook-link", "a:contains(JumpStart)", ".custom-link"]
+      },
+      "ga": {
+         "token": "UA-34702721-1"
+     }
+  }
 }

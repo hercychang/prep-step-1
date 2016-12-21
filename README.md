@@ -1,32 +1,23 @@
-# App Academy Prep - Step 1
+# Introduction
 
-Welcome to App Academy Prep! We're excited to help you begin your journey as a developer. In this course, you'll learn the basics of the ruby programming language and use the skills you acquire to solve some fun and challenging problems.
+<iframe src="https://player.vimeo.com/video/194104144?rel=0&autoplay=1" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
 
----
-# Pre-Curriculum
+Hello and thank you for applying to App Academy! We're excited to help you begin your journey as a   web developer.
 
-Before the course starts, you must:
+Before we get started coding, let's take a moment to talk about the application process. This course is designed to teach you everything you need to know to get into App Academy. Our course is divided into two steps, and an assessment concludes both. You must complete both steps and pass both assessments to be considered for admission to App Academy.
 
-0. Set up ruby [on Cloud9][ruby-setup] or [on your Mac][rbenv-setup]
-0. [Install a debugger][debugger-setup]
+When you first filled out the application on our website, we emailed you a number of different links. One of those links is to this curriculum. Another is an invitation to our Slack channel, which is a chatroom you can visit if you have questions or need help from App Academy TA's. The third link is to the online assessment, so whenever you're feeling prepared, you can follow that third link and take the Step One assessment online.
 
-[ruby-setup]: configuration/c9_setup.md
-[debugger-setup]: configuration/debugger_setup.md
-[rbenv-setup]: configuration/rbenv_setup.md
-[logistics]: logistics.md
+Our curriculum is filled with readings, videos, quizzes, and exercises. I highly recommend taking notes during the readings and videos. Write code that's unfamiliar, new methods, and a summary of each of those readings and videos. These notes will help tremendously when you start coding.
 
-<!--
-# Suggested Timeline
+Also be sure to type out the code for any examples in the Repl.it shell (introduced [here](how_to_repl.md)!). Only reading code is not enough to become a great programmer. Typing the code will increase your comprehension, and mistakes will reveal weaknesses in your understanding and improve your debugging. Bugs are software's best teachers, so please don't copy and paste. There's no better way to learn to code than to code!
 
-You should be able to complete this course in 10 days, with 2-3 hours each day.
+When you take the quizzes, keep in mind that they're in no way attached to your application and aren't not graded. Don't fear not knowing the answer to a question on a quiz, and if you don't know the answer, click the explanation button.
 
-| Week / Day | Section                                 |
-|------------|-----------------------------------------|
-| W1D1       | Part 1 **and** Part 2                   |
-| W1D2       | Part 3                                  |
-| W1D3       | Part 4                                  |
-| W1D4       | Part 5                                  |
-| W1D5 - 7   | Finish curriculum **and** Problem Set 1 |
-| W2D1       | Problem Set 2                           |
-| W2D2       | Problem Set 3                           |
-| W2D3       | Practice Challenges                     | -->
+The most important part of this curriculum is by far the exercises. Do all the exercises and view our solutions after you finish. When you're done coding a solution, look at how we would solve it. By reading our solutions, you'll pick up a number of tricks and shortcuts as well as Ruby best practices.
+
+When you've finished our curriculum, you should take the practice assessment several times so you feel prepared and know what to expect for the real assessment. We've given you six, so take as many as you need.
+
+If you get stuck or need help, please visit our Slack channel to reach out to your peers as well as App Academy TA's. We'd love to help you!
+
+Good luck, future devs. Looking forward to working with you at App Academy!
