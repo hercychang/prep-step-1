@@ -3,8 +3,6 @@
 * [Introduction](README.md)
   * [How to Use Repl.it](how_to_repl.md)
 
-* [Logistics (setup)](logistics.md)
-
 ### Curriculum
 
 * A Brief Introduction to Everything
