@@ -10,7 +10,10 @@ the first assessment.
 As a reminder, the assessment will be forty-five minutes long, and you'll have
 to answer three coding questions.
 
-You should check your email for an invitation to complete assessment one online.
+You’ve already been sent a link to take your first assessment. You can find the
+link to the first assessment within the same email we sent you giving you access
+to this prep work. If you cannot find that link in your previous email from App
+Academy, shoot us an email at contact@appacademy.io and we’ll re-send it to you.
 
 We've given you six practice assessments to prepare!
 
