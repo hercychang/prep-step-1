@@ -9,11 +9,12 @@ We'll provide bonus supplementary material to help you solidify what you're lear
 
 Check out our [Logistics Document][logistics]. **Read this thoroughly!**
 
-As you may already know, App Academy's prep-work is split into two steps:
+As you may already know, App Academy's prep-work is split into three steps:
   * [Step 1 Curriculum][step-1]
   * [Step 2 Curriculum][step-2]
+  * Step 3 - Phone Interview
 
-You **must complete both steps** to be eligible for admission to App Academy. Each step will take about 24 hours of work to complete. Step 1 is for those completely new to programming, while Step 2 is for those that have already learned the ruby fundamentals. You have 3 options for completing these steps:
+You **must complete all 3 steps** to be eligible for admission to App Academy. Both curriculum steps will take about 24 hours of work to complete. Step 1 is for those completely new to programming, while Step 2 is for those that have already learned the ruby fundamentals. You have 3 options for completing these steps:
 
   **Option 1**
   <br />
@@ -29,6 +30,8 @@ You **must complete both steps** to be eligible for admission to App Academy. Ea
   <br />
   &nbsp;&nbsp;&nbsp;&nbsp;
   Do Step 1 *during JumpStart*, take the Step 1 assessment at JumpStart, and do Step 2 at home. You'll have to complete a technical interview via Skype after finishing Step 2. This option may be for you if you're brand new to coding, but can only commit to 2 weeks of JumpStart.
+
+  **Note:** If you have taken our at-home coding challenge, you have already finished step 1.
 
 [step-1]: https://app-academy.gitbooks.io/prep-step-1/content/
 [step-2]: https://app-academy.gitbooks.io/prep-step-2/content/
