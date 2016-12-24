@@ -91,3 +91,4 @@
 
 <!-- JumpStart -->
 * [Introduction (JumpStart)](jumpstart/welcome.md)
+* [Logistics (JumpStart)](jumpstart/logistics.md)
