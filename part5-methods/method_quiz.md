@@ -2,25 +2,25 @@
 
 <quiz>
   <question>
-      <p><code>2.5.round</code> is an example of ____.</p>
-      <answer>Variable assignment</answer>
-      <answer>Variable definition</answer>
-      <answer>Method definition</answer>
-      <answer correct>Method invocation</answer>
-      <explanation><code>2.5.round</code> invokes the <code>round</code> method upon the receiver <code>2.5</code>.</explanation>
+  <p><code>2.5.round</code> is an example of ____.</p>
+  <answer>Variable assignment</answer>
+  <answer>Variable definition</answer>
+  <answer>Method definition</answer>
+  <answer correct>Method invocation</answer>
+  <explanation><code>2.5.round</code> invokes the <code>round</code> method upon the receiver <code>2.5</code>.</explanation>
   </question>
 </quiz>
 
-
+<quiz>
+  <question>
+  <p>
 ```ruby
 def what_am_i
   "When you look into an abyss, the abyss also looks into you."
 end
 ```
-
-<quiz>
-  <question>
-      <p>The above code snippet is an example of ____.</p>
+<code>The above code snippet is an example of ____.
+  </p>
       <answer>Variable assignment</answer>
       <answer>Variable definition</answer>
       <answer correct>Method definition</answer>
@@ -62,7 +62,9 @@ end
   </question>
 </quiz>   
 
-
+<quiz>
+  <question>
+  <p>
 ```ruby
 def pick_me #A
   "pretty please"
@@ -79,11 +81,8 @@ def def(arg_one, arg_two) #D
   "I'm DEFinitely valid"
 end
 ```
-
-
-<quiz>
-  <question>
-      <p>Which of the above method definitions uses valid syntax?</p>
+Which of the above method definitions uses valid syntax?
+  </p>
       <answer>A</answer>
       <answer correct>B</answer>
       <answer>C</answer>
@@ -92,7 +91,9 @@ end
   </question>
 </quiz>   
 
-
+<quiz>
+  <question>
+    <p>
 ```ruby
 def return_this(arg)
   arg
@@ -100,10 +101,8 @@ end
 
 return_this("return me, please")
 ```
-
-<quiz>
-  <question>
-      <p>What is the return value of the above method invocation?</p>
+What is the return value of the above method invocation?
+    </p>
       <answer correct><code>"return me, please"</code></answer>
       <answer>There is no return value.</answer>
       <answer><code>nil</code></answer>
@@ -113,6 +112,10 @@ return_this("return me, please")
 </quiz>   
 
 
+
+<quiz>
+  <question>
+    <p>
 ```ruby
 def pitter_putter(arg)
   puts arg
@@ -120,10 +123,8 @@ end
 
 pitter_putter("patter")
 ```
-
-<quiz>
-  <question>
-      <p>What is the return value of the above method invocation?</p>
+What is the return value of the above method invocation?
+    </p>
       <answer><code>"patter"</code></answer>
       <answer>There is no return value.</answer>
       <answer correct><code>nil</code></answer>
@@ -132,7 +133,9 @@ pitter_putter("patter")
   </question>
 </quiz>  
 
-
+<quiz>
+  <question>
+    <p>
 ```ruby
 def nihilist(arg)
   return nil
@@ -141,10 +144,8 @@ end
 
 nihilist("Nietzsche")
 ```
-
-<quiz>
-  <question>
-      <p>What is the return value of the above method invocation?</p>
+What is the return value of the above method invocation?
+    </p>
       <answer><code>"Nietzsche"</code></answer>
       <answer>There is no return value.</answer>
       <answer correct><code>nil</code></answer>
@@ -154,16 +155,18 @@ nihilist("Nietzsche")
 </quiz>  
 
 
+
+<quiz>
+  <question>
+    <p>
 ```ruby
 def nihilist(arg)
   return nil
   arg
 end
 ```
-
-<quiz>
-  <question>
-      <p>What code in the above method definition is unreachable?</p>
+What code in the above method definition is unreachable?
+    </p>
       <answer correct><code>arg</code></answer>
       <answer><code>end</code></answer>
       <answer><code>nil</code></answer>
@@ -172,7 +175,9 @@ end
   </question>
 </quiz>
 
-
+<quiz>
+  <question>
+    <p>
 ```ruby
 def nihilist(arg)
   return nil
@@ -181,10 +186,8 @@ end
 
 nihilist("Nietzsche").to_s
 ```
-
-<quiz>
-  <question>
-      <p>What does the above method chain return?</p>
+What does the above method chain return?
+    </p>
       <answer><code>"Nietzsche"</code></answer>
       <answer>The interpreter throws an error</answer>
       <answer><code>nil</code></answer>
