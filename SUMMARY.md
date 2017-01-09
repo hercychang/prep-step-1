@@ -92,3 +92,6 @@
 <!-- JumpStart -->
 * [Introduction (JumpStart)](jumpstart/welcome.md)
 * [Logistics (JumpStart)](jumpstart/logistics.md)
+
+<!-- Configuration -->
+* [Rbenv Setup (Configuration)](configuration/rbenv_setup.md)

@@ -25,6 +25,4 @@ Happy coding!
 Beware that installing Ruby can lead to unexpected obstacles. Hence we recommend
 using Repl.it.
 
-<!-- If you're doing the beginner track during JumpStart, read our [course logistics][logistics] document. -->
-
 [rbenv-setup]: configuration/rbenv_setup.md

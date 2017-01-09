@@ -25,7 +25,7 @@
     },
 
     "hide-element": {
-          "elements": [".gitbook-link", "a:contains(JumpStart)", ".custom-link"]
+          "elements": [".gitbook-link", "a:contains(JumpStart)", "a:contains(Configuration)", ".custom-link"]
       },
       "ga": {
          "token": "UA-34702721-1"
