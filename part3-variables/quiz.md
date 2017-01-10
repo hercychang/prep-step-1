@@ -32,8 +32,7 @@ b = "dog"
 b = a
 a = b
 ```
-
-    <p>What is the value of <code>b</code> at the end of the above code snippet?</p>
+What is the value of <code>b</code> at the end of the above code snippet?
     <answer correct><code>true</code></answer>
     <answer><code>7</code></answer>
     <answer><code>b</code></answer>
@@ -52,8 +51,7 @@ b = "dog"
 b = a
 a = b
 ```
-
-    <p>What is the value of <code>a</code> at the end of the above code snippet?</p>
+What is the value of <code>a</code> at the end of the above code snippet?
     <answer correct><code>true</code></answer>
     <answer><code>7</code></answer>
     <answer><code>b</code></answer>
