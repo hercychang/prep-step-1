@@ -25,7 +25,6 @@
 
 <quiz>
   <question>
-
 ```ruby
 b = 7
 a = true
@@ -33,6 +32,7 @@ b = "dog"
 b = a
 a = b
 ```
+
     <p>What is the value of <code>b</code> at the end of the above code snippet?</p>
     <answer correct><code>true</code></answer>
     <answer><code>7</code></answer>
@@ -45,7 +45,6 @@ a = b
 
 <quiz>
   <question>
-
 ```ruby
 b = 7
 a = true
