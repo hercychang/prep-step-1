@@ -25,13 +25,15 @@
 <quiz>
   <question>
   
+<div>
     ```ruby
-      b = 7
-      a = true
-      b = "dog"
-      b = a
-      a = b
+    b = 7
+    a = true
+    b = "dog"
+    b = a
+    a = b
     ```
+</div>
 
 <p>What is the value of <code>b</code> at the end of the above code snippet?</p>
 <answer correct><code>true</code></answer>
