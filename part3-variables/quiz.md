@@ -23,43 +23,43 @@
 </quiz>
 
 <quiz>
-<question>
-  ```ruby
-    b = 7
-    a = true
-    b = "dog"
-    b = a
-    a = b
-  ```
-  <p>
-  What is the value of <code>b</code> at the end of the above code snippet?
-  </p>
-  <answer correct><code>true</code></answer>
-  <answer><code>7</code></answer>
-  <answer><code>b</code></answer>
-  <answer><code>"dog"</code></answer>
-  <explanation><code>b</code> is last assigned to <code>a</code> when the value of <code>a</code> is <code>true</code>. Therefore the final value of <code>b</code> is <code>true</code>.</explanation>
+  <question>
+  
+    ```ruby
+      b = 7
+      a = true
+      b = "dog"
+      b = a
+      a = b
+    ```
+
+    <p>What is the value of <code>b</code> at the end of the above code snippet?</p>
+    <answer correct><code>true</code></answer>
+    <answer><code>7</code></answer>
+    <answer><code>b</code></answer>
+    <answer><code>"dog"</code></answer>
+    <explanation><code>b</code> is last assigned to <code>a</code> when the value of <code>a</code> is <code>true</code>. Therefore the final value of <code>b</code> is <code>true</code>.</explanation>
   </question>
 </quiz>
 
 <quiz>
   <question>
 
-  ```ruby
-  b = 7
-  a = true
-  b = "dog"
-  b = a
-  a = b
-  ```
+```ruby
+b = 7
+a = true
+b = "dog"
+b = a
+a = b
+```
 
-<p>What is the value of <code>a</code> at the end of the above code snippet?</p>
-<answer correct><code>true</code></answer>
-<answer><code>7</code></answer>
-<answer><code>b</code></answer>
-<answer><code>"dog"</code></answer>
-<explanation><code>a</code> is last assigned to <code>b</code> when the value of <code>b</code> is <code>true</code>. Therefore the final value of <code>a</code> is <code>true</code>.</explanation>
-</question>
+    <p>What is the value of <code>a</code> at the end of the above code snippet?</p>
+    <answer correct><code>true</code></answer>
+    <answer><code>7</code></answer>
+    <answer><code>b</code></answer>
+    <answer><code>"dog"</code></answer>
+    <explanation><code>a</code> is last assigned to <code>b</code> when the value of <code>b</code> is <code>true</code>. Therefore the final value of <code>a</code> is <code>true</code>.</explanation>
+  </question>
 </quiz>
 
 
