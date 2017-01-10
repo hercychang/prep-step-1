@@ -24,7 +24,8 @@
 
 <quiz>
   <question>
-    <div>
+    <p>
+
 ```ruby
   b = 7
   a = true
@@ -32,8 +33,10 @@
   b = a
   a = b
 ```
+
+
 What is the value of <code>b</code> at the end of the above code snippet?
-    </div>
+    </p>
     <answer correct><code>true</code></answer>
     <answer><code>7</code></answer>
     <answer><code>b</code></answer>
