@@ -22,9 +22,6 @@
   </question>
 </quiz>
 
-
-<quiz>
-  <question>
 ```ruby
 b = 7
 a = true
@@ -32,7 +29,10 @@ b = "dog"
 b = a
 a = b
 ```
-What is the value of <code>b</code> at the end of the above code snippet?
+
+<quiz>
+  <question>
+    <p>What is the value of <code>b</code> at the end of the above code snippet?</p>
     <answer correct><code>true</code></answer>
     <answer><code>7</code></answer>
     <answer><code>b</code></answer>
@@ -41,9 +41,6 @@ What is the value of <code>b</code> at the end of the above code snippet?
   </question>
 </quiz>
 
-
-<quiz>
-  <question>
 ```ruby
 b = 7
 a = true
@@ -51,7 +48,10 @@ b = "dog"
 b = a
 a = b
 ```
-What is the value of <code>a</code> at the end of the above code snippet?
+
+<quiz>
+  <question>
+    <p>What is the value of <code>a</code> at the end of the above code snippet?</p>
     <answer correct><code>true</code></answer>
     <answer><code>7</code></answer>
     <answer><code>b</code></answer>
