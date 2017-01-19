@@ -100,7 +100,7 @@ def dog
 end
 
 def catdog
-  cat + dog + " was cartoon about a conjoined felnine"
+  cat + dog + " was cartoon about a conjoined feline"
 end
 
 catdog
