@@ -360,9 +360,9 @@ arr.delete_at(0)
   <question>
       <p>What is the value of <code>arr</code> at the end of the above code snippet?</p>
       <answer><code>[1, 2, 3]</code></answer>
-      <answer correct><code>[1, 2]</code></answer>
+      <answer><code>[1, 2]</code></answer>
       <answer><code>[1]</code></answer>
-      <answer><code>[2]</code></answer>
+      <answer correct><code>[2]</code></answer>
       <explanation>After <code>arr.delete(3)</code>, the value of <code>arr</code> is <code>[1, 2]</code> because the <code>delete</code>
       method is dangerous for arrays. Although <code>arr.delete_at(0)</code> returns <code>1</code>
       (indicating that the invocation successfully deleted the element <code>1</code> at the
