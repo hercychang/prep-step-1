@@ -364,9 +364,6 @@ arr.delete_at(0)
       <answer><code>[1]</code></answer>
       <answer correct><code>[2]</code></answer>
       <explanation>After <code>arr.delete(3)</code>, the value of <code>arr</code> is <code>[1, 2]</code> because the <code>delete</code>
-      method is dangerous for arrays. Although <code>arr.delete_at(0)</code> returns <code>1</code>
-      (indicating that the invocation successfully deleted the element <code>1</code> at the
-      index <code>0</code>), the <code>delete_at</code> method is not dangerous and the value of <code>arr</code>
-      therefore does not change.</explanation>
+      method is dangerous for arrays. After <code>arr.delete_at(0)</code>, the value of <code>arr</code> is <code>[2]</code> because the <code>delete_at</code> method is destructive as well.</explanation>
   </question>
 </quiz>
