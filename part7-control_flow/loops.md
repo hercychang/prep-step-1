@@ -35,7 +35,7 @@ the loop and increment it within the loop:
 ```ruby
 counter = 0
 
-while counter < 10
+while counter <= 10
   puts "This is iteration number #{counter.to_s}!"
   counter = counter + 1 # counter += 1 is the syntactic-sugar equivalent
 end
