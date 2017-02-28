@@ -19,7 +19,7 @@ case, printing `Hello, world`).
 
 You may have already tried to classify the two parts of `puts "Hello, world!"`
 into data types. The quotation marks enclosing `"Hello, world!"` denote a
-string. `puts` is more perplexing. It's not an integer, float, string, symbol,
+string. `puts` is more perplexing. It's not an integer, float, string,
 boolean, or nil.
 
 `puts` is not an object at all; it's a _method_. We'll cover methods more
@@ -33,11 +33,10 @@ shell:
 ```ruby
 puts 25
 puts 25.0
-puts :puts
 puts true
 puts nil
 ```
 
 `puts nil` prints nothing. Can you think of why?
 
-You've already run six programs! Time for your first bug.
+You've already run five programs! Time for your first bug.

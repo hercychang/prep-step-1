@@ -4,7 +4,7 @@
   <question>
     <p><code>puts</code> belongs to the ____ data type.</p>
     <answer>String</answer>
-    <answer>Symbol</answer>
+    <answer>Nil</answer>
     <answer>Boolean</answer>
     <answer correct><code>puts</code> doesn't belong to a data type.</answer>
     <explanation><code>puts</code> is a method, not an object; therefore, <code>puts</code> doesn't belong to a data type.</explanation>

@@ -42,12 +42,10 @@ traversing a line of thought similar to ours when we encountered `puts`. Because
 `hello` doesn't belong to any of the Ruby data types, the Ruby interpreter
 checks if `hello` is a defined method or variable (variables are the subject of
 the next chapter). It is neither, so the Ruby interpreter can't parse the
-code and throws an error. We can debug our code by making `hello` a valid string
-or symbol:
+code and throws an error. We can debug our code by making `hello` a valid string:
 
 ```ruby
 puts "hello"
-puts :hello
 ```
 
 Though this bug may have been trivial to fix, it helped illuminate how the Ruby
