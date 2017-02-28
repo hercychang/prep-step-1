@@ -26,13 +26,6 @@ jumped over the 3 logs"` are all strings. Strings can be of any length. `""` is
 an _empty string_ (a string of length zero). Remember to wrap strings in quotation
 marks. Otherwise Ruby will interpret the code as having special significance.
 
-**Symbols:** A symbol is somewhat like a string, except that it's immutable, meaning that it
-cannot change after it's been created. Symbols are also stored as unique objects
-in memory. A symbol is typically denoted by an alphabetic sequence preceded by a
-colon that uses underscores (`_`) instead of whitespace. `:sym` and
-`:im_a_symbol` are symbols. `:1` and `:i'm_a_symbol` are not. Of the primitive
-data types, you'll use symbols the least.
-
 **Booleans:** There are only two boolean values: `true` and `false`. Booleans provide the core
 logic of computer programs. `4 > 5` is `false`, and `3.odd?` is `true`. Note
 that booleans are case sensitive. `true` is a boolean, `True` is not. And
@@ -40,3 +33,6 @@ that booleans are case sensitive. `true` is a boolean, `True` is not. And
 
 **Nil:** Ruby represents nothingness with the keyword `nil`. Sometimes the absence of data is as
 important as data itself.
+
+**NB:** Symbols are another primitive data, but they're relatively rare, and you won't
+ need to learn them for our application process.

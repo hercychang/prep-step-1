@@ -26,7 +26,7 @@
   <question>
     <p><code>"The Cat in the Hat"</code> belongs to the ____ data type.</p>
     <answer correct>String</answer>
-    <answer>Symbol</answer>
+    <answer>Boolean</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
     <explanation>The enclosing quotation marks denote a string.</explanation>
@@ -37,7 +37,7 @@
   <question>
     <p><code>""</code> belongs to the ____ data type.</p>
     <answer correct>String</answer>
-    <answer>Symbol</answer>
+    <answer>Boolean</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
     <explanation><code>""</code> is an <em>empty string</em>.</explanation>
@@ -48,7 +48,7 @@
   <question>
     <p><code>"1"</code> belongs to the ____ data type.</p>
     <answer correct>String</answer>
-    <answer>Symbol</answer>
+    <answer>Boolean</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
     <explanation>Although <code>1</code> is an integer, <code>"1"</code> is a string due to the enclosing quotation marks.</explanation>
@@ -57,31 +57,9 @@
 
 <quiz>
   <question>
-    <p><code>:doggie</code> belongs to the ____ data type.</p>
-    <answer>String</answer>
-    <answer correct>Symbol</answer>
-    <answer>Integer</answer>
-    <answer>Nil</answer>
-    <explanation>Although <code>"dog"</code> is a string, <code>:doggie</code> is a symbol due to the prepended colon.</explanation>
-  </question>
-</quiz>
-
-<quiz>
-  <question>
-    <p><code>:nil</code> belongs to the ____ data type.</p>
-    <answer>String</answer>
-    <answer correct>Symbol</answer>
-    <answer>Integer</answer>
-    <answer>Nil</answer>
-    <explanation>Although <code>nil</code> belongs to the Nil data type, <code>:nil</code> is a symbol due to the prepended colon.</explanation>
-  </question>
-</quiz>
-
-<quiz>
-  <question>
     <p><code>"nil"</code> belongs to the ____ data type.</p>
     <answer correct>String</answer>
-    <answer>Symbol</answer>
+    <answer>Boolean</answer>
     <answer>Integer</answer>
     <answer>Nil</answer>
     <explanation>Although <code>nil</code> belongs to the Nil data type, <code>"nil"</code> is a string due to the enclosing quotation marks.</explanation>
@@ -92,7 +70,7 @@
   <question>
     <p><code>nil</code> belongs to the ____ data type.</p>
     <answer>String</answer>
-    <answer>Symbol</answer>
+    <answer>Boolean</answer>
     <answer>Integer</answer>
     <answer correct>Nil</answer>
     <explanation><code>nil</code> is the sole instance of the Nil data type.</explanation>
@@ -105,7 +83,7 @@
     <answer>Strings</answer>
     <answer>Nils</answer>
     <answer correct>Booleans</answer>
-    <answer>Symbols</answer>
+    <answer>Integers</answer>
     <explanation><code>true</code> and <code>false</code> are the only booleans.</explanation>
   </question>
 </quiz>
@@ -116,18 +94,7 @@
     <answer correct>Strings</answer>
     <answer>Nils</answer>
     <answer>Booleans</answer>
-    <answer>Symbols</answer>
+    <answer>Integers</answer>
     <explanation><code>true</code> and <code>false</code> are booleans, but <code>"true"</code> and <code>"false"</code> are strings due to the enclosing quotation marks.</explanation>
-  </question>
-</quiz>
-
-<quiz>
-  <question>
-    <p><code>:true</code> and <code>:false</code> are ____.</p>
-    <answer>Strings</answer>
-    <answer>Nils</answer>
-    <answer>Booleans</answer>
-    <answer correct>Symbols</answer>
-    <explanation><code>true</code> and <code>false</code> are booleans, but <code>:true</code> and <code>:false</code> are symbols due to the prepended colons.</explanation>
   </question>
 </quiz>

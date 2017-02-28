@@ -1,6 +1,6 @@
 # What is Ruby?
 
-Now that you've decided to learn Ruby, it's probably a good time to learn what
+Now that you've decided to learn Ruby, it's a good time to learn what
 exactly  Ruby is. Ruby is a high-level, object-oriented **programming
 language**, a formal computer language designed to communicate instructions to a
 machine. Like natural languages, programming languages have syntax (form) and
@@ -12,7 +12,7 @@ Because Ruby abstracts away much of the complexity (e.g., memory management)
 from the underlying hardware, it's known as a **high-level programming language**. Ruby
 features many natural language elements and is relatively simple and easy to
 use. Some might even call it  friendly. The following code snippet uses some of
-the most sophisticated syntax in this course, but you can probably already guess
+the most sophisticated syntax in the language, but you can probably already guess
 what it does:
 
 ```ruby
