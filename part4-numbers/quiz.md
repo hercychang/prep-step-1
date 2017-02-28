@@ -115,7 +115,7 @@
       <p>What is the result of <code>5.to_s</code>?</p>
       <answer><code>5</code></answer>
       <answer><code>5.0</code></answer>
-      <answer><code>:5</code></answer>
+      <answer><code>"5.0"</code></answer>
       <answer correct><code>"5"</code></answer>
       <explanation>The <code>to_s</code> method type converts an object to a string.</explanation>
   </question>
@@ -124,7 +124,7 @@
 <quiz>
   <question>
       <p>What is the result of <code>false.to_s</code>?</p>
-      <answer><code>:false</code></answer>
+      <answer><code>0</code></answer>
       <answer><code>true</code></answer>
       <answer correct><code>"false"</code></answer>
       <answer><code>false</code></answer>

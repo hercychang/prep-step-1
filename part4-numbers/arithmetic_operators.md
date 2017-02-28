@@ -22,12 +22,10 @@ shell.
 ```
 
 In each line, `2` and `3` are **operands**, the quantities with which the
-operation is performed. Mathematically, an **expression** is a valid combination
-**operators** and **operands**. All of the above examples are mathematical
-expressions. The term "expression" has broader significance in Ruby, where it
-can refer to any combination of objects, methods, variables, and/or operators that
-evaluates to another value (e.g., `puts "I'm a string in an expression"` and `2 +
-3`). Think of an expression as a self-contained chunk of valid code.
+operation is performed. Each of the above examples is a Ruby **expression**, a
+combination of objects, methods, variables, and/or operators that evaluates to
+another value (e.g., `puts "I'm a string in an expression"` and `2 + 3`). Think
+of an expression as a self-contained chunk of valid code.
 
 Ruby evaluates certain operations with higher precedence, as per the
 mathematical order of operations, where parentheticals are executed first, then

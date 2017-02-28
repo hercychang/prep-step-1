@@ -43,7 +43,7 @@ between two integers.
 
 2.51.round #=> 3
 2.49.round #=> 2
-2.5.round
+2.5.round #=> 3
 ```
 
 Rounding a float with the `floor` and `ceil` methods performs a **type
@@ -64,7 +64,6 @@ a string?
 
 true.to_s #=> "true"
 nil.to_s #=> ""
-:sym.to_s #=> "sym"
 ```
 
 Just as you can convert a float or integer to a string, you can also convert a
