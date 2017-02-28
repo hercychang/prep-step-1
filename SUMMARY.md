@@ -79,7 +79,7 @@
   * [Exercises](part7-control_flow/exercises.md)
   * [Walkthrough](part7-control_flow/walkthrough.md)
 
-* What's Next?
+* Practice Assessments
   * [Time for the Assessment](part8-whats_next/the_time_has_come.md)
   * [Practice Assessments](part8-whats_next/assessments.md)
     * [Assessment 1 Walkthrough](part8-whats_next/walkthrough_one.md)
