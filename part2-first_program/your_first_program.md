@@ -15,7 +15,7 @@ of instructions that a computer executes to perform a specific task ( in this
 case, printing `Hello, world`).
 
 
-## `puts "Hello, world!"`
+## Methods
 
 You may have already tried to classify the two parts of `puts "Hello, world!"`
 into data types. The quotation marks enclosing `"Hello, world!"` denote a

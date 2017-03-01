@@ -1,4 +1,4 @@
-# `join`
+# Join
 
 The `join` method type converts an array to a string. As its name suggests, it
 joins every element in the array, each of which is implicitly converted to a

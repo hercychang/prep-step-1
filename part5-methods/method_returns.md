@@ -31,7 +31,7 @@ whacky_returns(1,2)
 **unreachable code**, code that can never be executed.
 
 
-## `return` versus `puts`
+## Return Versus Puts
 
 Why use `return` instead of `puts`? The shell prints the expression whether we
 return or "puts" it. Let's try defining and invoking `add_two_numbers` with

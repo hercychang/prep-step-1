@@ -99,7 +99,7 @@ erroneous_devowel!(the_flunkiest) # Invoking the method causes the error.
 ```
 
 
-## `next` and `break`
+## Next and Break
 
 The `next` and `break` keywords have the same effect in iterators as in loops.
 Here's a non-dangerous (i.e., non-mutating) version of the previous method that

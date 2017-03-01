@@ -1,4 +1,4 @@
-# `split`
+# Split
 
 The `split` method is the converse of `join`. While `join` combines the elements
 of an array into a string, `split` divides a string into an array. Like `join`,
