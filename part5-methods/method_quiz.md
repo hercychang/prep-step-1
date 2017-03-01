@@ -192,3 +192,28 @@ nihilist("Nietzsche").to_s
       <explanation>The return value of <code>nihilist("Nietzsche")</code> is <code>nil</code>. <code>nil.to_s</code> is an empty string (<code>""</code>).</explanation>
   </question>
 </quiz>  
+
+```ruby
+def cat
+  "Cat"
+end
+
+def dog
+  "Dog"
+end
+
+def catdog
+  cat + dog + " was cartoon about a conjoined felnine"
+end
+
+catdog
+```
+
+<quiz>
+  <question>
+      <p>Does the above code snippet throw an error?</p>
+      <answer>Yes</answer>
+      <answer correct>No</answer>
+      <explanation><code>cat</code> and <code>dog</code> are valid helper methods of <code>catdog</code>.</explanation>
+  </question>
+</quiz>

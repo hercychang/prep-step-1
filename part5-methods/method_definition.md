@@ -10,7 +10,7 @@ multiplication operators.
 **Method definition** assigns a subroutine to a name that can be invoked. Soon
 you'll be able to define your own version of `lcm`. But how does one define a
 method in Ruby? Let's define a method called `add_two_numbers` that, well, adds
-two numbers. Type the following into the shell:
+two numbers:
 
 ```ruby
 def add_two_numbers(num_one, num_two)
@@ -29,13 +29,12 @@ Method names conform to the same conventions and rules as variable names:
 variables declared upon method definition that represent the arguments passed in
 upon invocation. A method that's invoked with zero arguments would have zero
 parameters. Method definition ends in `end`. The code between the `def`
-statement and `end` is the method body. The **method body** is the subroutine
+statement and `end` is the method body. The **method body** is the subroutine that
 the method definition encapsulates.
 
 Defining a method does not invoke it, i.e., it does not instruct the Ruby
 interpreter to execute the code inside the method's body. One invokes custom
-methods by appending the arguments to the method's name. Try running this in the
-shell:
+methods by appending the arguments to the method's name:
 
 ```ruby
 add_two_numbers(1, 2)

@@ -13,7 +13,7 @@ When the Ruby interpreter encounters an explicit return statement, it
 immediately returns the result of that statement. It would be pointless to
 execute subsequent code because the method's output has already been declared.
 
-Try defining and invoking `whacky_returns` in the shell:
+Try defining and invoking `whacky_returns`:
 
 ```ruby
 def whacky_returns(num_one, num_two)
