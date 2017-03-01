@@ -17,7 +17,7 @@ Arrays are zero-indexed, i.e., the first element of the array is at the zeroth
 index. The second element of the array is at the first index.
 
 One can also access array elements using negative indices. The last element of
-the array is at an index of -1, the penultimate is at -2, etc.
+the array is at the -1 index, the penultimate is at -2, etc.
 
 ```ruby
 got_characters = ["Robb", "Sansa", "Arya", "Bran", "Rickon"]
@@ -28,7 +28,7 @@ last + " " + third_to_last #=> "Rickon Arya"
 ```
 
 One can access multiple elements in an array by using ranges instead of single
-indices. Doing so returns a subarray.
+indices. Doing so returns another array.
 
 ```ruby
 got_characters = ["Robb", "Sansa", "Arya", "Bran", "Rickon"]

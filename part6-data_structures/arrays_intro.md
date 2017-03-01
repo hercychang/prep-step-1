@@ -17,7 +17,7 @@ combination of objects (including other arrays) can be stored in an array.
 empty_array = []
 int_array = [1,2,3]
 str_array = ["str1", "str2", ""]
-mixed_array = [1, false, :sym, "str", nil]
+mixed_array = [1, false, "str", nil]
 nested_array = [[]]
 ```
 

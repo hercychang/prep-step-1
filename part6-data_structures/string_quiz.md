@@ -10,17 +10,9 @@ k = "kangaroo community"
   <question multiple>
       <p>Given the above variables, how might one build the string <code>"1 unity in the kangaroo community"</code>? You may select more than one option.</p>
       <answer correct><code>1.to_s + u + i + k</code></answer>
-      <answer correct><code>"#{1} unity " << i << k</code></answer>
-      <answer correct><code>"#{1}#{u}#{i}#{k}"</code></answer>
-      <answer correct><code>"#{1} #{k[-5..-1]} #{i}#{k}"</code></answer>
-      <explanation>Every option builds the string <code>"1 unity in the kangaroo community"</code> (although
-      some are more elegant than others). The first option concatenates each piece of
-      the string. <code>1</code> is converted to a string before concatenation. Otherwise the
-      operation would throw an error. The second option interpolates <code>1</code>, thereby
-      implicitly type converting it. It then concatenates the rest of the string with the
-      shovel operator. The third option interpolates every piece of the string. The
-      fourth option also interpolates each piece, leveraging the fact that <code>k[-5..-1] ==
-      "unity"</code>, i.e., that "community" is a kangaroo word of "unity."</explanation>
+      <answer correct><code>1.to_s + " unity " << i << k</code></answer>
+      <answer correct><code>1.to_s + k[-5..-1] + i + k</code></answer>
+      <explanation>Every option builds the string <code>"1 unity in the kangaroo community"</code> (although some are more elegant than others). The last option leverages the fact that <code>k[-5..-1] == "unity"</code>, i.e., that "community" is a kangaroo word of "unity."</explanation>
   </question>
 </quiz>
 
@@ -58,24 +50,6 @@ k = "kangaroo community"
 
 
 ```ruby
-"divisions divide into divisions".swapcase.swapcase
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>["", "visions ", "vide into", "visions"]</code></answer>
-      <answer><code>["divisions", "divide", "into", "divisions"]</code></answer>
-      <answer correct><code>"divisions divide into divisions"</code></answer>
-      <answer><code>"vsons ve nto vsons"</code></answer>
-      <explanation>Because <code>swapcase</code> inverts case, chaining two invocations of <code>swapcase</code> has no
-      effect on the case of the receiver string. The second <code>swapcase</code> inverts the
-      inversion of the first.</explanation>
-  </question>
-</quiz>
-
-
-```ruby
 "divisions divide into divisions".upcase.downcase
 ```
 
@@ -91,36 +65,18 @@ k = "kangaroo community"
   </question>
 </quiz>
 
-
 ```ruby
-"divisions divide into divisions".capitalize.downcase
+"redivider" * 3
 ```
 
 <quiz>
   <question>
       <p>What does the above code snippet return?</p>
-      <answer><code>["", "visions ", "vide into", "visions"]</code></answer>
-      <answer><code>["divisions", "divide", "into", "divisions"]</code></answer>
-      <answer correct><code>"divisions divide into divisions"</code></answer>
-      <answer><code>"vsons ve nto vsons"</code></answer>
-      <explanation><code>downcase</code> is the last method invoked in the method chain, making the string
-      entirely lowercase.</explanation>
-  </question>
-</quiz>
-
-
-```ruby
-"divisions divide into divisions".delete('di')
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>["", "visions ", "vide into", "visions"]</code></answer>
-      <answer><code>["divisions", "divide", "into", "divisions"]</code></answer>
-      <answer><code>"divisions divide into divisions"</code></answer>
-      <answer correct><code>"vsons ve nto vsons"</code></answer>
-      <explanation><code>delete('di')</code> deletes every occurrence of <code>"d"</code> or <code>"i"</code> from the string.</explanation>
+      <answer correct><code>"redivider"</code></answer>
+      <answer><code>["r", "e", "d", "i", "v", "i", "d", "e", "r"]</code></answer>
+      <answer correct><code>"redividerredividerredivider"</code></answer>
+      <answer><code>"redivider redivider redivider"</code></answer>
+      <explanation>The multiplication operator concatenates x copies of the string, where x is the second operand.</explanation>
   </question>
 </quiz>
 
@@ -142,7 +98,7 @@ k = "kangaroo community"
 
 
 ```ruby
-"redivider".chars.reverse
+"redivider".split("").reverse
 ```
 
 <quiz>
@@ -158,7 +114,7 @@ k = "kangaroo community"
 
 
 ```ruby
-"redivider".chars.sort.reverse.join
+"redivider".split("").sort.reverse.join
 ```
 
 <quiz>
@@ -170,22 +126,5 @@ k = "kangaroo community"
       <answer><code>2</code></answer>
       <explanation>The string <code>"redivider"</code> is divided into an array of its characters, which is then
       sorted alphabetically and reversed and combined into a string.</explanation>
-  </question>
-</quiz>
-
-
-```ruby
-"redivider".index("divide")
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>"redivider"</code></answer>
-      <answer><code>["r", "e", "d", "i", "v", "i", "d", "e", "r"]</code></answer>
-      <answer><code>"vrriieedd"</code></answer>
-      <answer correct><code>2</code></answer>
-      <explanation><code>"redivider".index("divide")</code> returns the index at which the substring <code>"divide"</code>
-      first occurs (<code>2</code>)</explanation>
   </question>
 </quiz>

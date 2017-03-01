@@ -17,6 +17,7 @@ You can even assign elements to valueless array indices:
 
 ```ruby
 blasphemous_characters = ["Robb", "Sansa", "Arya", "Bran", "Rickon"]
+# because array's are zero-indexed, the index blasphemous_characters.length (5) doesn't have a value
 blasphemous_characters[blasphemous_characters.length] = "Morty"
 blasphemous_characters #=> ["Robb", "Sansa", "Arya", "Bran", "Rickon", "Morty"]
 blasphemous_characters[8] = "Rick"
@@ -25,41 +26,7 @@ blasphemous_characters[8] = "Rick"
 blasphemous_characters #=> ["Robb", "Sansa", "Arya", "Bran", "Rickon", "Morty", nil, nil, "Rick"]
 ```
 
-
-## Multiple Assignment and Array Destructuring
-
-Let's briefly examine multiple assignment. In `blasphemous_characters[3..-1]`,
-we access a two-element subarray. We simultaneously reassign both elements by
-providing two comma-separated values. The accessed elements and their new values
-exactly correspond. We can also perform multiple assignment with variables
-rather than array elements:
-
-```ruby
-#mutliple assignment of array elements
-# note that accessed array elements behave as variables
-elementary_array = [1, 2, 3]
-elementary_array[0..1] = "a", "b"
-elementary_array #=> ["a", "b", 3]
-
-#multiple assignment of variables
-a, b = 1, 2
-a #=> 1
-b #=> 2
-```
-
-The converse of multiple assignment is a sophisticated technique known as
-**array destructuring**, where one assigns multiple variables to multiple array
-elements (as opposed to assigning multiple array elements to multiple values).
-The syntax for array destructuring is similar to multiple assignment.
-
-```
-a, b = [1, 2]
-a #=> 1
-b #=> 2
-
-# The first n elements in the array are assigned,
-# where n is the number of variables
-a, b = [1, 2, 3, 4]
-a #=> 1
-b #=> 2
-```
+Note that assigning `"Morty"` to
+`blasphemous_characters[blasphemous_characters.length]` added an element to the
+end of the array (to an index that didn't have a value previously), thereby
+increasing the array's length by one.

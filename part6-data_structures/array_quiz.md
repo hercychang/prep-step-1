@@ -88,7 +88,7 @@
   animated_characters = ["Spike Spiegel", "Jet Black"]
   animated_characters << "Ein"
   r_and_m = ["Rick", "Morty", "Summer"]
-  animated_characters += r_and_m
+  animated_characters = animated_characters + r_and_m
 ```
 
 <quiz>
@@ -101,7 +101,7 @@
       <explanation>The value of <code>animated_characters</code> becomes <code>["Spike Spiegel", "Jet Black",
       "Ein"]</code> after "Ein" is shoveled into the array. Then <code>animated_characters</code> is
       concatenated with <code>r_and_m</code>. Because <code>animated_characters</code> is reassigned when
-      it's concatenated (with <code>+=</code>), the variable acquires the new value of <code>["Spike
+      it's concatenated, the variable acquires the new value of <code>["Spike
       Spiegel", "Jet Black", "Ein", "Rick", "Morty", "Summer"]</code>.</explanation>
   </question>
 </quiz>
@@ -184,22 +184,6 @@
 
 
 ```ruby
-["dolla", "dolla", "bills", "y'all"].uniq
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>["y'all", "dolla", "dolla", "bills"]</code></answer>
-      <answer correct><code>["dolla", "bills", "y'all"]</code></answer>
-      <answer><code>"dolla$dolla$bills$y'all"</code></answer>
-      <answer><code>"dolladollabillsy'all"</code></answer>
-      <explanation><code>uniq</code> by definition removes duplicates from the array and returns the result.</explanation>
-  </question>
-</quiz>
-
-
-```ruby
 ["dolla", "dolla", "bills", "y'all"].sort.reverse
 ```
 
@@ -230,140 +214,5 @@
       <answer><code>3</code></answer>
       <explanation><code>include?</code> by definition returns a boolean value indicating whether the argument
       is included in the array or string (it is included).</explanation>
-  </question>
-</quiz>
-
-
-```ruby
-[1, 2, 3].empty?
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>true</code></answer>
-      <answer correct><code>false</code></answer>
-      <answer><code>2</code></answer>
-      <answer><code>3</code></answer>
-      <explanation><code>empty?</code> by definition returns a boolean value indicating whether the array or
-      string is of length zero (it is not).</explanation>
-  </question>
-</quiz>
-
-
-```ruby
-[1, 2, 3].max
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>true</code></answer>
-      <answer><code>false</code></answer>
-      <answer><code>2</code></answer>
-      <answer correct><code>3</code></answer>
-      <explanation><code>max</code> by definition returns the largest element of an array (<code>3</code> in this case).</explanation>
-  </question>
-</quiz>
-
-
-```
-[1, 2, 3].index(3)
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>true</code></answer>
-      <answer><code>false</code></answer>
-      <answer correct><code>2</code></answer>
-      <answer><code>3</code></answer>
-      <explanation><code>index</code> by definition returns the first index of the array at which the method's
-      argument occurs (<code>2</code> in this case) and returns <code>nil</code> if the argument is not in
-      the array.</explanation>
-  </question>
-</quiz>
-
-
-```ruby
-[1, 2, nil, [3]].flatten
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer correct><code>[1, 2, nil, 3]</code></answer>
-      <answer><code>[1, 2, 3]</code></answer>
-      <answer><code>[nil, [3]]</code></answer>
-      <answer><code>[2, nil, [3], 1]</code></answer>
-      <explanation><code>flatten</code> by definition returns a one-dimensional array. It therefore replaces
-      <code>[3]</code> with <code>3</code>.</explanation>
-  </question>
-</quiz>
-
-
-```ruby
-[1, 2, nil, [3]].compact
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>[1, 2, nil, 3]</code></answer>
-      <answer correct><code>[1, 2, [3]]</code></answer>
-      <answer><code>[nil, [3]]</code></answer>
-      <answer><code>[2, nil, [3], 1]</code></answer>
-      <explanation><code>compact</code> by definition removes <code>nil</code> elements from an array.</explanation>
-  </question>
-</quiz>
-
-
-```ruby
-[1, 2, nil, [3]].drop(3)
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>[1, 2, nil, 3]</code></answer>
-      <answer><code>[1, 2, [3]]</code></answer>
-      <answer correct><code>[[3]]</code></answer>
-      <answer><code>[2, nil, [3], 1]</code></answer>
-      <explanation>Here <code>drop</code> removes the first three elements of the array and returns the result.</explanation>
-  </question>
-</quiz>
-
-
-```ruby
-[1, 2, nil, [3]].rotate
-```
-
-<quiz>
-  <question>
-      <p>What does the above code snippet return?</p>
-      <answer><code>[1, 2, nil, 3]</code></answer>
-      <answer><code>[1, 2, [3]]</code></answer>
-      <answer><code>[[3]]</code></answer>
-      <answer correct><code>[2, nil, [3], 1]</code></answer>
-      <explanation><code>[1, 2, nil, [3]]</code> is rotated one position because no argument is provided.</explanation>
-  </question>
-</quiz>
-
-
-```
-arr = [1,2,3]
-arr.delete(3)
-arr.delete_at(0)
-```
-
-<quiz>
-  <question>
-      <p>What is the value of <code>arr</code> at the end of the above code snippet?</p>
-      <answer><code>[1, 2, 3]</code></answer>
-      <answer><code>[1, 2]</code></answer>
-      <answer><code>[1]</code></answer>
-      <answer correct><code>[2]</code></answer>
-      <explanation>After <code>arr.delete(3)</code>, the value of <code>arr</code> is <code>[1, 2]</code> because the <code>delete</code>
-      method is dangerous for arrays. After <code>arr.delete_at(0)</code>, the value of <code>arr</code> is <code>[2]</code> because the <code>delete_at</code> method is destructive as well.</explanation>
   </question>
 </quiz>

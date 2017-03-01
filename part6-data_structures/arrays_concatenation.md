@@ -11,14 +11,13 @@ potpourri.concat([:rick, 3]) #=> [false, "Snuffles", nil, :rick, 3]
 # concat modifies the original array
 potpourri #=> [false, "Snuffles", nil, :rick, 3]
 
-# using concat with an empty array is pointless
+# using concat with an empty array as an argument is pointless
 potpourri.concat([]) #=> [false, "Snuffles", nil, :rick, 3]
 ```
 
 The second method for concatenation is the addition operator (`+`). The addition
-operator, however, does not modify the arrays the on its left or right. One can
-use syntactic sugar to reassign the variable for the left array to its
-concatenated value.
+operator, however, does not modify the arrays to its left or right. One can
+reassign the variable for the left array to its concatenated value.
 
 ```ruby
 potpourri = [false, "Snuffles", nil]
@@ -27,7 +26,7 @@ potpourri + [:rick, 3] #=> [false, "Snuffles", nil, :rick, 3]
 # + does not modify the array
 potpourri #=> [false, "Snuffles", nil]
 
-#syntactic-sugar reassignment
-potpourri += [:rick, 3]
+# variable reassignment
+potpourri = potpourri + [:rick, 3]
 potpourri #=> [false, "Snuffles", nil, :rick, 3]
 ```

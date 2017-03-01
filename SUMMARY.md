@@ -53,10 +53,8 @@
     * [Array Quiz](part6-data_structures/array_quiz.md)
   * Strings
     * [Access, Assignment, Concatenation](part6-data_structures/strings_intro.md)
-    * [Interpolation](part6-data_structures/interpolation.md)
     * [Split](part6-data_structures/split.md)
-    * [Case Manipulation](part6-data_structures/case.md)
-    * [Other Useful Methods](part6-data_structures/strings_methods.md)
+    * [Methods](part6-data_structures/strings_methods.md)
     * [String Quiz](part6-data_structures/string_quiz.md)
   * [Glossary](part6-data_structures/glossary.md)
   * [Exercises](part6-data_structures/exercises.md)

@@ -62,3 +62,10 @@ broken_half_one #=> "we belong "
 broken_half_one << "together"
 broken_half_one #=> "we belong together"
 ```
+
+It's also sometimes useful to multiply strings using the `*` operator, which
+functions as you'd expect:
+
+```ruby
+"echo" * 4 #=> "echoechoechoecho"
+```

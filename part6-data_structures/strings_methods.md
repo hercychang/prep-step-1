@@ -1,7 +1,7 @@
 # Other Useful Methods
 
-Strings share several other methods with arrays, including `length`, `reverse`
-(and `reverse!`), `empty?`, `include?`, and `index`:
+Strings share several other methods with arrays, such as `length`, `reverse`
+(and `reverse!`), and `include?`.
 
 ```ruby
 "How many characters do I have?".length #=> 30
@@ -13,29 +13,20 @@ Strings share several other methods with arrays, including `length`, `reverse`
 
 "".include?("f") #=> false
 "full".include?("f") #=> true
-
-"full".index("u") #=> 1
-"full".index("ll") #=> 2
 ```
 
-The `delete` and `count` methods behave slightly differently for strings.
-`delete` does not modify string receivers, and `count` must receive an argument
-when used with strings (`count` only counts occurrences of the substring and is
-*not* synonymous with `length`). `delete` has a dangerous version just for
-strings: `delete!`. `delete` deletes any characters that appear in its argument.
+## Case Manipulation
+
+Strings feature several methods for manipulating case. The most common are
+`downcase` and `upcase`. `downcase` replaces all uppercase letters with their
+lowercase counterparts, and `upcase` replaces all lowercase letters with their
+uppercase counterparts. Both methods do not modify the original string but have
+dangerous versions.
 
 ```ruby
-sad_string = "full of emptiness"
-sad_string.delete("e") #=> "full of mptinss"
-sad_string #=> "full of emptiness"
+"TWO-CASED STRING".downcase #=> "two-cased string"
+"rOlLeR-cOaStEr StRiNg".downcase #=> "roller-coaster string"
 
-sad_string.delete(" of emptiness") #=> "ull" ("f" appears in the argument)
-sad_string #=> "full of emptiness"
-
-sad_string.delete!("of emptiness") #=> "ull"
-sad_string #=> "ull"
-"f" + sad_string #=> "full" :)
-
-sad_string = "full of emptiness"
-sad_string.count("e") #=> 2
+"two-cased string".upcase #=> "TWO-CASED STRING"
+"rOlLeR-cOaStEr StRiNg".upcase #=> "ROLLER-COASTER STRING"
 ```
