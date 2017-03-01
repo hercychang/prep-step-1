@@ -27,15 +27,6 @@ def compute_squares(arr)
   squares
 end
 
-def two_sum_to_zero?(arr)
-  arr.each_index do |idx|
-    arr_without_el = arr[0...idx] + arr[idx+1...arr.length] # ensuring we don't examine the same element twice
-    return true if arr_without_el.include?(arr[idx] * -1)
-  end
-
-  false
-end
-
 def longest_word(str)
   words = str.split
   longest_word = ""

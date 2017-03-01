@@ -8,8 +8,9 @@ infinite number of operations with a few lines of code.
 
 ## While Loops
 
-The simplest loop is the _while loop_. If you run the following snippet in
-Repl.it, you'll have to refresh the page. Can you guess why?
+The only loop you'll need to know for our online coding assessment is the _while
+loop_. If you run the following snippet in Repl.it, you'll have to refresh the
+page. Can you guess why?
 
 ```ruby
 while 2 < 3
@@ -19,16 +20,16 @@ end
 
 Like if statements, while loops begin with a keyword (`while`) followed by a
 conditional expression. They also end end with `end`. If the conditional
-expression evaluates to a truthy value, then the interpreter executes the
-subordinate block. The interpreter then rechecks the condition and executes the
-block again if it's still truthy. A while loop instructs the Ruby interpreter to
-execute its subordinate block as long as its conditional expression is truthy.
+expression is true, then the interpreter executes the subordinate block. The
+interpreter then rechecks the condition and executes the block again if it's
+still true. A while loop instructs the Ruby interpreter to execute its
+subordinate block until its conditional expression becomes false.
 
 The above code is an example of an **infinite loop**, a sequence of instructions
 that loops endlessly. An infinite loop is almost always a mistake.
 
 How might you introduce a terminating condition to a while loop? This condition
-must be truthy at first but would eventually become falsey, so as to terminate
+must be true at first but would eventually become false, so as to terminate
 the loop. The most common approach is to assign a counter variable outside of
 the loop and increment it within the loop:
 
@@ -36,47 +37,17 @@ the loop and increment it within the loop:
 counter = 0
 
 while counter <= 10
-  puts "This is iteration number #{counter.to_s}!"
-  counter = counter + 1 # counter += 1 is the syntactic-sugar equivalent
+  puts "This is iteration number " + counter.to_s + "!"
+  counter = counter + 1
 end
 ```
 
-The interpreter evaluates the expression following `while` for truthiness at the
+The interpreter evaluates the expression following `while` for truth at the
 start of each loop. After the counter is incremented to `11`, the condition
-becomes falsey, so the loop terminates.
+becomes false, so the loop terminates.
 
 _A note on terminology_: An **iteration** is the act of repeating a procedure, hence looping is an
 iterative technique. Each repetition itself is also called an "iteration."  
-
-One can nest loops just as one would conditional statements:
-
-```ruby
-i = 1
-j = 1
-while i < 6
-  count = 0
-  while j < 101
-    # increment count of evenly divisible numbers from 1-100 for value of i
-    count += 1 if j % i == 0
-    j += 1 # increment j to check next number up to 100
-  end
-  j = 1 # reset j so j < 101 is truthy for the next iteration
-  puts "There are #{count.to_s} numbers evenly divisible by #{i.to_s} from 1 to 100."
-  i += 1 # increment i to check next number up to 5
-end
-```
-
-The `until` keyword is the opposite of `while`. It directs the interpreter to
-loop until a _truthy_ condition is met:
-
-```ruby
-counter = 0
-
-until counter == 10
-  puts "This is iteration number #{counter.to_s}!"
-  counter = counter + 1 # counter += 1 is the syntactic-sugar equivalent
-end
-```
 
 Although a while loop is technically an expression in that it evaluates to a
 single value, that value is always `nil`. If the while loop is within the body
@@ -85,13 +56,11 @@ method) using the `return` keyword:
 
 ```ruby
 #this method returns the first number in an array that's greater than 10
-def first_num_greater_than_ten(arr)
+def first_num_greater_than_ten(arr_of_nums)
   index = 0
   while index < arr.length #thereby iterating through the array
-    # is_a? checks whether an object belongs to a data type. String, Symbol, Array,
-    # NilClass, TrueClass, and FalseClass are among the valid arguments of is_a?
-    if arr[index].is_a?(Numeric) && arr[index] > 10
-      return arr[index]
+    if arr_of_nums[index] > 10
+      return arr_of_nums[index]
     end
     index += 1 # check next index in array
   end
@@ -99,35 +68,54 @@ def first_num_greater_than_ten(arr)
 end
 ```
 
-One can terminate the loop without returning from a method using the `break`
-keyword. `break` occasionally takes an optional argument that designates the
-loop's value upon termination.
+One can nest loops just as one would conditional statements:
 
 ```ruby
-def to_uninfinity_and_beyond
-  while true
-    "I'd be an infinite loop without break"
-    break
+i = 1 # we'll count how many numbers from 1-100 are evenly divisble by i
+j = 1
+while i < 6
+  count = 0
+  while j < 101
+    # increment count of test numbers
+    count += 1 if j % i == 0 # increment count if j is evenly divisible by i
+    j += 1 # increment j to check next number up to 100
   end
-  "reachable code"
-end
-
-counter = 0
-
-while true
-  puts "This is iteration number #{counter.to_s}!"
-  counter += 1
-  break counter if counter > 10 #the loop's value is the last value of counter
+  j = 1 # reset j so j < 101 is truthy for the next iteration
+  puts "There are #{count.to_s} numbers evenly divisible by #{i.to_s} from 1 to 100."
+  i += 1 # increment i to check next number up to 5
 end
 ```
 
-The `next` keyword skips the loop ahead to its next iteration:
+Nested loops are useful for solving complex problems. You'll absolutely want to
+practice them before taking our coding challenge. Let's combine using `return`
+in a while loop with a nested loop to solve this difficult problem: Define a
+method that returns a boolean indicating whether any two elements in the
+argument (an array) sum to 0.
+
+Because we want to track two elements as we iterate through an array, we'll want
+to set up two loops. As we check each element, we also need to check every
+_other_ element. We'll use our counter to index into the array and to ensure
+that we don't check the same element twice. This pattern is quite common.
+Memorize it.
+
+First try to code up your own implementation then check our solution:
+
+<INSERT SHELL>
 
 ```ruby
-counter = 0
-while counter < 11
-  counter += 1
-  next if counter.odd?
-  puts "I only print even numbers from 1 to 10, including #{counter.to_s}."
+def two_sum_to_zero?(arr)
+  i = 0
+  while i < arr.length # outer loop
+    num_one = arr[i]
+    j = i + 1 # offset the inner counter by one so we don't count an element at the same position twice
+    while j < arr.length # inner loop
+      if i + j == 0
+        return true # our work here is done
+      end
+    end
+  end
+  # by now, we've checked every combination of elements
+  # if we haven't returned true yet, then no two elements sum to 0
+  false
 end
 ```
