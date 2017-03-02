@@ -10,7 +10,7 @@ You've already seen `length` in action. It returns the number of elements in the
 ```
 
 `sort` sorts an array alphabetically or numerically. It requires that the array
-be comprised entirely of numbers or symbols or strings. Otherwise the
+be comprised entirely of numbers or strings. Otherwise the
 interpreter won't know how to compare elements! Like many array methods, sort
 has a counterpart that modifies the original array: `sort!`. A bang (`!`)
 typically denotes methods that modify their receiver, so-called "dangerous"
@@ -18,7 +18,6 @@ methods.
 
 ```ruby
 [3, 1, 2].sort #=> [1, 2, 3]
-[:c, :a, :b].sort #=> [:a, :b, :c]
 ["c", "a", "b"].sort #=> ["a", "b", "c"]
 in_the_danger_zone = [3, 1, 2]
 in_the_danger_zone.sort!

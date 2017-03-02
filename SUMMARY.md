@@ -64,13 +64,11 @@
   * Logic
     * [Comparison Operators](part7-control_flow/comparison_operators.md)
     * [Logical Operators](part7-control_flow/logical_operators.md)
-    * [Truthy and Falsey](part7-control_flow/truthy_falsey.md)
     * [Logic Quiz](part7-control_flow/logic_quiz.md)
   * Control Flow
     * [Introduction](part7-control_flow/control_introduction.md)
     * [Conditional Statements](part7-control_flow/conditional_statements.md)
     * [Loops](part7-control_flow/loops.md)
-    * [Iterators](part7-control_flow/iterators.md)
     * [Control Flow Quiz](part7-control_flow/control_quiz.md)
   * [Glossary](part7-control_flow/glossary.md)
   * [Exercises](part7-control_flow/exercises.md)

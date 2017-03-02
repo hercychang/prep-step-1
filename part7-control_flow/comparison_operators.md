@@ -26,11 +26,11 @@ proposition is valid and to `false` if it is invalid.
 3 !=2 #=> true
 ```
 
-Ruby also permits string and symbol comparison. `"cat" < "dog"` returns `true`
-because "cat" precedes "dog" alphabetically (`:cat < :dog` is equivalent). One
-can compare different data types only when checking for equality. `"cat" < 4`
-throws an error. `"cat" != false` returns `true`. One can compare arrays only
-for equality, i.e., one array is neither greater nor less than another:
+Ruby also permits string comparison. `"cat" < "dog"` returns `true` because
+"cat" precedes "dog" alphabetically. One can compare different data types only
+when checking for equality. `"cat" < 4` throws an error. `"cat" != false`
+returns `true`. One can compare arrays only for equality, i.e., one array is
+neither greater nor less than another:
 
 ```ruby
 [] == [] #=> true
