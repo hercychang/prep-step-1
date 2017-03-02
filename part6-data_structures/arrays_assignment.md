@@ -9,7 +9,7 @@ include characters from another television show:
 
 You can even assign elements to valueless array indices:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/30?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/71?lite=true"></iframe>
 
 Note that assigning `"Morty"` to
 `blasphemous_characters[blasphemous_characters.length]` added an element to the

@@ -24,8 +24,3 @@ expression. `!(false || true)` returns `false`. `!false || true` would return
 `&&` and `||` also permit expressions as operands:
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/57?lite=true"></iframe>
-
-`and`, `or`, and `not` are near-synonyms of `&&`, `||`, and `!`. The sole
-difference is that they have lower precedence in the order of operations. You'll
-almost always use `&&`, `||`, and `!`, but don't be surprised if you see their
-spelled-out counterparts out in the Ruby wild.  

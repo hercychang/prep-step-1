@@ -11,7 +11,8 @@ returns the element removed. Both methods modify the original array.
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/39?lite=true"></iframe>
 
 The shovel operator (`<<`) is functionally equivalent to `push`, but it allows
-for the simpler syntax typical of operators:
+for the simpler syntax typical of operators. Note that `<<` does not concatenate.
+Shoveling one array into another creates a nested array:
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/40?lite=true"></iframe>
 

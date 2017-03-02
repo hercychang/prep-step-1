@@ -9,8 +9,8 @@ infinite number of operations with a few lines of code.
 ## While Loops
 
 The only loop you'll need to know for our online coding assessment is the _while
-loop_. If you run the following snippet in Repl.it, you'll have to refresh the
-page. Can you guess why?
+loop_. If you run the following snippet in Repl.it, the code will never stop
+executing. Can you guess why?
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/58?lite=true"></iframe>
 
@@ -63,7 +63,7 @@ Memorize it.
 
 First try to code up your own implementation then check our solution:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/62?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/74?lite=true"></iframe>
 
 Our solution:
 

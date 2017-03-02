@@ -16,7 +16,7 @@ def slippery_numbers(n)
 
   until slippery_array.length == n
     slippery_array << current_number if is_slippery?(current_number)
-    current_number += 1
+    current_number = current_number + 1
   end
 
   slippery_array
@@ -27,7 +27,7 @@ def e_words(str)
   count = 0
 
   words.each do |word|
-    count += 1 if word[-1] == "e"
+    count = count + 1 if word[-1] == "e"
   end
 
   count

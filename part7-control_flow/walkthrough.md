@@ -35,7 +35,7 @@ def num_vowels(str)
   vowels = ["a", "e", "i", "o", "u"]
   str.each_char do |ch|
     if vowels.include?(ch.downcase) #ensure coverage of capital vowels
-      vowel_count += 1
+      vowel_count = vowel_count + 1
     end
   end
   vowel_count
@@ -48,8 +48,8 @@ def my_join(arr, separator="")
   join = ""
 
    arr.each_index do |i|
-    join += arr[i]
-    join += separator unless i == arr.length - 1 #don't add the separator to the end
+    join = join + arr[i]
+    join = join + separator unless i == arr.length - 1 #don't add the separator to the end
   end
 
   join
@@ -60,9 +60,9 @@ def weirdcase(str)
   chars = str.chars
   chars.each_index do |i|
     if i.odd?
-      weirdo += chars[i].upcase
+      weirdo = weirdo + chars[i].upcase
     else
-      weirdo += chars[i].downcase
+      weirdo = weirdo + chars[i].downcase
     end
   end
   weirdo

@@ -3,7 +3,7 @@
 The result of the last line of a method is implicitly returned. One can
 explicitly return the line's result with the `return` keyword:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/10?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/69?lite=true"></iframe>
 
 When the Ruby interpreter encounters an explicit return statement, it
 immediately returns the result of that statement. It would be pointless to
@@ -48,7 +48,7 @@ By returning the result of an expression instead of using `puts`, one maintains
 a reference to that result. One can assign the return value to a variable, for
 example:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/13?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/70?lite=true"></iframe>
 
 `add_two_numbers_and_puts(1,2)` is equally unhelpful in conjunction with other
 methods because the reference to `3` is lost:

@@ -4,7 +4,7 @@
 
 One can access individual items in an array by appending to the array another
 set of square brackets enclosing the desired index. `[]` is a method that can
-use a special syntax.
+use a special syntax. Try accessing array elements for yourself!
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/23?lite=true"></iframe>
 

@@ -25,4 +25,4 @@ when checking for equality. `"cat" < 4` throws an error. `"cat" != false`
 returns `true`. One can compare arrays only for equality, i.e., one array is
 neither greater nor less than another:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/50?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/72?lite=true"></iframe>

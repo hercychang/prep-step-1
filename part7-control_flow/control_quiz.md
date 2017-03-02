@@ -67,7 +67,7 @@ end
 ```ruby
 counter = 0
 while counter < 10
-  counter += 1
+  counter = counter + 1
 end
 ```
 

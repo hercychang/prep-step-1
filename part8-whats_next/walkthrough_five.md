@@ -15,9 +15,9 @@ def boolean_to_binary(arr)
 
   arr.each do |boolean|
     if boolean
-      binary += "1"
+      binary = binary + "1"
     else
-      binary += "0"
+      binary = binary + "0"
     end
   end
 
