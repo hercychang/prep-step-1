@@ -3,9 +3,9 @@
 ```ruby
 if ["a", "b", "c"] == ("a".."c").to_a
   if "that was a guess,".length > 5
-    "let's hope you know your" + (1..3).to_a.join + "'s."
+    "let's hope you know your " + (1..3).to_a.join + "'s."
   else
-    "You know your" << ("a".."c").to_a.join + "'s."
+    "You know your " << ("a".."c").to_a.join + "'s."
   end
 elsif 1 == 1 || 1 < 0
   # this statement is erroneous, but will its error be thrown?

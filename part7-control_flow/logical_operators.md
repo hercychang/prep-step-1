@@ -5,18 +5,7 @@ evaluates to `true` if both its operands are true. `||` evaluates to `true` if
 at least one operand is true. `!` returns `true` if its operand is `false` and
 `true` if its operand is `false`.
 
-```ruby
-true && true #=> true
-false && true #=> false
-false && false #=> false
-
-true || true #=> true
-true || false #=> true
-false || false #=> false
-
-!true #=> false
-!false #=> true
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/56?lite=true"></iframe>
 
 In `true || false`, the Ruby interpreter doesn't evaluate the code after `||`
 because it's superfluous. Since the first operand is `true`, the expression will
@@ -34,10 +23,7 @@ expression. `!(false || true)` returns `false`. `!false || true` would return
 
 `&&` and `||` also permit expressions as operands:
 
-```ruby
-3 < 5 && "cat" < "dog" #=> true
-5 < 3 || "cat" != "cat" #=> false
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/57?lite=true"></iframe>
 
 `and`, `or`, and `not` are near-synonyms of `&&`, `||`, and `!`. The sole
 difference is that they have lower precedence in the order of operations. You'll

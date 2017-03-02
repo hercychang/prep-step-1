@@ -17,14 +17,7 @@ operators allow one to build expressions that the Ruby interpreter can evaluate
 as logical propositions. The expression generally evaluates to `true` if the
 proposition is valid and to `false` if it is invalid.
 
-```ruby
-3 > 2 #=> true
-3 >= 2 #=> true
-3 < 2 #=> false
-3 <= 2 #=> false
-3 == 2 #=> false
-3 !=2 #=> true
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/49?lite=true"></iframe>
 
 Ruby also permits string comparison. `"cat" < "dog"` returns `true` because
 "cat" precedes "dog" alphabetically. One can compare different data types only
@@ -32,9 +25,4 @@ when checking for equality. `"cat" < 4` throws an error. `"cat" != false`
 returns `true`. One can compare arrays only for equality, i.e., one array is
 neither greater nor less than another:
 
-```ruby
-[] == [] #=> true
-["cat"] == ["cat"] #=> true
-["cat"] >= ["cat"] # throws an error
-["cat"][0] >= ["cat"][0] #=> true #(equivalent to "cat" >= "cat")
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/50?lite=true"></iframe>

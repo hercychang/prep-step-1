@@ -3,11 +3,7 @@
 So far the Ruby interpreter has executed all of our programs sequentially and
 continuously:
 
-```ruby
-2+3 #=> 5
-[1,2,3,4].length #=> 4
-"dog" && nil #=> nil  
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/55?lite=true"></iframe>
 
 More sophisticated programs require manipulating **control flow**, the order in
 which instructions are executed within a program. One modifies control flow
