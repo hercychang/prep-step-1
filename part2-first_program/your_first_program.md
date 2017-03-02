@@ -3,9 +3,7 @@
 Ready to write your first Ruby program? Here goes! Type the following into the
 Repl.it shell and press enter:
 
-```ruby
-puts "Hello, world!"
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/2?lite=true"></iframe>
 
 If `Hello, world!` printed in your shell, then congratulations: you're already a
 programmer! (Ignore the line in the shell beginning with `=>`. You'll learn
@@ -30,12 +28,7 @@ world"`.
 You can use `puts` with an object of any data type. Try running these in the
 shell:
 
-```ruby
-puts 25
-puts 25.0
-puts true
-puts nil
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/3?lite=true"></iframe>
 
 `puts nil` prints nothing. Can you think of why?
 

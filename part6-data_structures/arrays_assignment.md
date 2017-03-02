@@ -5,26 +5,11 @@ The assignment of array elements uses the same syntax as variable assignment.
 If you desire blasphemy, you can make your array of Game of Thrones characters
 include characters from another television show:
 
-```ruby
-blasphemous_characters = ["Robb", "Sansa", "Arya", "Bran", "Rickon"]
-blasphemous_characters[0] = "Rick"
-blasphemous_characters #=> ["Rick", "Sansa", "Arya", "Bran", "Rickon"]
-blasphemous_characters[3..-1] = "Morty", "Snuffles" # this is called multiple assignment
-blasphemous_characters #=> ["Rick", "Sansa", "Arya", "Morty", "Snuffles"]
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/29?lite=true"></iframe>
 
 You can even assign elements to valueless array indices:
 
-```ruby
-blasphemous_characters = ["Robb", "Sansa", "Arya", "Bran", "Rickon"]
-# because array's are zero-indexed, the index blasphemous_characters.length (5) doesn't have a value
-blasphemous_characters[blasphemous_characters.length] = "Morty"
-blasphemous_characters #=> ["Robb", "Sansa", "Arya", "Bran", "Rickon", "Morty"]
-blasphemous_characters[8] = "Rick"
-
-# The Ruby interpreter fills in the empty indices with nil
-blasphemous_characters #=> ["Robb", "Sansa", "Arya", "Bran", "Rickon", "Morty", nil, nil, "Rick"]
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/30?lite=true"></iframe>
 
 Note that assigning `"Morty"` to
 `blasphemous_characters[blasphemous_characters.length]` added an element to the

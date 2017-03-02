@@ -12,11 +12,7 @@ you'll be able to define your own version of `lcm`. But how does one define a
 method in Ruby? Let's define a method called `add_two_numbers` that, well, adds
 two numbers:
 
-```ruby
-def add_two_numbers(num_one, num_two)
-  num_one + num_two
-end
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/8?lite=true"></iframe>
 
 One defines a method by preceding the method's name with the keyword `def`.
 Method names conform to the same conventions and rules as variable names:
@@ -36,9 +32,7 @@ Defining a method does not invoke it, i.e., it does not instruct the Ruby
 interpreter to execute the code inside the method's body. One invokes custom
 methods by appending the arguments to the method's name:
 
-```ruby
-add_two_numbers(1, 2)
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/9?lite=true"></iframe>
 
 Note that the return value is `3`. The Ruby interpreter assigns `1` to `num_one`
 and `2` to `num_two`. The order of arguments is important. Arguments are

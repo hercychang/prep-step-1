@@ -7,17 +7,4 @@ along which `split` divides the receiver string. The delimiter itself is omitted
 from the returned array. By default, the delimiter is an empty space (`' '`).
 The `split` method does not modify the original string.
 
-```ruby
-proposition_one_point_two = "The world divides into facts."
-proposition_one_point_two.split #=> ["The", "world", "divides", "into", "facts."]
-proposition_one_point_two.split(' ') #=> ["The", "world", "divides", "into", "facts."]
-proposition_one_point_two.split('d') #=> ["The worl", " ", "ivi", "es into facts."]
-proposition_one_point_two.split('.') #=> ["The world divides into facts"]
-proposition_one_point_two.split('')  #=>["T", "h", "e", " ", "w", "o", "r", "l",
-                                     #    "d", " ", "d", "i", "v", "i", "d", "e",
-                                     #    "s", " ", "i", "n", "t", "o", " ", "f",
-                                     #    "a", "c", "t", "s", "."]
-
-# the original string is not modified
-proposition_one_point_two #=> "The world divides into facts."
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/42?lite=true"></iframe>

@@ -32,12 +32,7 @@ puts x
 Any object can be assigned to a variable. Variables can also be reassigned. Run
 each of the following lines in the Repl.it shell.
 
-```ruby
-a = true
-b = "dog"
-b = a
-a = 7.5
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/4?lite=true"></iframe>
 
 Predict the new values of `a` and `b`. Type `a` in the shell and press enter. Do
 the same for `b`.

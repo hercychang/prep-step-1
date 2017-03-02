@@ -5,11 +5,9 @@ incorrect or unintended result. Bugs provide many of the most fruitful learning
 opportunities in software. A faulty understanding produces faulty code, and
 debugging that code debugs one's coding knowledge.
 
-Try running the following in the shell:
+Try running the following:
 
-```ruby
-puts hello
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/0?lite=true"></iframe>
 
 The shell should print something like:
 
@@ -44,9 +42,7 @@ checks if `hello` is a defined method or variable (variables are the subject of
 the next chapter). It is neither, so the Ruby interpreter can't parse the
 code and throws an error. We can debug our code by making `hello` a valid string:
 
-```ruby
-puts "hello"
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/1?lite=true"></iframe>
 
 Though this bug may have been trivial to fix, it helped illuminate how the Ruby
 interpreter parses our code.

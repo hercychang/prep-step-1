@@ -2,17 +2,7 @@
 
 Once you've defined one method, you may invoke it from the body of another:
 
-```ruby
-  def howdy
-    "Howdy"
-  end
-
-  def partner
-    howdy + ", partner!"
-  end
-
-  partner #=> "Howdy, partner!"
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/7?lite=true"></iframe>
 
 `howdy` is a **helper method**, one that helps another method perform its task
 by managing a subtask. For tasks less trivial than returning `"Howdy,

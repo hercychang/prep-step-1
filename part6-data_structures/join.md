@@ -7,13 +7,4 @@ string that the method splices between every element in the joined array. By
 default, there is no separator. The `join` method does not modify the original
 array.
 
-```ruby
-[1, 2, nil, 3].join #=> "123"
-[1, 2, nil, 3].join(" ") #=> "1 2  3" <-note the extra space to accommodate nil
-
-ex = [1, 2, 3]
-ex.join(" joint ") #=> "1 joint 2 joint 3"
-
-# ex is not modified
-ex #=> [1, 2, 3]
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/38?lite=true"></iframe>

@@ -13,13 +13,7 @@ that can use a special syntax. We'll soon learn what makes their syntax special.
 For now their syntax should be intuitive. Try running these in the Repl.it
 shell.
 
-```ruby
-2 + 3
-2 - 3
-2 * 3
-2 / 3
-2 ** 3
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/14?lite=true"></iframe>
 
 In each line, `2` and `3` are **operands**, the quantities with which the
 operation is performed. Each of the above examples is a Ruby **expression**, a
@@ -43,12 +37,7 @@ What do you think is the result of dividing two floats? How about the result of
 dividing a float by an integer or vice versa? Test the following in the shell.
 (The comments indicate the return value.)
 
-```ruby
-5.0 / 2.0 #=> 2.5
-4.0 / 2.0 #=> 2.0
-5 / 2.0 #=> 2.5
-4.0 / 2 #=> 2.0
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/15?lite=true"></iframe>
 
 When one or both operands are float objects, the operation returns a float, even
 when the operands divide evenly. The interpreter does not round down a float.
@@ -58,9 +47,4 @@ modulo operator: `%`. It accepts both integers and floats as operands and
 follows the same rules as the division operator when determining the data type
 of its output. Try these examples.
 
-```ruby
-5 % 2 #=> 1
-5.0 % 2.0 #=> 1.0
-4 % 2 #=> 0
-4.0 % 2.0 #=> 0.0
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/16?lite=true"></iframe>

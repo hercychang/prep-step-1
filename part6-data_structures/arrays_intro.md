@@ -13,13 +13,7 @@ i.e., an array of length zero. One can store items in an array by separating
 them with commas and enclosing them in square brackets. Any object or
 combination of objects (including other arrays) can be stored in an array.
 
-```ruby
-empty_array = []
-int_array = [1,2,3]
-str_array = ["str1", "str2", ""]
-mixed_array = [1, false, "str", nil]
-nested_array = [[]]
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/33?lite=true"></iframe>
 
 Although Ruby permits heterogeneous arrays, it's generally preferable to
 maintain a single data type throughout the array, ensuring predictability when

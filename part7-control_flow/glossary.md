@@ -8,7 +8,6 @@
 * Short-Circuit Evaluation - When the second operand of a logical operator is evaluated only if the first operand does not suffice to determine the value of the expression.
 
 
-
 ## Comparison Operators
 
 * `>` - Greater than; returns a boolean.
@@ -18,6 +17,7 @@
 * `==` - Equal to; returns a boolean.
 * `!=` - Not equal to; returns a boolean.
 * `<=>` - The spaceship operator; returns -1 if less than, 0 if equal to, 1 if greater than.
+
 
 ## Logical Operators
 

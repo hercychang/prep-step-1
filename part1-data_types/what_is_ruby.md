@@ -15,11 +15,7 @@ use. Some might even call it  friendly. The following code snippet uses some of
 the most sophisticated syntax in the language, but you can probably already guess
 what it does:
 
-```ruby
-3.times do
-  print "Hello, world!"
-end
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3c/1?lite=true"></iframe>
 
 Programmers use programming languages to describe and transform data. In Ruby
 terms, we use **objects** to represent data and **methods** to access and alter

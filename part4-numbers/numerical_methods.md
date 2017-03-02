@@ -9,23 +9,12 @@ and the method name. The `puts` method and the arithmetic operators have a
 special, more intuitive syntax. The `abs` method returns a number's absolute
 value:
 
-```ruby
--4.abs #=> 4
--2.5.abs #=> 2.5
-4.abs #=> 4
-2.5.abs #=> 2.5
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/17?lite=true"></iframe>
 
 The `even?` and `odd?` methods check whether an integer is even or odd. Methods
 that return booleans conventionally end in a `?`.
 
-```ruby
-2.even? #=> true
-3.even? #=> false
-
-2.odd? #=> false
-3.odd? #=> true
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/18?lite=true"></iframe>
 
 
 ## Type Conversion
@@ -34,17 +23,7 @@ The `floor` and `ceil` methods round a float down and up. The `round` method
 rounds a float to the nearest integer. `round` rounds up if the float is exactly
 between two integers.
 
-```ruby
-2.9.floor #=> 2
-2.5.floor #=> 2
-
-2.1.ceil #=> 3
-2.5.ceil #=> 3
-
-2.51.round #=> 3
-2.49.round #=> 2
-2.5.round #=> 3
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/19?lite=true"></iframe>
 
 Rounding a float with the `floor` and `ceil` methods performs a **type
 conversion**; it converts an object of one data type (float) to an object of
@@ -55,26 +34,12 @@ it to an integer (`to_i` stands for "to integer"). Conversely, the `to_f` method
 converts an integer to a float. What method do you think converts an object to
 a string?
 
-```ruby
-2.9.to_i #=> 2
-3.to_f #=> 3.0
-
-2.9.to_s #=> "2.9"
-3.to_s #=> "3"
-
-true.to_s #=> "true"
-nil.to_s #=> ""
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/20?lite=true"></iframe>
 
 Just as you can convert a float or integer to a string, you can also convert a
 string to a float or integer (provided it's a string of a number):
 
-```ruby
-"1".to_i #=> 1
-"1.0".to_f #=> 1.0
-"1".to_f #=> 1.0
-"1.9".to_i #=> 1
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/21?lite=true"></iframe>
 
 
 ## LCM and GCD
@@ -89,13 +54,7 @@ Because finding the LCM or GCD requires two numbers by definition, we cannot use
 the same syntax. `9.lcm` makes no sense. Instead wrap the second number in
 parentheses and append it to the method:
 
-```ruby
-9.lcm(3) #=> 9
-3.lcm(9) #=> 9
-
-9.gcd(3) #=> 3
-3.gcd(9) #=> 3
-```
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/22?lite=true"></iframe>
 
 The above syntax might seem mysterious. Next we'll investigate how it works and
 adopt a new set of terms related to methods.
