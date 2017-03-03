@@ -6,31 +6,61 @@
 ## Solutions
 
 ```ruby
-def is_slippery?(n)
-  (n % 3 == 0 || n % 5 == 0) && n % 15 != 0
-end
+def sum_to(int)
+  sum = 0
+  current_num = 0
 
-def slippery_numbers(n)
-  slippery_array = []
-  current_number = 1
-
-  until slippery_array.length == n
-    slippery_array << current_number if is_slippery?(current_number)
-    current_number = current_number + 1
+  while current_num < int + 1
+    sum = sum + current_num
+    current_num = current_num + 1
   end
 
-  slippery_array
+  sum
 end
 
 def e_words(str)
   words = str.split
   count = 0
 
-  words.each do |word|
-    count = count + 1 if word[-1] == "e"
+  i = 0
+  while i < words.length
+    word = words[i]
+
+    if word[-1] == "e"
+      count = count + 1
+    end
+
+    i = i + 1
   end
 
   count
 end
 
+def magic_number?(n)
+  string_digits = n.to_s.split("")
+  sum = 0
+
+  i = 0
+  while i < string_digits.length
+    digit = string_digits[i]
+    sum = sum + digit.to_i
+    i = i + 1
+  end
+
+  sum == 7 # will either return true or false
+end
+
+def magic_numbers(n)
+  magic_numbers_array = []
+  current_num = 1
+
+  while magic_numbers_array.length < n # keep incrementing until reach desired length (n)
+    if magic_number?(current_num)
+      magic_numbers_array << current_num
+    end
+    current_num += 1
+  end
+
+  magic_numbers_array
+end
 ```
