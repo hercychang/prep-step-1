@@ -9,8 +9,8 @@ work will teach you everything you need to know to get into App Academy. The
 admissions process has three steps:
 
   1. Step One: After you've completed this prep work, you'll take an online coding assessment.
-  2. Step Two: After passing the online assessment, you'll receive a new curriculum. When you're done, you'll have a technical interview via Skype.
-  3. Step Three: You'll have a non-technical interview over Skype.
+  2. Step Two: After passing the online assessment, you'll receive additional practice problems and receive a link to schedule a technical interview over Skype.
+  3. Step Three: If you pass your technical interview, you'll have a non-technical interview.
 
 If you already have coding experience, try taking the practice assessments to
 see if you're ready for the online coding assessment. You may complete the
