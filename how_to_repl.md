@@ -13,16 +13,13 @@ press enter.
 
 The left side of the screen is a Ruby file. You can write multiple lines of code
 in the file and run them all at once by clicking "run." Type `puts "hello"` in
-the file. Press enter to create a new line then type `2 + 2`. Click "run."
+the file. Press enter to create a new line then type `2 + 2`. Click _run_.
 
 You're now ready to code alongside our examples! You may use either the shell or
 the file. Using the file may be more convenient when writing multi-line code, as
 in the methods chapter.
 
+We embed Repl.it in this GitBook for many of our code examples. Feel free to
+experiment there!
+
 Happy coding!
-
-**Note:** If you choose to install Ruby on your Mac, follow [these steps][rbenv-setup].
-Beware that installing Ruby can lead to unexpected obstacles. Hence we recommend
-using Repl.it.
-
-[rbenv-setup]: configuration/rbenv_setup.md
