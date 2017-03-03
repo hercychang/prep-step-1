@@ -15,6 +15,7 @@
 
 def middle_substring(str)
   mid = str.length / 2
+  
   if str.length.odd?
     return str[mid]
   end
@@ -81,19 +82,24 @@ end
 def my_join(arr, separator)
   join = ""
   idx = 0
+
   while idx < arr.length  
     join = join + arr[idx]
+
     if idx != arr.length - 1 # Don't want to add the separator after the last element
       join = join + separator
+
     end
     idx = idx + 1
   end
+
   join
 end
 
 def fizzbuzz
   fizzbuzzers = []
   int = 1
+
   while int < 31
 
     if int % 3 == 0 && int % 5 == 0
@@ -108,5 +114,6 @@ def fizzbuzz
 
     int = int + 1
   end
+
   fizzbuzzers
 end
