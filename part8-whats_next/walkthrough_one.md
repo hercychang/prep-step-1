@@ -58,7 +58,7 @@ def magic_numbers(n)
     if magic_number?(current_num)
       magic_numbers_array << current_num
     end
-    current_num += 1
+    current_num = current_num + 1
   end
 
   magic_numbers_array
