@@ -15,7 +15,7 @@
 
 def middle_substring(str)
   mid = str.length / 2
-  
+
   if str.length.odd?
     return str[mid]
   end
@@ -52,7 +52,7 @@ def destructive_uppercase(str)
   while str_idx < str.length
     ch = str[str_idx]
 
-    if ch != ch.upcase
+    if ch == ch.upcase
       new_str << ch
     end
 
