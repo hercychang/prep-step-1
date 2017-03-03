@@ -76,17 +76,10 @@
 
 * Practice Assessments
   * [Time for the Assessment](part8-whats_next/the_time_has_come.md)
-  * [Practice Assessments](part8-whats_next/assessments.md)
-    * [Assessment 1 Walkthrough](part8-whats_next/walkthrough_one.md)
-    * [Assessment 2 Walkthrough](part8-whats_next/walkthrough_two.md)
-    * [Assessment 3 Walkthrough](part8-whats_next/walkthrough_three.md)
-    * [Assessment 4 Walkthrough](part8-whats_next/walkthrough_four.md)
-    * [Assessment 5 Walkthrough](part8-whats_next/walkthrough_five.md)
-    * [Assessment 6 Walkthrough](part8-whats_next/walkthrough_six.md)
-
-<!-- JumpStart -->
-* [Introduction (JumpStart)](jumpstart/welcome.md)
-* [Logistics (JumpStart)](jumpstart/logistics.md)
-
-<!-- Configuration -->
-* [Rbenv Setup (Configuration)](configuration/rbenv_setup.md)
+  * Practice Assessments
+    * [Practice Assessment 1](part8-whats_next/assessment_one.md)
+    * [Practice Assessment 2](part8-whats_next/assessment_two.md)
+    * [Practice Assessment 3](part8-whats_next/assessment_three.md)
+    * [Practice Assessment 1 Walkthrough](part8-whats_next/walkthrough_one.md)
+    * [Practice Assessment 2 Walkthrough](part8-whats_next/walkthrough_two.md)
+    * [Practice Assessment 3 Walkthrough](part8-whats_next/walkthrough_three.md)

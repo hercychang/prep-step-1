@@ -15,6 +15,7 @@ link to the first assessment within the same email we sent you giving you access
 to this prep work. If you cannot find that link in your previous email from App
 Academy, shoot us an email at contact@appacademy.io and we’ll re-send it to you.
 
-We've given you six practice assessments to prepare!
+We've given you three practice assessments to prepare! These are very similar in
+difficulty to the coding challenge.
 
 Good luck, future devs!

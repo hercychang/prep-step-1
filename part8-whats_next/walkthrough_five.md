@@ -6,27 +6,6 @@
 ## Solutions
 
 ```ruby
-def palindrome?(str)
-  str == str.reverse
-end
-
-def boolean_to_binary(arr)
-  binary = ""
-
-  arr.each do |boolean|
-    if boolean
-      binary = binary + "1"
-    else
-      binary = binary + "0"
-    end
-  end
-
-  binary
-end
-
-def third_largest(arr)
-  arr.sort[-3]
-end
 
 def format_time(num)
   if num < 10

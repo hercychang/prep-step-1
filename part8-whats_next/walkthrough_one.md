@@ -33,14 +33,4 @@ def e_words(str)
   count
 end
 
-def fibs(n)
-  fibbys = [0, 1]
-  return fibbys.take(n) if n < 3
-
-  until fibbys.length == n
-    fibbys << fibbys[-2] + fibbys[-1]
-  end
-
-  fibbys
-end
 ```

@@ -2,7 +2,7 @@
 
 Please log in or sign up to enroll in our Repl.it classroom (a/A Admission Prep Work):
 
-<iframe frameborder="0" width="100%" height="750" src="https://repl.it/signup?goto=%2Fclassroom%2Finvite%2FD5JtD9d&classroomName=a%2FA%20Admission%20Prep%20Work"></iframe>
+<iframe frameborder="0" width="100%" height="650" src="https://repl.it/signup?goto=%2Fclassroom%2Finvite%2FD5JtD9d&classroomName=a%2FA%20Admission%20Prep%20Work"></iframe>
 
 Upon logging in or signing up, click App Academy Admission Prep in your Classrooms.
 
