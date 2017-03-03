@@ -6,37 +6,15 @@
 ## Solutions
 
 ```ruby
-def capitalize_each_word(str)
-  words = str.split
-  capitalized_words = []
+def sum_to(int)
+  sum = 0
+  current_num = 0
 
-  words.each do |word|
-    capitalized_words << word.capitalize
+  while current_num < int + 1
+    sum += current_num
+    current_num += 1
   end
 
-  capitalized_words.join(" ")
-end
-
-def compute_squares(arr)
-  squares = []
-
-  arr.each do |element|
-    squares << element ** 2
-  end
-
-  squares
-end
-
-def longest_word(str)
-  words = str.split
-  longest_word = ""
-
-  words.each do |word|
-    if word.length > longest_word.length
-      longest_word = word
-    end
-  end
-
-  longest_word
+  sum
 end
 ```

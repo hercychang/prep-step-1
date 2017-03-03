@@ -54,7 +54,7 @@ def magic_numbers(n)
   magic_numbers_array = []
   current_num = 1
 
-  while magic_numbers_array.length < n # keep incrementing until reach desired length (n)
+  while magic_numbers_array.length < n # keep incrementing until desired length (n) reached
     if magic_number?(current_num)
       magic_numbers_array << current_num
     end

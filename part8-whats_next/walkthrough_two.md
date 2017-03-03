@@ -6,61 +6,52 @@
 ## Solutions
 
 ```ruby
-def sum_to(int)
-  sum = 0
-  current_num = 0
+def compute_squares(arr)
+  squares = []
 
-  while current_num < int + 1
-    sum += current_num
-    current_num += 1
+  i = 0
+  while i < arr.length
+    element = arr[i]
+    squares << element ** 2
+    i = i + 1
   end
 
-  sum
+  squares
 end
 
-def magic_number?(n)
-  string_digits = n.to_s.chars
-  sum = 0
+def longest_word(str)
+  words = str.split
+  longest_word = ""
 
-  string_digits.each do |digit_character|
-    sum += digit_character.to_i
+  i = 0
+  while i < words.length
+    word = words[i]
+
+    if word.length > longest_word.length
+      longest_word = word
+    end
+
+    i = i + 1
   end
 
-  sum == 7
+  longest_word
 end
 
-def magic_numbers(n)
-  magic_numbers_array = []
-  number = 1
-
-  until magic_numbers_array.size == n
-    magic_numbers_array << number if magic_number?(number)
-    number += 1
-  end
-
-  magic_numbers_array
+def is_slippery?(n)
+  (n % 3 == 0 || n % 5 == 0) && n % 15 != 0
 end
 
-def uniq(arr)
-  uniq_array = []
-  arr.each do |element|
-    uniq_array << element unless uniq_array.include?(element)
+def slippery_numbers(n)
+  slippery_array = []
+
+  current_number = 1
+  while slippery_array.length < n
+    if is_slippery?(current_number)
+      slippery_array << current_number
+    end
+    current_number = current_number + 1
   end
 
-  uniq_array
-end
-
-def all_uniqs(arr1, arr2)
-  uniqs = []
-
-  arr1.each do |el|
-    uniqs << el unless arr2.include?(el)
-  end
-
-  arr2.each do |el|
-    uniqs << el unless arr1.include?(el)
-  end
-
-  uniqs
+  slippery_array
 end
 ```
