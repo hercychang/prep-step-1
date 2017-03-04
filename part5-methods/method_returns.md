@@ -1,5 +1,7 @@
 # Returning from a Method
 
+<iframe src="https://player.vimeo.com/video/206675535?rel=0&autoplay=1" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
+
 The result of the last line of a method is implicitly returned. One can
 explicitly return the line's result with the `return` keyword:
 

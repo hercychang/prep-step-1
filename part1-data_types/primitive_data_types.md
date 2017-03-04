@@ -34,5 +34,5 @@ that booleans are case sensitive. `true` is a boolean, `True` is not. And
 **Nil:** Ruby represents nothingness with the keyword `nil`. Sometimes the absence of data is as
 important as data itself.
 
-**NB:** Symbols are another primitive data, but they're relatively rare, and you won't
+**NB:** Symbols are another primitive data type, but they're relatively rare, and you won't
  need to learn them for our application process.

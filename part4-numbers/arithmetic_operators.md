@@ -10,8 +10,8 @@ Ruby supports all the standard arithmetic operations:
 
 The `+`, `-`, `*`, `/`, and `**` symbols are **operators**, a subset of methods
 that can use a special syntax. We'll soon learn what makes their syntax special.
-For now their syntax should be intuitive. Try running these in the Repl.it
-shell.
+For now their syntax should be intuitive. Try running these one line at a time
+in the Repl.it shell.
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/14?lite=true"></iframe>
 
