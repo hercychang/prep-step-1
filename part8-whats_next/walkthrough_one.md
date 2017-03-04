@@ -1,6 +1,6 @@
 # Walkthrough
 
-<iframe src="https://player.vimeo.com/video/194181782?rel=0&autoplay=1" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
+<iframe src="https://player.vimeo.com/video/206660846?rel=0&autoplay=1" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
 
 
 ## Solutions
@@ -8,7 +8,7 @@
 ```ruby
 def sum_to(int)
   sum = 0
-  current_num = 0
+  current_num = 1
 
   while current_num < int + 1
     sum = sum + current_num
