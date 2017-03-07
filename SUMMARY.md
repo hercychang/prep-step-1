@@ -32,7 +32,7 @@
 
 * Methods
   * [Introduction](part5-methods/method_introduction.md)
-  * [Deconstruction](part5-methods/method_deconstruction.md)
+  * [Elements](part5-methods/method_deconstruction.md)
   * [Definition](part5-methods/method_definition.md)
   * [Returning from a Method](part5-methods/method_returns.md)
   * [Method Quiz](part5-methods/method_quiz.md)

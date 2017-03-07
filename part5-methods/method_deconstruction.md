@@ -1,4 +1,4 @@
-# Method Deconstruction
+# The Elements of a Method
 
 Let's dissect one of the examples from the previous chapter:
 
