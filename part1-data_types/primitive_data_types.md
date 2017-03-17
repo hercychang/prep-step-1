@@ -1,38 +1,32 @@
 # Primitive Data Types
 
-You might consider `"one"` and `1` essentially equivalent, but Ruby regards them
-as inherently different objects with inherently different behavior. `1 + 1` is
-`2`, but `"one" + "one"` is `"oneone"`. `1` is a number, specifically an
-integer, and `"one"` is a string. More on those shortly!
 
-An object's type determines its possible values as well as the methods available
-to it. `+` behaves differently depending on whether it's used with numbers or
-strings; `100 / 4` makes sense, but `"James Joyce" / "Stephen Daedalus"` does
-not (at least not to a computer).
+Before we can begin programming, which--at the most basic level--involves
+manipulating data, we need to learn what kinds of data we can manipulate. All
+programming languages have built-in primitive data types. __Primitive data
+types__ are a programming language's fundamental building blocks. They are types
+of **objects**, Ruby's representation of data. Objects are the nouns of Ruby.
 
-Let's briefly examine Ruby's primitive data types. Don't fret the details: with
-practice comes fluency. At this stage you only need to learn to recognize data
-types in Ruby programs. We'll study each type's methods in later chapters.
-
-**Numbers:** Ruby distinguishes between _integers_ and _floating point numbers_ (often
-referred to as _floats_). Integers have no decimal point while floats do. `9`
-and `4` are integers; `3.14`, `2.0`, and `4.589220304` are floats. Some
-mathematical operations in Ruby function differently depending on whether the
-operands are floats or integers.
+Ruby has five primitive data types, but you'll only need to learn the following
+four to pass the online assessment.
 
 **Strings:** A string is a sequence of characters. Strings are denoted by enclosing double (`""`)
 or single (`''`) quotation marks. `"dog"`, `"3 logs"`, and `"the brown dog
 jumped over the 3 logs"` are all strings. Strings can be of any length. `""` is
 an _empty string_ (a string of length zero). Remember to wrap strings in quotation
-marks. Otherwise Ruby will interpret the code as having special significance.
+marks. Otherwise Ruby will misinterpret the code.
+
+**Numbers:** In Ruby, we call any whole number--positive or negative (including 0)--an
+_integer_. `9` and `-4` are both integers. Fractional numbers (with decimal
+points) such as `3.1415` are called _floats_ or _floating point numbers_. Some
+mathematical operations in Ruby function differently depending on whether the
+number is a float or an integer. By the way, don't use include commas in
+integers. Writing `4,000` instead of `4000` will confuse Ruby.
 
 **Booleans:** There are only two boolean values: `true` and `false`. Booleans provide the core
-logic of computer programs. `4 > 5` is `false`, and `3.odd?` is `true`. Note
-that booleans are case sensitive. `true` is a boolean, `True` is not. And
-`"true"` is forever a string, not a boolean.
+logic of computer programs. `4 > 5` is `false`, and `4 < 5` is `true`. Note that
+booleans are case sensitive. `true` is a boolean, `True` is not. And `"true"` is
+a string, not a boolean.
 
 **Nil:** Ruby represents nothingness with the keyword `nil`. Sometimes the absence of data is as
 important as data itself.
-
-**NB:** Symbols are another primitive data type, but they're relatively rare, and you won't
- need to learn them for our application process.

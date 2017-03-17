@@ -1,19 +1,15 @@
-# How to Complete Exercises on Repl.it
+# Methods Exercises
 
-Please log in or sign up to enroll in our Repl.it classroom (a/A Admission Prep Work):
+Fill in each of the method bodies. Instructions for each method are in the comments. Do not modify any code at the bottom of the file (it's used for testing).
 
-<iframe frameborder="0" width="100%" height="650" src="https://repl.it/signup?goto=%2Fclassroom%2Finvite%2FD5JtD9d&classroomName=a%2FA%20Admission%20Prep%20Work"></iframe>
+All the problems from medium on are as difficult as real App Academy admission problems, so don't be discouraged!
 
-Upon logging in or signing up, click App Academy Admission Prep in your Classrooms.
+Test your code by running it line-by-line in the shell.
 
-Click the appropriate assignment (**Methods** in this case). Instructions for the
-problem set are on the right side of the pane.
+Click run to test your code against the specs: successes and errors will appear in the shell. Do your best to correct any failing code before reviewing the solutions.
 
-Keep in mind that some of the problems are as difficult as real App Academy
-admission problems, so don't be discouraged! You'll get a lot of practice!
+When you're done, check out the [solutions and video walkthrough][walkthrough]. Happy solving!
 
-When you're done, check out the [solutions and video walkthrough][walkthrough].
-
-Happy solving!
+<iframe frameborder="0" width="100%" height="650" src="https://repl.it/GZGr/2?lite=true"></iframe>
 
 [walkthrough]: walkthrough.md

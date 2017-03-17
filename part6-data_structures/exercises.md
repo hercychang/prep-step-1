@@ -1,11 +1,15 @@
 # Data Structures Exercises
 
-Complete the Data Structures Assignment!
+Fill in each of the method bodies. Instructions for each method are in the comments. Do not modify any code at the bottom of the file (it's used for testing).
 
-<iframe frameborder="0" width="100%" height="650" src="https://repl.it/student/submissions/576119"></iframe>
+All the problems from medium on are as difficult as real App Academy admission problems, so don't be discouraged!
 
-When you're done, check out the [solutions and video walkthrough][walkthrough].
+Test your code by running it line-by-line in the shell.
 
-Happy solving!
+Click run to test your code against the specs: successes and errors will appear in the shell. Do your best to correct any failing code before reviewing the solutions.
+
+When you're done, check out the [solutions and video walkthrough][walkthrough]. Happy solving!
+
+<iframe frameborder="0" width="100%" height="650" src="https://repl.it/GZGr/3?lite=true"></iframe>
 
 [walkthrough]: walkthrough.md

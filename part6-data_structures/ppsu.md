@@ -16,7 +16,8 @@ Shoveling one array into another creates a nested array:
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/40?lite=true"></iframe>
 
-The analogues of `push` and `pop` for the front of the array rather than the end
-are `unshift` and `shift`. Both modify the original array.
+To perform actions similar to `push` and `pop` except for the front of the array
+rather than the end, you can use the methods `unshift` and `shift`. Both modify
+the original array.
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/41?lite=true"></iframe>

@@ -17,10 +17,5 @@ alias     class  elsif     if      not     return  undef  yield
 ```
 
 Give variables descriptive names. A variable named `car_model` that refers to
-`"Prius"` is more readable than `p` or `string`. Your code should be as
-comprehensible as possible.
-
-**Note:** The variables discussed in this reading are all local variables. Ruby also
-features global variables, instance variables, class variables, and constants.
-You'll learn more about the other types of variables when studying
-Object-Oriented Programming.
+the value `"Prius"` is more readable than `p` or `string`. Your code should be
+as comprehensible as possible.

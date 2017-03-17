@@ -4,13 +4,9 @@
 
 You've learned that methods are the "verbs" of Ruby. More specifically, a method
 is a group of expressions that returns a value. A method organizes code into a
-**subroutine**, a set of instructions that performs a specific operation. We can
-imagine `lcm` defined somewhere in Ruby's source code, perhaps as a sequence of
-expressions employing basic arithmetic methods, such as the modulo and
-multiplication operators.
+**subroutine**, a set of instructions that performs a specific operation.
 
-**Method definition** assigns a subroutine to a name that can be invoked. Soon
-you'll be able to define your own version of `lcm`. But how does one define a
+**Method definition** assigns a subroutine to a name that can be invoked later. So how do you define a
 method in Ruby? Let's define a method called `add_two_numbers` that, well, adds
 two numbers:
 

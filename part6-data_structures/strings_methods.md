@@ -1,9 +1,13 @@
 # Other Useful Methods
 
-Strings share several other methods with arrays, such as `length`, `reverse`
-(and `reverse!`), and `include?`.
+Strings share several other methods with arrays, such as:
+* `length` - returns the number of characters in a string;
+* `reverse` - reverses the order of the string and returns the result (it does not modify its receiver);
+* `reverse!` - the same as `reverse` except it modifies its receiver;
+* `include?` - returns a boolean (`true` or `false`) indicating whether its argument is included in the string.
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/47?lite=true"></iframe>
+
 
 ## Case Manipulation
 

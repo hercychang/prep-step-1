@@ -11,7 +11,7 @@ When the Ruby interpreter encounters an explicit return statement, it
 immediately returns the result of that statement. It would be pointless to
 execute subsequent code because the method's output has already been declared.
 
-Try defining and invoking `whacky_returns`:
+Try running `whacky_returns`:
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/11?lite=true"></iframe>
 
@@ -20,54 +20,35 @@ Try defining and invoking `whacky_returns`:
 `add_two_numbers`. The two lines following `return num_one + num_two` are
 **unreachable code**, code that can never be executed.
 
+# Helper Methods
 
-## `return` versus `puts`
+One can assign a method's return value to a variable or use it directly in an expression:
 
-Why use `return` instead of `puts`? The shell prints the expression whether we
-return or "puts" it. Let's try defining and invoking `add_two_numbers` with
-`puts`:
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/76?lite=true"></iframe>
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/12?lite=true"></iframe>
+Once you've defined one method, you may also invoke it from the body of another:
 
-Take a moment to consider what the shell prints:
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/7?lite=true"></iframe>
 
-```ruby
-3
-=> nil
-```
+`howdy` is a **helper method**, one that helps another method perform its task
+by managing a subtask. For tasks less trivial than returning `"Howdy,
+partner!"`, defining a group of helper methods that each manage one specific
+subtask is clearer and less error-prone than defining one oversized method that
+performs several duties.
 
-Although the shell prints `3` as expected, the return value of
-`add_two_numbers(1,2)` is now `nil`. Because the return value of executing
-`puts` is always `nil`, the last line evaluates to `nil`, and `nil` is
-implicitly returned.
+Say we want to write a method, `num_prime_factors(num)`, that determines the
+number of prime factors of its argument. This method might delegate to two
+helper methods:
 
-Choosing `puts` over `return` isn't troublesome when the only purpose of the
-method is for a person to read its result, but it renders the method useless for
-further manipulation in Ruby. `puts` is like an announcer at a sporting event:
-it comments on the game while independent from the action.
+  1. `factors(num)`, which determines the factors of a number.
+  2. `prime?(num)`, which determines whether a number is prime.
 
-By returning the result of an expression instead of using `puts`, one maintains
-a reference to that result. One can assign the return value to a variable, for
-example:
-
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/70?lite=true"></iframe>
-
-`add_two_numbers_and_puts(1,2)` is equally unhelpful in conjunction with other
-methods because the reference to `3` is lost:
-
-```ruby
-add_two_numbers_and_puts(1,2) - 1 # equivalent to nil - 1
-                                  # (the interpreter throws an error)
-
-add_two_numbers_and_return(1,2) - 1 # evaluates to 2
-```
-
-`add_two_numbers_and_return(1,2) - 1` is an example of method chaining. **Method
-chaining** is the technique of chaining method invocations into a single
-statement without using variables to store intermediate results.
-`add_two_numbers_and_return(1,2) - 1` is equivalent to:
-
-```ruby
-intermediate_sum = add_two_numbers_and_return(1,2)
-intermediate_sum - 1
-```
+Though you're not yet capable of writing these methods, you will be after the
+next chapter, in which you'll learn how to represent a list of data. The concept
+of helper methods introduces two principles of software design: Separation of
+Concerns and the Single Responsibility Principle. Separation of Concerns
+prescribes separating a program into distinct sections that each address a
+specific concern. The Single Responsibility Principle prescribes that each section
+should entirely encapsulate the functionality for which it is responsible.
+Modular, encapsulated code is easier to debug and is more readable and
+recyclable.

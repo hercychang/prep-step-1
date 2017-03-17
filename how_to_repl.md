@@ -1,25 +1,21 @@
 # How to Use Repl.it
 
-<iframe src="https://player.vimeo.com/video/188359119?rel=0" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
+To write and run code throughout the prep work, you’ll work in a website called
+Repl.it (embedded below).
+
+The bottom (dark blue) part of the screen is the shell, which allows you to run
+Ruby code line by line. Type `puts "hello"` in the shell and press enter. Type
+`2 + 2` and press enter.
+
+The top (white) part of the screen is a Ruby file. Unlike the shell, you can
+write multiple lines of code in the file and run them all at once by clicking
+_run_. Type `puts "hello"` in the file. Press enter to create a new line and
+type `2 + 2`. Click _run_. You'll see the output of running the Ruby file in the
+shell.
+
+You're now ready to code alongside our examples. You can use either the shell
+(bottom) or the file (top) to write your code, but it'll be easier to write
+multiline code in the file.
 
 
-Navigate to [https://repl.it/languages/ruby](https://repl.it/languages/ruby) in
-your browser.
-
-The right side of the screen is the shell: a command-line interface for
-providing instructions to a machine. The shell allows you to execute Ruby code
-line by line. Type `puts "hello"` in the shell and press enter. Type `2 + 2` and
-press enter.
-
-The left side of the screen is a Ruby file. You can write multiple lines of code
-in the file and run them all at once by clicking "run." Type `puts "hello"` in
-the file. Press enter to create a new line then type `2 + 2`. Click _run_.
-
-You're now ready to code alongside our examples! You may use either the shell or
-the file. Using the file may be more convenient when writing multi-line code, as
-in the methods chapter.
-
-We embed Repl.it in this GitBook for many of our code examples. Feel free to
-experiment there!
-
-Happy coding!
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GNAf/2?lite=true"></iframe>

@@ -1,8 +1,8 @@
 # Concatenation
 
-Ruby provides two ways to concatenate arrays, i.e., to join them without
-nesting. The `concat` method does what its name suggests. Note that it modifies
-the original array.
+Ruby provides two ways to concatenate arrays, i.e., to join them without nesting
+(placing one array inside another). The `concat` method does what its name
+suggests. Note that it modifies the original array.
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/31?lite=true"></iframe>
 

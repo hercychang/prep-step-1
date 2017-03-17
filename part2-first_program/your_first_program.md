@@ -1,13 +1,14 @@
 # Your First Program
 
-Ready to write your first Ruby program? Here goes! Type the following into the
-Repl.it shell and press enter:
+Ready to write your first Ruby program? In the Repl.it file below (the white top
+section), you'll see we've written the code `puts "Hello, world"`. Type `puts
+"Hello, world"` for yourself in the Repl.it shell (the dark blue bottom section)
+and press enter.
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/2?lite=true"></iframe>
 
 If `Hello, world!` printed in your shell, then congratulations: you're already a
-programmer! (Ignore the line in the shell beginning with `=>`. You'll learn
-about it soon.) Let's think like a programmer by investigating this code's
+programmer! Now let's think like a programmer by investigating this code's
 components and how they cooperate to make a program. A **program** is a sequence
 of instructions that a computer executes to perform a specific task ( in this
 case, printing `Hello, world`).
@@ -15,12 +16,11 @@ case, printing `Hello, world`).
 
 ## `puts "Hello, world!"`
 
-You may have already tried to classify the two parts of `puts "Hello, world!"`
-into data types. The quotation marks enclosing `"Hello, world!"` denote a
-string. `puts` is more perplexing. It's not an integer, float, string,
-boolean, or nil.
+You've learned that the quotation marks enclosing `"Hello, world!"` denote a
+string; however, you haven't learn what `puts` means. `puts` is not a number,
+string, boolean or nil.
 
-`puts` is not an object at all; it's a _method_. We'll cover methods more
+`puts` is not an object at all. Instead, `puts` is a _method_. We'll cover methods more
 thoroughly in later chapters, but for now think of methods as performing an
 action on an object. `puts` performs the action of printing the string `"Hello,
 world"`.

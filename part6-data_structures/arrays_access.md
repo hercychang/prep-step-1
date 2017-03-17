@@ -9,10 +9,14 @@ use a special syntax. Try accessing array elements for yourself!
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/23?lite=true"></iframe>
 
 Arrays are zero-indexed, i.e., the first element of the array is at the zeroth
-index. The second element of the array is at the first index.
+index. In the above example, the string `"Robb"` is the first element and
+therefore, the zeroth index. The second element of the array is at the first
+index. `"Sansa"`, the second element, is at the first index.
 
 One can also access array elements using negative indices. The last element of
-the array is at the -1 index, the penultimate is at -2, etc.
+the array is at the -1 index, the penultimate is at -2, etc. With negative
+indices, you essentially start at the end of the array and work your way
+backward.
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/24?lite=true"></iframe>
 
