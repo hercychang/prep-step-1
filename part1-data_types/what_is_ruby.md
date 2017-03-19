@@ -1,6 +1,6 @@
 # What is Ruby?
 
-As a programmer, your job is to take a problem and break it down into smaller problem
+As a programmer, your job is to take a problem and break it down into smaller problems
 until you reach tasks simple enough to be comprehensible to a computer.
 
 In this course, you'll use a programming language to communicate tasks to your
