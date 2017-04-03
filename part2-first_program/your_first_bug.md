@@ -16,7 +16,7 @@ undefined local variable or method 'hello' for main:Object
 (repl):1:in '<main>'
 ```
 
-Behold your first error! An **error** is a type of bug stops your code from
+Behold your first error! An **error** is a type of bug that stops your code from
 running. It's a violation of the rules of the programming language. When the
 **Ruby interpreter**--the program that parses and executes Ruby code--encounters
 an error, it stops the code from running. The interpreter instead _throws an
@@ -32,7 +32,7 @@ first line is the **message** itself: `undefined local variable or method
 '<main>'`. The stack trace essentially lists locations from which the error
 started. The stack trace is especially useful for debugging long, complicated
 code spread across multiple files. For now, it's important to note that the
-stack trace shows you the the line number (`1` in this case) where the error
+stack trace shows you the line number (`1` in this case) where the error
 began.
 
 Consider what the error message tells us about the source of the error. The Ruby
