@@ -72,7 +72,7 @@ k = "kangaroo community"
 <quiz>
   <question>
       <p>What does the above code snippet return?</p>
-      <answer correct><code>"redivider"</code></answer>
+      <answer><code>"redivider"</code></answer>
       <answer><code>["r", "e", "d", "i", "v", "i", "d", "e", "r"]</code></answer>
       <answer correct><code>"redividerredividerredivider"</code></answer>
       <answer><code>"redivider redivider redivider"</code></answer>

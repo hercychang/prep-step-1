@@ -57,8 +57,8 @@
   <question>
       <p>What does <code>2.odd? || 2 < 3</code> return?</p>
       <answer>It causes an error.</answer>
-      <answer><code>true</code></answer>
-      <answer correct><code>false</code></answer>
+      <answer correct><code>true</code></answer>
+      <answer><code>false</code></answer>
       <explanation>Because <code>2.odd?<code> evaluates to <code>false</code>, and the operator is <code>||</code>, the Ruby interpreter does not short-circuit and evaluates the second operand. Because <code>2 < 3</code> evaluates to <code>true</code>, the statement returns <code>true</code>.</explanation>
   </question>
 </quiz>
