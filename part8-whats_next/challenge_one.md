@@ -12,6 +12,6 @@ You can also take the practice challenge in [JavaScript][js] or [Python][python]
 
 <iframe frameborder="0" width="100%" height="650" src="https://repl.it/GZGr/7?lite=true"></iframe>
 
-[walkthrough]: walkthrough_one.md
+[walkthrough_one]: walkthrough_one.md
 [js]: https://repl.it/Gcuc/2
 [python]: https://repl.it/GcwH/2
