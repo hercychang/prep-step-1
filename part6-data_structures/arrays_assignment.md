@@ -2,7 +2,7 @@
 
 Once you've accessed elements in an array, you can reassign them to new values.
 The assignment of array elements uses the same syntax as variable assignment.
-If you desire blasphemy, you can make your array of Game of Thrones characters
+If you're feeling blasphemous, you can make your array of Game of Thrones characters
 include characters from another television show:
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/29?lite=true"></iframe>

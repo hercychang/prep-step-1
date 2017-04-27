@@ -8,7 +8,7 @@ at least one operand is true. `!` returns `true` if its operand is `false` and
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/56?lite=true"></iframe>
 
 In `true || false`, the Ruby interpreter doesn't evaluate the code after `||`
-because it's superfluous. Since the first operand is `true`, the expression will
+because it's irrelevant. Since the first operand is `true`, the expression will
 be true regardless of the second operand. This behavior is an example of
 **short-circuit evaluation**, where the second operand of a logical operator is
 evaluated only if the first operand does not suffice to determine the value of

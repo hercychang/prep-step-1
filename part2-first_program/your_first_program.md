@@ -13,6 +13,10 @@ components and how they cooperate to make a program. A **program** is a sequence
 of instructions that a computer executes to perform a specific task ( in this
 case, printing `Hello, world`).
 
+**Note:** Throughout this curriculum, please experiment with the code in the examples and
+type and run your own code in the shell (the dark blue bottom section) to
+practice and test your understanding of Ruby.
+
 
 ## `puts "Hello, world!"`
 

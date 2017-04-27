@@ -1,6 +1,6 @@
-# Practice Assessment One
+# Practice Challenge One
 
-You should take these practice coding assessments in a timed setting! They last forty-five minutes. All assessments are strictly closed-notes. That means:  
+You should take these practice coding challenges in a timed setting! They last forty-five minutes. All challenges are strictly closed-notes. That means:  
 
 * No notes;
 * No Google;
@@ -8,7 +8,7 @@ You should take these practice coding assessments in a timed setting! They last 
 
 Click run to test your code against the specs: successes and errors will appear in the shell. This will also print your score!  Do your best to correct any failing code before reviewing the [solutions][walkthrough_one].
 
-You can also take the practice assessment in [JavaScript][js] or [Python][python].
+You can also take the practice challenge in [JavaScript][js] or [Python][python].
 
 <iframe frameborder="0" width="100%" height="650" src="https://repl.it/GZGr/7?lite=true"></iframe>
 

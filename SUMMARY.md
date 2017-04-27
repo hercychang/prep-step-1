@@ -66,9 +66,9 @@
   * [Exercises](part7-control_flow/exercises.md)
   * [Walkthrough](part7-control_flow/walkthrough.md)
 
-* Practice Assessment
-  * [Time for the Assessment](part8-whats_next/the_time_has_come.md)
-  * [Practice Assessment](part8-whats_next/assessment_one.md)
-  * [Practice Assessment Walkthrough](part8-whats_next/walkthrough_one.md)
+* Practice Challenge
+  * [Time for the Challenge](part8-whats_next/the_time_has_come.md)
+  * [Practice Challenge](part8-whats_next/challenge_one.md)
+  * [Practice Challenge Walkthrough](part8-whats_next/walkthrough_one.md)
 
 * [Glossary](glossary.md)

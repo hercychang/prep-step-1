@@ -10,14 +10,14 @@ infinite number of operations with a few lines of code.
 
 <iframe src="https://player.vimeo.com/video/208761086?rel=0&autoplay=0" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
 
-The only loop you'll need to know for our online coding assessment is the _while
+The only loop you'll need to know for our online coding challenge is the _while
 loop_. If you run the following snippet in Repl.it, the code will never stop
 executing. Can you guess why?
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/58?lite=true"></iframe>
 
 Like if statements, while loops begin with a keyword (`while`) followed by a
-conditional expression. They also end end with `end`. If the conditional
+conditional expression. They also end with `end`. If the conditional
 expression is true, then the interpreter executes the subordinate block. The
 interpreter then rechecks the condition and executes the block again if it's
 still true. A while loop instructs the Ruby interpreter to execute its
@@ -41,7 +41,7 @@ becomes false, so the loop terminates.
 _A note on terminology_: An **iteration** is the act of repeating a procedure, hence looping is an
 iterative technique. Each repetition itself is also called an "iteration."  
 
-For the assessment, you'll typically use while loops to iterate through an array or string. This technique uses the counter to index into elements one at a time.
+For the challenge, you'll typically use while loops to iterate through an array or string. This technique uses the counter to index into elements one at a time.
 
 <iframe src="https://player.vimeo.com/video/208761850?rel=0&autoplay=0" width="100%" height="400px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="line-height: 1.6em;" rel="line-height: 1.6em;"></iframe>
 
