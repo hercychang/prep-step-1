@@ -11,7 +11,7 @@ k = "kangaroo community"
       <p>Given the above variables, how might one build the string <code>"1 unity in the kangaroo community"</code>? You may select more than one option.</p>
       <answer correct><code>1.to_s + u + i + k</code></answer>
       <answer correct><code>1.to_s + " unity " << i << k</code></answer>
-      <answer correct><code>1.to_s + k[-5..-1] + i + k</code></answer>
+      <answer correct><code>1.to_s + " " + k[-5..-1] + " " + i + k</code></answer>
       <explanation>Every option builds the string <code>"1 unity in the kangaroo community"</code> (although some are more elegant than others). The last option leverages the fact that <code>k[-5..-1] == "unity"</code>, i.e., that "community" is a kangaroo word of "unity."</explanation>
   </question>
 </quiz>
