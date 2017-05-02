@@ -67,8 +67,13 @@
   * [Walkthrough](part7-control_flow/walkthrough.md)
 
 * Practice Challenge
-  * [Time for the Challenge](part8-whats_next/the_time_has_come.md)
-  * [Practice Challenge](part8-whats_next/challenge_one.md)
-  * [Practice Challenge Walkthrough](part8-whats_next/walkthrough_one.md)
+* [Time for the Challenge](part8-whats_next/the_time_has_come.md)
+  * [Practice challenges](part8-whats_next/challenges.md)
+    * [Challenge 1 Walkthrough](part8-whats_next/walkthrough_one.md)
+    * [Challenge 2 Walkthrough](part8-whats_next/walkthrough_two.md)
+    * [Challenge 3 Walkthrough](part8-whats_next/walkthrough_three.md)
+    * [Challenge 4 Walkthrough](part8-whats_next/walkthrough_four.md)
+    * [Challenge 5 Walkthrough](part8-whats_next/walkthrough_five.md)
+    * [Challenge 6 Walkthrough](part8-whats_next/walkthrough_six.md)
 
 * [Glossary](glossary.md)

@@ -5,13 +5,13 @@
 Hey folks,
 
 Great job completing the curriculum for JumpStart Step 1. The next step is to take
-the first assessment.
+the first challenge.
 
-As a reminder, the practice assessments will be forty-five minutes long, and you'll have
-to answer three coding questions. This is different than the actual JumpStart Assessment
+As a reminder, the practice challenges will be forty-five minutes long, and you'll have
+to answer three coding questions. This is different than the actual JumpStart Challenge
 which is an hour long with 4 coding questions.
 
-We've given you six practice assessments to prepare! Head over to your Repl.it classroom and 
+We've given you six practice challenges to prepare! Head over to your Repl.it classroom and 
 give them a try!
 
 Good luck, future devs!
