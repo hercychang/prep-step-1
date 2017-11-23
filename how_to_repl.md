@@ -13,7 +13,7 @@ _run_. Type `puts "hello"` in the file. Press enter to create a new line and
 type `2 + 2`. Click _run_. You'll see the output of running the Ruby file in the
 shell.
 
-You're now ready to code alongside our examples. You can use either the shell
+You're now ready to code alongside our examples! You can use either the shell
 (bottom) or the file (top) to write your code, but it'll be easier to write
 multiline code in the file.
 
