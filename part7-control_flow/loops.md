@@ -59,7 +59,7 @@ method) using the `return` keyword:
 
 One can nest loops just as one would conditional statements:
 
-<iframe frameborder="0" width="100%" height="500px" src="ttps://repl.it/@AppAcademy/divisibility-demo?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/divisibility-demo?lite=true"></iframe>
 
 Nested loops are useful for solving complex problems. You'll absolutely want to
 practice them before taking our coding challenge. Let's combine using `return`
