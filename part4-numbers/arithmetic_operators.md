@@ -13,7 +13,7 @@ All of these operators probably look familiar except for one. The modulo
 operator (%) returns the remainder of division (we’ll explain this further
 later). For now, run these one line at a time in the Repl.it shell.
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/14?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/FrillyHonorableZanzibardaygecko?lite=true"></iframe>
 
 Ruby evaluates certain operations with higher precedence, as per the
 mathematical order of operations, where parentheticals are executed first, then
@@ -31,7 +31,7 @@ you half a donut, you can buy at most 4 donuts.
 
 If you want a fractional answer, you'll want to use floats. Test the following in the shell. (The comments indicate the return value.)
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/15?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/MeatyBadToucan?lite=true"></iframe>
 
 When one or both operands are floats, the operation returns a float (a
 fractional number with a decimal point), even when the operands divide evenly.
@@ -43,4 +43,4 @@ one number evenly divides another. The modulo operator accepts both integers and
 floats and follows the same rules as the division operator when determining the
 data type of its output. Try these examples:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/16?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/SafeSillyFlycatcher?lite=true"></iframe>

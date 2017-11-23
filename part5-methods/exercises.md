@@ -10,6 +10,6 @@ Click run to test your code against the specs: successes and errors will appear 
 
 When you're done, check out the [solutions and video walkthrough][walkthrough]. Happy solving!
 
-<iframe frameborder="0" width="100%" height="650" src="https://repl.it/GZGr/2?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="650" src="https://repl.it/@AppAcademy/Practice-Problems?lite=true"></iframe>
 
 [walkthrough]: walkthrough.md

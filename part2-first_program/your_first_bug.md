@@ -7,7 +7,7 @@ debugs one's coding knowledge.
 
 Try running the code from the following file in the shell (the dark blue bottom section):
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/0?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/error-demo?lite=true"></iframe>
 
 The shell should print something like:
 
@@ -45,7 +45,7 @@ variable, so the Ruby interpreter can't understand the code and throws an error.
 We can debug our code by making `hello` a valid string. Type the code from the
 file into your shell and press enter:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/1?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/AntiqueBurlywoodManta?lite=true"></iframe>
 
 Though this bug may have been trivial to fix, it helped illuminate how the Ruby
 interpreter parses our code.

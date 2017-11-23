@@ -5,7 +5,7 @@
 The result of the last line of a method is implicitly returned. One can
 explicitly return the line's result with the `return` keyword:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/69?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/RepentantFirebrickQueenant?lite=true"></iframe>
 
 When the Ruby interpreter encounters an explicit return statement, it
 immediately returns the result of that statement. It would be pointless to
@@ -13,7 +13,7 @@ execute subsequent code because the method's output has already been declared.
 
 Try running `whacky_returns`:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/11?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/GrubbySpryHydra?lite=true"></iframe>
 
 `whacky_returns(1,2)` returns `3`. Because `whacky_returns` explicitly returns
 `num_one + num_two` in the first line, it is functionally equivalent to
@@ -24,11 +24,11 @@ Try running `whacky_returns`:
 
 One can assign a method's return value to a variable or use it directly in an expression:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/76?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/UnsteadyBurlyBirdofparadise?lite=true"></iframe>
 
 Once you've defined one method, you may also invoke it from the body of another:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/7?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/GargantuanOffbeatQueenant?lite=true"></iframe>
 
 `howdy` is a **helper method**, one that helps another method perform its task
 by managing a subtask. For tasks less trivial than returning `"Howdy,

@@ -5,7 +5,7 @@ section), you'll see we've written the code `puts "Hello, world"`. Type `puts
 "Hello, world"` for yourself in the Repl.it shell (the dark blue bottom section)
 and press enter.
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/2?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/IvoryUnimportantTortoise?lite=true"></iframe>
 
 If `Hello, world!` printed in your shell, then congratulations: you're already a
 programmer! Now let's think like a programmer by investigating this code's
@@ -32,7 +32,7 @@ world"`.
 You can use `puts` with an object of any data type. Try running these in the
 shell:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/3?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/SizzlingTriangularTasmaniantiger?lite=true"></iframe>
 
 `puts nil` prints nothing. Can you think of why?
 

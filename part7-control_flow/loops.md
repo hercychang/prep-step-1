@@ -14,7 +14,7 @@ The only loop you'll need to know for our online coding challenge is the _while
 loop_. If you run the following snippet in Repl.it, the code will never stop
 executing. Can you guess why?
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/58?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/infinite-loop-demo?lite=true"></iframe>
 
 Like if statements, while loops begin with a keyword (`while`) followed by a
 conditional expression. They also end with `end`. If the conditional
@@ -32,7 +32,7 @@ must be true at first but would eventually become false, so as to terminate
 the loop. The most common approach is to assign a counter variable outside of
 the loop and increment it within the loop:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/59?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/counter-demo?lite=true"></iframe>
 
 The interpreter evaluates the expression following `while` for truth at the
 start of each loop. After the counter is incremented to `11`, the condition
@@ -55,11 +55,11 @@ single value, that value is always `nil`. If the while loop is within the body
 of a method definition, one can explicitly return a value from the loop (and the
 method) using the `return` keyword:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/81?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/first-greater-than-ten?lite=true"></iframe>
 
 One can nest loops just as one would conditional statements:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/80?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="ttps://repl.it/@AppAcademy/divisibility-demo?lite=true"></iframe>
 
 Nested loops are useful for solving complex problems. You'll absolutely want to
 practice them before taking our coding challenge. Let's combine using `return`
@@ -75,8 +75,8 @@ Memorize it.
 
 First try to code up your own implementation then check our solution:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/74?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/twosum?lite=true"></iframe>
 
 Our solution:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/GD3i/67?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@AppAcademy/twosumsolution?lite=true"></iframe>
