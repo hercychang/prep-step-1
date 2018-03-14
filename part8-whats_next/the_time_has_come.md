@@ -2,7 +2,7 @@
 
 Hey folks,
 
-Great job completing the curriculum for Prep Step 1. The next step is to take
+Great job completing the curriculum for Prep Step 1! The next step is to take
 the first challenge.
 
 As a reminder, the challenge will be forty-five minutes long, and you'll have
